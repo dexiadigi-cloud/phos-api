@@ -6,7 +6,7 @@ All rights text below is transcribed from the ingestion records: `api/translatio
 
 ## Bible translations
 
-All 14 translation codes in `data/scripture.db` are listed. Counts are verses per translation in the live database.
+All 17 translation codes in `data/scripture.db` are listed. Counts are verses per translation in the live database, re-queried on 2026-09-21 after the BBE removal.
 
 | Code | Translation | Edition ingested | Verses |
 | --- | --- | --- | --- |
