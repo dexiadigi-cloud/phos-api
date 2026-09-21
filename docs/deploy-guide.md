@@ -6,7 +6,7 @@
 - Two read-only SQLite corpora baked into the image:
   - `data/study.db` (~442 MB): commentaries, devotionals, lexicons,
     interlinear, liturgy, cross-refs.
-  - `data/scripture.db` (~133 MB): verse text for 18 translations.
+  - `data/scripture.db` (~133 MB): verse text for 17 translations.
 - One writable SQLite file created at runtime: `api/data/progress.db`
   (reading-plan check-ins). Ephemeral unless the host mounts a volume.
 - Auth: single API key in the `X-API-Key` header, read from the

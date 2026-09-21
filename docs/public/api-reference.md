@@ -238,6 +238,17 @@ overridable with `PHOS_PROGRESS_PATH`). The store holds **checkmarks only**:
 Records are keyed by `(plan_id, start_date, day)`; because v1 uses a single
 API key, one reader's progress per plan plus start date is the whole model.
 
+**Hosting note.** On the operator's free-tier hosted instance, the check-in
+store lives on an ephemeral filesystem: records are wiped whenever the
+service sleeps, restarts, or redeploys. Treat hosted check-ins as temporary.
+Self-hosted operators can point `PHOS_PROGRESS_PATH` at persistent storage.
+
+**Muse users.** If you use Phos through the Muse app, your reading progress
+is tracked by the assistant itself (in its own memory and goal tracking),
+not by the API's check-in store. The `POST .../checkin` and
+`GET .../progress` endpoints are for direct API consumers integrating Phos
+into their own apps.
+
 ### GET /v1/reading-plans
 
 Auth: required. Plan list: `{id, name, description, days, total_chapters}`

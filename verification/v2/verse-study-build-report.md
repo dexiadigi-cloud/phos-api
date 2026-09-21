@@ -107,7 +107,7 @@ else follows the spec exactly.
   docs/public/coverage-and-availability.md (new composite row).
   api/openapi.json regenerated.
 
-## 2026-09-20 — prayer keyword-matching fix (post-build QA)
+## 2026-09-21 — prayer keyword-matching fix (post-build QA)
 
 Jeremiah asked whether the tool had been tested as a user would use it. Live
 smoke testing found a real defect: Psalm 23:1 matched the prayer on the

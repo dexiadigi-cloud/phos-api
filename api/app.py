@@ -444,7 +444,7 @@ def health() -> HealthResponse:
     summary="Translation metadata and rights",
     description=(
         "Per-translation metadata: name, edition, source, verse count, and "
-        "rights/copyright/attribution text. All eighteen translations are public "
+        "rights/copyright/attribution text. All seventeen translations are public "
         "domain; the rights block preserves each translation's own copyright "
         "metadata as required by the getBible distribution terms."
     ),

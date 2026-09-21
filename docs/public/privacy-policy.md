@@ -2,7 +2,7 @@
 
 **This is a template, not legal advice.** It was drafted from what the Phos API actually does as of 2026-09-20. [LEGAL REVIEW] It has not been reviewed by a lawyer. Do not publish it until it has been.
 
-Phos is a free Bible-text API. This policy explains what information Phos handles when you use the API, and what it does not handle. If you are the operator deploying this API, [JEREMIAH: fill in the operator contact details below] you are responsible for telling your API users what extra logging your own deployment performs.
+Phos is a free Bible-text API. This policy explains what information Phos handles when you use the API, and what it does not handle. If you are the operator deploying this API, you are responsible for telling your API users what extra logging your own deployment performs (operator contact details are in the Contact section below).
 
 ## What Phos does
 
@@ -14,7 +14,7 @@ Phos serves public-domain Bible text (BSB, KJV, WEB, ASV, and other public-domai
 
 **Reading-plan check-ins.** The check-in endpoint (`POST /v1/reading-plans/{plan_id}/checkin`) records a checkmark in `data/progress.db` keyed only by plan ID and start date. A checkmark records that "day N of plan X starting on date Y was completed." It records no name, no email, no device identifier, and no scripture text.
 
-**Request logs, if the operator keeps them.** The Phos application code itself does no request logging. The server process that runs Phos (for example, uvicorn) may write access logs that include the client's IP address and request path. Whether those logs exist, how long they are kept, and who can see them is entirely the operator's deployment choice - Phos does not set it. [JEREMIAH: decide whether your deployment keeps uvicorn access logs, and for how long; write that here.]
+**Request logs.** The Phos application code itself does no request logging. The server process that runs Phos (for example, uvicorn) may write access logs that include the client's IP address and request path. The operator's intent is that any such logs are kept for no longer than 30 days and then rotated or deleted, and are visible only to the operator for debugging and abuse prevention. (The hosting platform keeps its own platform logs under its own policies, outside the operator's control.)
 
 ## What is NOT collected
 
@@ -26,7 +26,7 @@ Phos serves public-domain Bible text (BSB, KJV, WEB, ASV, and other public-domai
 
 ## Data retention
 
-Checkmarks in `data/progress.db` persist until the operator deletes or resets the database file. [JEREMIAH: decide a retention policy for progress.db - e.g., deleted on request, rotated monthly, kept indefinitely - and write it here.] Access logs, if the operator keeps them, are governed by the operator's own log rotation policy.
+Checkmarks in `data/progress.db` are anonymous (no names, emails, or device identifiers) and persist until the operator deletes or resets the database file. There is no automatic expiry. On the operator's free-tier hosted instance the store is on an ephemeral filesystem, so check-ins are wiped whenever the service sleeps, restarts, or redeploys. You may request deletion of check-in data at any time via the operator contact below. Any operator-kept access logs are intended to be kept no longer than 30 days and then rotated or deleted, as described above. If you use Phos through the Muse app, your reading progress is tracked by the assistant in its own memory, not in this store.
 
 ## Security
 
@@ -51,4 +51,4 @@ dexiadigi@gmail.com
 
 ---
 
-*Template prepared 2026-09-20 from the Phos v1 API source. Review date: [JEREMIAH: set a review date, e.g., annually].*
+*Template prepared 2026-09-20 from the Phos v1 API source. Retention decisions recorded 2026-09-21. Review date: 2027-09-21 (annual).*
