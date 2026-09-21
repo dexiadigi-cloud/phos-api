@@ -1910,6 +1910,14 @@ class VerseStudyResponse(BaseModel):
     prayer: VerseStudyPrayer | None
     sources: list[StudySourceRef]
     rights_note: str
+    brief: bool = Field(
+        default=False,
+        description="True when the response was trimmed for brief mode.",
+    )
+    full_hint: str | None = Field(
+        default=None,
+        description="How to fetch the full intensive when brief is true.",
+    )
 
 
 _VERSE_STUDY_DEFAULT_TRANSLATIONS = ("BSB", "KJV", "WEB")
@@ -2287,6 +2295,17 @@ def verse_study(
             examples=["morning"],
         ),
     ] = "morning",
+    brief: Annotated[
+        bool,
+        Query(
+            description=(
+                "Brief mode: trims the composite to a chat-friendly size "
+                "(top 4 key words, top 4 cross-refs, 2 commentary excerpts, "
+                "1 devotional, no prayer text). The full intensive is "
+                "available with brief=false."
+            ),
+        ),
+    ] = False,
 ) -> VerseStudyResponse:
     canonical = resolve_book(book)
     if canonical is None:
@@ -2457,6 +2476,20 @@ def verse_study(
             srcs[prayer.edition]["rights"],
         )
 
+    full_hint: str | None = None
+    if brief:
+        key_words = key_words[:4]
+        cross_refs = VerseStudyCrossRefs(
+            total=cross_refs.total, refs=cross_refs.refs[:4]
+        )
+        commentaries = commentaries[:2]
+        devotionals = devotionals[:1]
+        prayer = None
+        full_hint = (
+            "Full intensive available: GET "
+            f"/v1/verse-study/{parsed.book}/{chapter}/{verse}"
+        )
+
     return VerseStudyResponse(
         ref=parsed.display,
         book=parsed.book,
@@ -2472,6 +2505,8 @@ def verse_study(
         prayer=prayer,
         sources=sources,
         rights_note=_verse_study_rights_note(testament, definition_sources),
+        brief=brief,
+        full_hint=full_hint,
     )
 
 

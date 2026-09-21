@@ -1504,6 +1504,18 @@
               "title": "Office"
             },
             "description": "Prayer office the prayer is drawn from."
+          },
+          {
+            "name": "brief",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean",
+              "description": "Brief mode: trims the composite to a chat-friendly size (top 4 key words, top 4 cross-refs, 2 commentary excerpts, 1 devotional, no prayer text). The full intensive is available with brief=false.",
+              "default": false,
+              "title": "Brief"
+            },
+            "description": "Brief mode: trims the composite to a chat-friendly size (top 4 key words, top 4 cross-refs, 2 commentary excerpts, 1 devotional, no prayer text). The full intensive is available with brief=false."
           }
         ],
         "responses": {
@@ -4298,6 +4310,24 @@
           "rights_note": {
             "type": "string",
             "title": "Rights Note"
+          },
+          "brief": {
+            "type": "boolean",
+            "title": "Brief",
+            "description": "True when the response was trimmed for brief mode.",
+            "default": false
+          },
+          "full_hint": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Full Hint",
+            "description": "How to fetch the full intensive when brief is true."
           }
         },
         "type": "object",

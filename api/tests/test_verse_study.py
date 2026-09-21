@@ -223,3 +223,27 @@ def test_prayer_match_never_returns_rubric(client, auth):
     assert prayer is not None
     assert prayer["match_kind"] == "keyword"
     assert "psalm following" not in prayer["text"].lower()
+
+
+def test_brief_mode_trims_composite(client, auth):
+    d = client.get("/v1/verse-study/John/3/16?brief=true", headers=auth).json()
+    assert d["brief"] is True
+    assert d["full_hint"] == "Full intensive available: GET /v1/verse-study/John/3/16"
+    assert len(d["key_words"]) <= 4
+    assert d["cross_refs"]["total"] == 19
+    assert len(d["cross_refs"]["refs"]) <= 4
+    assert len(d["commentaries"]) <= 2
+    assert len(d["devotionals"]) <= 1
+    assert d["prayer"] is None
+    # core identity fields intact
+    assert d["ref"] == "John 3:16"
+    assert len(d["translations"]) == 3
+
+
+def test_full_mode_unchanged_by_default(client, auth):
+    d = client.get("/v1/verse-study/John/3/16", headers=auth).json()
+    assert d["brief"] is False
+    assert d["full_hint"] is None
+    assert len(d["key_words"]) == 12
+    assert len(d["cross_refs"]["refs"]) == 8
+    assert d["prayer"] is not None
