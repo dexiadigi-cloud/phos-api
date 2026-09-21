@@ -3,7 +3,7 @@ services:
     name: phos-api
     runtime: docker
     dockerfilePath: ./Dockerfile
-    healthCheckPath: /v1/health
+    healthCheckPath: /health
     envVars:
       - key: PHOS_API_KEY
         sync: false

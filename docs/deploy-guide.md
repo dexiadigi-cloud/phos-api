@@ -52,12 +52,12 @@ bare-VM HTTP setup without a reverse proxy providing TLS.
 ## Deploy checklist
 
 1. `docker build -t phos .` and smoke-test locally with
-   `PHOS_API_KEY=test-key` (expect `/v1/health` green and one verse-study
+   `PHOS_API_KEY=test-key` (expect `/health` green and one verse-study
    call to return).
 2. Create the host account (Jeremiah).
 3. `fly secrets set PHOS_API_KEY=<long random key>` (or Render dashboard).
    Generate with `openssl rand -hex 32`.
-4. Deploy; verify `https://<host>/v1/health` and one authenticated
+4. Deploy; verify `https://<host>/health` and one authenticated
    `/v1/verse-study/John/3/16` call.
 5. Fill in the operator contact + retention decisions in
    `docs/public/privacy-policy.md`, set the terms effective date, and
