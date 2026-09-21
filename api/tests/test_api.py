@@ -13,10 +13,10 @@ def test_health_no_auth(client):
     body = r.json()
     assert body["status"] == "ok"
     assert body["translations"] == ["BSB", "KJV", "WEB", "ASV", "YLT", "DARBY",
-                                    "DRB", "BBE", "GENEVA", "AKJV", "OEB",
+                                    "DRB", "GENEVA", "AKJV", "OEB",
                                     "WEBSTER", "WEYMOUTH", "LXX2012", "LSG1910", "LUTHER1912",
                                     "ALMEIDA", "RVA1909"]
-    assert body["verse_count"] == 521437  # 2026-09-20: +31,084 RVA1909
+    assert body["verse_count"] == 490335  # 2026-09-21: BBE removed (US-only PD)
 
 
 def test_protected_rejects_missing_key(client):
@@ -44,7 +44,7 @@ def test_translations_metadata(client, auth):
     assert r.status_code == 200
     items = {t["code"]: t for t in r.json()}
     assert set(items) == {"BSB", "KJV", "WEB", "ASV", "YLT", "DARBY", "DRB",
-                          "BBE", "GENEVA", "AKJV", "OEB",
+                          "GENEVA", "AKJV", "OEB",
                           "WEBSTER", "WEYMOUTH", "LXX2012", "LSG1910", "LUTHER1912",
                           "ALMEIDA", "RVA1909"}
     assert items["BSB"]["default"] is True
@@ -55,7 +55,6 @@ def test_translations_metadata(client, auth):
     assert items["YLT"]["verse_count"] == 31102
     assert items["DARBY"]["verse_count"] == 31099
     assert items["DRB"]["verse_count"] == 35811
-    assert items["BBE"]["verse_count"] == 31102
     assert items["GENEVA"]["verse_count"] == 31090
     assert items["AKJV"]["verse_count"] == 31102
     assert items["OEB"]["verse_count"] == 13894

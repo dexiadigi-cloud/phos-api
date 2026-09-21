@@ -46,7 +46,6 @@ case-insensitive at the API boundary (the server uppercases them).
 | YLT | Young's Literal Translation | Public domain |
 | DARBY | Darby Translation | Public domain |
 | DRB | Douay-Rheims Bible (1899 American Edition) | 73 books; Vulgate Psalm numbering |
-| BBE | Bible in Basic English | Public domain in the US (US-specific statement) |
 | GENEVA | Geneva Bible (1599) | Original 1599 spelling preserved |
 | AKJV | American King James Version | Rights caveat documented in `translations.py` (author's 1999 PD dedication vs a getBible aggregator label) |
 | OEB | Open English Bible (US spelling) | Partial: 44 books (full NT + parts of OT) |

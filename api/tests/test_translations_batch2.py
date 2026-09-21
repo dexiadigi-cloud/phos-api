@@ -5,7 +5,7 @@ from parser import resolve_book
 
 
 EXPECTED_COUNTS = {
-    "YLT": 31102, "DARBY": 31099, "DRB": 35811, "BBE": 31102,
+    "YLT": 31102, "DARBY": 31099, "DRB": 35811,
     "GENEVA": 31090, "AKJV": 31102, "OEB": 13894,
 }
 
@@ -14,7 +14,6 @@ JOHN_3_16_MARKERS = {
     "YLT": "for God did so love the world",
     "DARBY": "only-begotten Son",
     "DRB": "as to give his only begotten Son",
-    "BBE": "such love for the world",
     "GENEVA": "loued the worlde",  # original 1599 spelling
     "AKJV": "whoever believes in him should not perish",
     "OEB": "may not be lost, but have eternal life",

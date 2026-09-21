@@ -50,7 +50,6 @@ Content in Phos is cleared as public domain under United States law. Its status 
 
 - The King James Version (Authorized Version) is under perpetual Crown copyright **in the United Kingdom**. This does not affect US use, but users distributing in the UK should verify their own position.
 - The Weymouth New Testament served by Phos comes from a Project Gutenberg transcription cataloged as "public domain in the USA." [LEGAL REVIEW] Non-US status is not verified.
-- The Bible in Basic English (BBE) public-domain determination is US-specific.
 
 [LEGAL REVIEW] You are responsible for complying with the copyright and trademark rules of your own jurisdiction. If in doubt, consult counsel before redistributing content internationally.
 

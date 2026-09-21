@@ -17,7 +17,6 @@ All 14 translation codes in `data/scripture.db` are listed. Counts are verses pe
 | YLT | Young's Literal Translation | eBible engylt (source files dated 2025-12-12) | 31,102 |
 | DARBY | Darby Translation | eBible engDBY (source files dated 2019-11-16) | 31,099 |
 | DRB | Douay-Rheims Bible (1899 American Edition) | eBible engDRA (source files dated 2022-11-03); 73 books incl. deuterocanon | 35,811 |
-| BBE | Bible in Basic English | eBible engBBE (source files dated 2018-08-30) | 31,102 |
 | GENEVA | Geneva Bible (1599) | eBible enggnv (source files dated 2024-03-16); original spelling preserved | 31,090 |
 | AKJV | American King James Version | BibleCorps ENG-B-AKJV2018-pd-PSFM (2023.1223) | 31,102 |
 | OEB | Open English Bible (US spelling) | eBible engoebus (source files dated 2026-08-08); 44 books, OT unfinished | 13,894 |
@@ -29,7 +28,7 @@ All 14 translation codes in `data/scripture.db` are listed. Counts are verses pe
 | ALMEIDA | Almeida Recebida (Portuguese) | Biblia Almeida Recebida v1.7 (source dump dated 2017-03-17); third non-English translation | 31,102 |
 | RVA1909 | Reina-Valera 1909 (Spanish) | eBible spaRV1909 USFM (source files dated 2015-08-10); fourth non-English translation | 31,084 |
 
-**Rights basis (translations).** All 18 translations are served as public domain or public-domain-dedicated text. No attribution is required for any of them.
+**Rights basis (translations).** All 17 translations are served as public domain or public-domain-dedicated text. No attribution is required for any of them. (The Bible in Basic English was removed 2026-09-21: its public-domain determination was US-only.)
 
 - **BSB:** Public domain by dedication. The Berean Bible texts were officially dedicated to the public domain on April 30, 2023 (berean.bible/terms.htm). Attribution is appreciated but not required. Courtesy request (not a license condition): altered derivatives should not use the "Berean" name.
 - **KJV:** Public domain (first published 1611). Caveat: within the UK only, the Authorized Version is under perpetual Crown copyright; this has no impact on US serving.
@@ -38,7 +37,6 @@ All 14 translation codes in `data/scripture.db` are listed. Counts are verses pe
 - **YLT:** Public domain (Robert Young, 1862). No limits.
 - **DARBY:** Public domain (J. N. Darby, 1890). No limits.
 - **DRB:** Public domain (Douay-Rheims American Edition of 1899, translated from the Latin Vulgate). Includes the 7 deuterocanonical books; Psalms follow Vulgate numbering (e.g. DRB Psalm 118 = KJV Psalm 119).
-- **BBE:** Public domain in the United States per eBible.org (published 1965 without copyright notice, fell into the US public domain under the UCC convention of the time). Territorial caveat: the statement is US-specific; non-US rights are not verified.
 - **GENEVA:** Public domain. Original 1599 spelling preserved.
 - **AKJV:** Public domain by author dedication (Michael Peter (Stone) Engelbrite, November 8, 1999: "You may use it in any manner you wish: copy it, sell it, modify it"). Rights caveat on record: getBible v2's aggregator metadata for its own akjv distribution labels it "Copyrighted; Free non-commercial distribution", which conflicts with the author's dedication. Phos ingests the BibleCorps PD edition directly, not the getBible distribution; the conflict is recorded here so the final call stays with the project owner.
 - **OEB:** Public domain (CC0 by OpenEnglishBible.org). Partial translation; NT complete, OT unfinished.
@@ -148,10 +146,9 @@ The underlying works these transcriptions draw on (BDB 1906, Strong's Hebrew dic
 For quick reference, the sources with territorial, editorial, or verification caveats:
 
 1. **KJV:** perpetual Crown copyright applies only within the UK; no impact on US serving.
-2. **BBE:** the public-domain statement on record is US-specific (UCC convention); non-US rights not verified.
-3. **Weymouth:** public domain in the USA per Project Gutenberg's catalog.
-4. **My Utmost for His Highest:** US public domain since 2023-01-01; the ingested edition is the original 1927 text, not the 1992 Reimann updated edition.
-5. **TSK:** the exact relation of the ingested SWORD module text to the 1836 first edition has not been independently verified.
-6. **Daily Light:** 529 of 5,656 item references were reconstructed from verse text against the KJV (documented in the ingestion record).
-7. **Strong's dictionaries:** OCR-based transcription with known incompleteness, especially in the Greek entries; data-quality note only.
-8. **AKJV:** conflicting metadata on record (author's 1999 PD dedication and BibleCorps [PD] marking versus getBible v2's "Copyrighted; Free non-commercial distribution" label); Phos ingests the BibleCorps PD edition directly.
+2. **Weymouth:** public domain in the USA per Project Gutenberg's catalog.
+3. **My Utmost for His Highest:** US public domain since 2023-01-01; the ingested edition is the original 1927 text, not the 1992 Reimann updated edition.
+4. **TSK:** the exact relation of the ingested SWORD module text to the 1836 first edition has not been independently verified.
+5. **Daily Light:** 529 of 5,656 item references were reconstructed from verse text against the KJV (documented in the ingestion record).
+6. **Strong's dictionaries:** OCR-based transcription with known incompleteness, especially in the Greek entries; data-quality note only.
+7. **AKJV:** conflicting metadata on record (author's 1999 PD dedication and BibleCorps [PD] marking versus getBible v2's "Copyrighted; Free non-commercial distribution" label); Phos ingests the BibleCorps PD edition directly.

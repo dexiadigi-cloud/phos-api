@@ -7,7 +7,7 @@ edition; they do not line up 1:1 across translations.
 
 ## Bible translations (data/scripture.db)
 
-18 translations, 521,437 verses total.
+17 translations, 490,335 verses total (BBE removed 2026-09-21: its public-domain determination was US-only).
 
 | Code | Translation | Edition note | Verses |
 |------|-------------|--------------|--------|
@@ -18,7 +18,6 @@ edition; they do not line up 1:1 across translations.
 | YLT | Young's Literal Translation | eBible engylt | 31,102 |
 | DARBY | Darby Translation | eBible engDBY | 31,099 |
 | DRB | Douay-Rheims Bible (1899 American Edition) | 73 books; Challoner's edition | 35,811 |
-| BBE | Bible in Basic English | eBible engBBE | 31,102 |
 | GENEVA | Geneva Bible (1599) | eBible enggnv | 31,090 |
 | AKJV | American King James Version | 2018 revision | 31,102 |
 | OEB | Open English Bible (US spelling) | Unfinished/partial edition | 13,894 |

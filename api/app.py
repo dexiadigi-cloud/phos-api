@@ -1,7 +1,7 @@
 """Phos (Dexia Bible API) - v1 FastAPI service.
 
 Serves public-domain Bible text (BSB default, plus KJV, WEB, ASV, YLT,
-DARBY, DRB, BBE, GENEVA, AKJV, OEB) from a
+DARBY, DRB, GENEVA, AKJV, OEB) from a
 local read-only SQLite corpus. Authentication is a single API key in one
 header (``X-API-Key``), read from the ``PHOS_API_KEY`` environment variable
 and compared in constant time. No OAuth.

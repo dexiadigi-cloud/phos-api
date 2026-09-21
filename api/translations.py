@@ -132,28 +132,6 @@ TRANSLATIONS: dict[str, dict] = {
                  "Psalms follow Vulgate numbering (e.g. DRB Psalm 118 = "
                  "KJV Psalm 119).",
     },
-    "BBE": {
-        "code": "BBE",
-        "name": "Bible in Basic English",
-        "edition": "eBible engBBE (source files dated 2018-08-30)",
-        "source": "https://ebible.org/Scriptures/engBBE_usfx.zip "
-                  "(license: https://ebible.org/engBBE/copyright.htm)",
-        "retrieved": "2026-09-20",
-        "default": False,
-        "rights": {
-            "status": "public_domain",
-            "copyright": "Public domain in the United States. eBible.org: "
-                         "'printed in 1965 by Cambridge Press in England. "
-                         "Published without any copyright notice and "
-                         "distributed in America, this work fell immediately "
-                         "and irretrievably into the Public Domain in the "
-                         "United States according to the UCC convention of "
-                         "that time.'",
-            "attribution": "No attribution required; no limits.",
-        },
-        "notes": "Territorial caveat: eBible's public-domain statement is "
-                 "US-specific (UCC convention). Non-US rights not verified.",
-    },
     "GENEVA": {
         "code": "GENEVA",
         "name": "Geneva Bible (1599)",
