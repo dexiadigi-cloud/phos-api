@@ -1,0 +1,3202 @@
+{
+  "generated": "2026-09-20",
+  "source": "Chapter lists read from scripture.db (BSB). M1 verified chapter counts identical across BSB/KJV/WEB/ASV, so schedules apply to all translations.",
+  "plans": [
+    {
+      "id": "bible-in-a-year",
+      "name": "Bible in a Year",
+      "description": "The whole Bible in one year: a few chapters a day, Genesis to Revelation.",
+      "days": 365,
+      "total_chapters": 1189,
+      "schedule": [
+        {
+          "day": 1,
+          "refs": [
+            "Genesis 1-4"
+          ]
+        },
+        {
+          "day": 2,
+          "refs": [
+            "Genesis 5-8"
+          ]
+        },
+        {
+          "day": 3,
+          "refs": [
+            "Genesis 9-12"
+          ]
+        },
+        {
+          "day": 4,
+          "refs": [
+            "Genesis 13-16"
+          ]
+        },
+        {
+          "day": 5,
+          "refs": [
+            "Genesis 17-20"
+          ]
+        },
+        {
+          "day": 6,
+          "refs": [
+            "Genesis 21-24"
+          ]
+        },
+        {
+          "day": 7,
+          "refs": [
+            "Genesis 25-28"
+          ]
+        },
+        {
+          "day": 8,
+          "refs": [
+            "Genesis 29-32"
+          ]
+        },
+        {
+          "day": 9,
+          "refs": [
+            "Genesis 33-36"
+          ]
+        },
+        {
+          "day": 10,
+          "refs": [
+            "Genesis 37-40"
+          ]
+        },
+        {
+          "day": 11,
+          "refs": [
+            "Genesis 41-44"
+          ]
+        },
+        {
+          "day": 12,
+          "refs": [
+            "Genesis 45-48"
+          ]
+        },
+        {
+          "day": 13,
+          "refs": [
+            "Genesis 49-50",
+            "Exodus 1-2"
+          ]
+        },
+        {
+          "day": 14,
+          "refs": [
+            "Exodus 3-6"
+          ]
+        },
+        {
+          "day": 15,
+          "refs": [
+            "Exodus 7-10"
+          ]
+        },
+        {
+          "day": 16,
+          "refs": [
+            "Exodus 11-14"
+          ]
+        },
+        {
+          "day": 17,
+          "refs": [
+            "Exodus 15-18"
+          ]
+        },
+        {
+          "day": 18,
+          "refs": [
+            "Exodus 19-22"
+          ]
+        },
+        {
+          "day": 19,
+          "refs": [
+            "Exodus 23-26"
+          ]
+        },
+        {
+          "day": 20,
+          "refs": [
+            "Exodus 27-30"
+          ]
+        },
+        {
+          "day": 21,
+          "refs": [
+            "Exodus 31-34"
+          ]
+        },
+        {
+          "day": 22,
+          "refs": [
+            "Exodus 35-38"
+          ]
+        },
+        {
+          "day": 23,
+          "refs": [
+            "Exodus 39-40",
+            "Leviticus 1-2"
+          ]
+        },
+        {
+          "day": 24,
+          "refs": [
+            "Leviticus 3-6"
+          ]
+        },
+        {
+          "day": 25,
+          "refs": [
+            "Leviticus 7-10"
+          ]
+        },
+        {
+          "day": 26,
+          "refs": [
+            "Leviticus 11-14"
+          ]
+        },
+        {
+          "day": 27,
+          "refs": [
+            "Leviticus 15-18"
+          ]
+        },
+        {
+          "day": 28,
+          "refs": [
+            "Leviticus 19-22"
+          ]
+        },
+        {
+          "day": 29,
+          "refs": [
+            "Leviticus 23-26"
+          ]
+        },
+        {
+          "day": 30,
+          "refs": [
+            "Leviticus 27",
+            "Numbers 1-3"
+          ]
+        },
+        {
+          "day": 31,
+          "refs": [
+            "Numbers 4-7"
+          ]
+        },
+        {
+          "day": 32,
+          "refs": [
+            "Numbers 8-11"
+          ]
+        },
+        {
+          "day": 33,
+          "refs": [
+            "Numbers 12-15"
+          ]
+        },
+        {
+          "day": 34,
+          "refs": [
+            "Numbers 16-19"
+          ]
+        },
+        {
+          "day": 35,
+          "refs": [
+            "Numbers 20-23"
+          ]
+        },
+        {
+          "day": 36,
+          "refs": [
+            "Numbers 24-27"
+          ]
+        },
+        {
+          "day": 37,
+          "refs": [
+            "Numbers 28-31"
+          ]
+        },
+        {
+          "day": 38,
+          "refs": [
+            "Numbers 32-35"
+          ]
+        },
+        {
+          "day": 39,
+          "refs": [
+            "Numbers 36",
+            "Deuteronomy 1-3"
+          ]
+        },
+        {
+          "day": 40,
+          "refs": [
+            "Deuteronomy 4-7"
+          ]
+        },
+        {
+          "day": 41,
+          "refs": [
+            "Deuteronomy 8-11"
+          ]
+        },
+        {
+          "day": 42,
+          "refs": [
+            "Deuteronomy 12-15"
+          ]
+        },
+        {
+          "day": 43,
+          "refs": [
+            "Deuteronomy 16-19"
+          ]
+        },
+        {
+          "day": 44,
+          "refs": [
+            "Deuteronomy 20-23"
+          ]
+        },
+        {
+          "day": 45,
+          "refs": [
+            "Deuteronomy 24-27"
+          ]
+        },
+        {
+          "day": 46,
+          "refs": [
+            "Deuteronomy 28-31"
+          ]
+        },
+        {
+          "day": 47,
+          "refs": [
+            "Deuteronomy 32-34",
+            "Joshua 1"
+          ]
+        },
+        {
+          "day": 48,
+          "refs": [
+            "Joshua 2-5"
+          ]
+        },
+        {
+          "day": 49,
+          "refs": [
+            "Joshua 6-9"
+          ]
+        },
+        {
+          "day": 50,
+          "refs": [
+            "Joshua 10-13"
+          ]
+        },
+        {
+          "day": 51,
+          "refs": [
+            "Joshua 14-17"
+          ]
+        },
+        {
+          "day": 52,
+          "refs": [
+            "Joshua 18-21"
+          ]
+        },
+        {
+          "day": 53,
+          "refs": [
+            "Joshua 22-24",
+            "Judges 1"
+          ]
+        },
+        {
+          "day": 54,
+          "refs": [
+            "Judges 2-5"
+          ]
+        },
+        {
+          "day": 55,
+          "refs": [
+            "Judges 6-9"
+          ]
+        },
+        {
+          "day": 56,
+          "refs": [
+            "Judges 10-13"
+          ]
+        },
+        {
+          "day": 57,
+          "refs": [
+            "Judges 14-17"
+          ]
+        },
+        {
+          "day": 58,
+          "refs": [
+            "Judges 18-21"
+          ]
+        },
+        {
+          "day": 59,
+          "refs": [
+            "Ruth 1-4"
+          ]
+        },
+        {
+          "day": 60,
+          "refs": [
+            "1 Samuel 1-4"
+          ]
+        },
+        {
+          "day": 61,
+          "refs": [
+            "1 Samuel 5-8"
+          ]
+        },
+        {
+          "day": 62,
+          "refs": [
+            "1 Samuel 9-12"
+          ]
+        },
+        {
+          "day": 63,
+          "refs": [
+            "1 Samuel 13-16"
+          ]
+        },
+        {
+          "day": 64,
+          "refs": [
+            "1 Samuel 17-20"
+          ]
+        },
+        {
+          "day": 65,
+          "refs": [
+            "1 Samuel 21-24"
+          ]
+        },
+        {
+          "day": 66,
+          "refs": [
+            "1 Samuel 25-28"
+          ]
+        },
+        {
+          "day": 67,
+          "refs": [
+            "1 Samuel 29-31",
+            "2 Samuel 1"
+          ]
+        },
+        {
+          "day": 68,
+          "refs": [
+            "2 Samuel 2-5"
+          ]
+        },
+        {
+          "day": 69,
+          "refs": [
+            "2 Samuel 6-9"
+          ]
+        },
+        {
+          "day": 70,
+          "refs": [
+            "2 Samuel 10-13"
+          ]
+        },
+        {
+          "day": 71,
+          "refs": [
+            "2 Samuel 14-17"
+          ]
+        },
+        {
+          "day": 72,
+          "refs": [
+            "2 Samuel 18-21"
+          ]
+        },
+        {
+          "day": 73,
+          "refs": [
+            "2 Samuel 22-24",
+            "1 Kings 1"
+          ]
+        },
+        {
+          "day": 74,
+          "refs": [
+            "1 Kings 2-5"
+          ]
+        },
+        {
+          "day": 75,
+          "refs": [
+            "1 Kings 6-9"
+          ]
+        },
+        {
+          "day": 76,
+          "refs": [
+            "1 Kings 10-13"
+          ]
+        },
+        {
+          "day": 77,
+          "refs": [
+            "1 Kings 14-17"
+          ]
+        },
+        {
+          "day": 78,
+          "refs": [
+            "1 Kings 18-21"
+          ]
+        },
+        {
+          "day": 79,
+          "refs": [
+            "1 Kings 22",
+            "2 Kings 1-3"
+          ]
+        },
+        {
+          "day": 80,
+          "refs": [
+            "2 Kings 4-7"
+          ]
+        },
+        {
+          "day": 81,
+          "refs": [
+            "2 Kings 8-11"
+          ]
+        },
+        {
+          "day": 82,
+          "refs": [
+            "2 Kings 12-15"
+          ]
+        },
+        {
+          "day": 83,
+          "refs": [
+            "2 Kings 16-19"
+          ]
+        },
+        {
+          "day": 84,
+          "refs": [
+            "2 Kings 20-23"
+          ]
+        },
+        {
+          "day": 85,
+          "refs": [
+            "2 Kings 24-25",
+            "1 Chronicles 1-2"
+          ]
+        },
+        {
+          "day": 86,
+          "refs": [
+            "1 Chronicles 3-6"
+          ]
+        },
+        {
+          "day": 87,
+          "refs": [
+            "1 Chronicles 7-10"
+          ]
+        },
+        {
+          "day": 88,
+          "refs": [
+            "1 Chronicles 11-14"
+          ]
+        },
+        {
+          "day": 89,
+          "refs": [
+            "1 Chronicles 15-18"
+          ]
+        },
+        {
+          "day": 90,
+          "refs": [
+            "1 Chronicles 19-22"
+          ]
+        },
+        {
+          "day": 91,
+          "refs": [
+            "1 Chronicles 23-26"
+          ]
+        },
+        {
+          "day": 92,
+          "refs": [
+            "1 Chronicles 27-29",
+            "2 Chronicles 1"
+          ]
+        },
+        {
+          "day": 93,
+          "refs": [
+            "2 Chronicles 2-5"
+          ]
+        },
+        {
+          "day": 94,
+          "refs": [
+            "2 Chronicles 6-9"
+          ]
+        },
+        {
+          "day": 95,
+          "refs": [
+            "2 Chronicles 10-12"
+          ]
+        },
+        {
+          "day": 96,
+          "refs": [
+            "2 Chronicles 13-15"
+          ]
+        },
+        {
+          "day": 97,
+          "refs": [
+            "2 Chronicles 16-18"
+          ]
+        },
+        {
+          "day": 98,
+          "refs": [
+            "2 Chronicles 19-21"
+          ]
+        },
+        {
+          "day": 99,
+          "refs": [
+            "2 Chronicles 22-24"
+          ]
+        },
+        {
+          "day": 100,
+          "refs": [
+            "2 Chronicles 25-27"
+          ]
+        },
+        {
+          "day": 101,
+          "refs": [
+            "2 Chronicles 28-30"
+          ]
+        },
+        {
+          "day": 102,
+          "refs": [
+            "2 Chronicles 31-33"
+          ]
+        },
+        {
+          "day": 103,
+          "refs": [
+            "2 Chronicles 34-36"
+          ]
+        },
+        {
+          "day": 104,
+          "refs": [
+            "Ezra 1-3"
+          ]
+        },
+        {
+          "day": 105,
+          "refs": [
+            "Ezra 4-6"
+          ]
+        },
+        {
+          "day": 106,
+          "refs": [
+            "Ezra 7-9"
+          ]
+        },
+        {
+          "day": 107,
+          "refs": [
+            "Ezra 10",
+            "Nehemiah 1-2"
+          ]
+        },
+        {
+          "day": 108,
+          "refs": [
+            "Nehemiah 3-5"
+          ]
+        },
+        {
+          "day": 109,
+          "refs": [
+            "Nehemiah 6-8"
+          ]
+        },
+        {
+          "day": 110,
+          "refs": [
+            "Nehemiah 9-11"
+          ]
+        },
+        {
+          "day": 111,
+          "refs": [
+            "Nehemiah 12-13",
+            "Esther 1"
+          ]
+        },
+        {
+          "day": 112,
+          "refs": [
+            "Esther 2-4"
+          ]
+        },
+        {
+          "day": 113,
+          "refs": [
+            "Esther 5-7"
+          ]
+        },
+        {
+          "day": 114,
+          "refs": [
+            "Esther 8-10"
+          ]
+        },
+        {
+          "day": 115,
+          "refs": [
+            "Job 1-3"
+          ]
+        },
+        {
+          "day": 116,
+          "refs": [
+            "Job 4-6"
+          ]
+        },
+        {
+          "day": 117,
+          "refs": [
+            "Job 7-9"
+          ]
+        },
+        {
+          "day": 118,
+          "refs": [
+            "Job 10-12"
+          ]
+        },
+        {
+          "day": 119,
+          "refs": [
+            "Job 13-15"
+          ]
+        },
+        {
+          "day": 120,
+          "refs": [
+            "Job 16-18"
+          ]
+        },
+        {
+          "day": 121,
+          "refs": [
+            "Job 19-21"
+          ]
+        },
+        {
+          "day": 122,
+          "refs": [
+            "Job 22-24"
+          ]
+        },
+        {
+          "day": 123,
+          "refs": [
+            "Job 25-27"
+          ]
+        },
+        {
+          "day": 124,
+          "refs": [
+            "Job 28-30"
+          ]
+        },
+        {
+          "day": 125,
+          "refs": [
+            "Job 31-33"
+          ]
+        },
+        {
+          "day": 126,
+          "refs": [
+            "Job 34-36"
+          ]
+        },
+        {
+          "day": 127,
+          "refs": [
+            "Job 37-39"
+          ]
+        },
+        {
+          "day": 128,
+          "refs": [
+            "Job 40-42"
+          ]
+        },
+        {
+          "day": 129,
+          "refs": [
+            "Psalms 1-3"
+          ]
+        },
+        {
+          "day": 130,
+          "refs": [
+            "Psalms 4-6"
+          ]
+        },
+        {
+          "day": 131,
+          "refs": [
+            "Psalms 7-9"
+          ]
+        },
+        {
+          "day": 132,
+          "refs": [
+            "Psalms 10-12"
+          ]
+        },
+        {
+          "day": 133,
+          "refs": [
+            "Psalms 13-15"
+          ]
+        },
+        {
+          "day": 134,
+          "refs": [
+            "Psalms 16-18"
+          ]
+        },
+        {
+          "day": 135,
+          "refs": [
+            "Psalms 19-21"
+          ]
+        },
+        {
+          "day": 136,
+          "refs": [
+            "Psalms 22-24"
+          ]
+        },
+        {
+          "day": 137,
+          "refs": [
+            "Psalms 25-27"
+          ]
+        },
+        {
+          "day": 138,
+          "refs": [
+            "Psalms 28-30"
+          ]
+        },
+        {
+          "day": 139,
+          "refs": [
+            "Psalms 31-33"
+          ]
+        },
+        {
+          "day": 140,
+          "refs": [
+            "Psalms 34-36"
+          ]
+        },
+        {
+          "day": 141,
+          "refs": [
+            "Psalms 37-39"
+          ]
+        },
+        {
+          "day": 142,
+          "refs": [
+            "Psalms 40-42"
+          ]
+        },
+        {
+          "day": 143,
+          "refs": [
+            "Psalms 43-45"
+          ]
+        },
+        {
+          "day": 144,
+          "refs": [
+            "Psalms 46-48"
+          ]
+        },
+        {
+          "day": 145,
+          "refs": [
+            "Psalms 49-51"
+          ]
+        },
+        {
+          "day": 146,
+          "refs": [
+            "Psalms 52-54"
+          ]
+        },
+        {
+          "day": 147,
+          "refs": [
+            "Psalms 55-57"
+          ]
+        },
+        {
+          "day": 148,
+          "refs": [
+            "Psalms 58-60"
+          ]
+        },
+        {
+          "day": 149,
+          "refs": [
+            "Psalms 61-63"
+          ]
+        },
+        {
+          "day": 150,
+          "refs": [
+            "Psalms 64-66"
+          ]
+        },
+        {
+          "day": 151,
+          "refs": [
+            "Psalms 67-69"
+          ]
+        },
+        {
+          "day": 152,
+          "refs": [
+            "Psalms 70-72"
+          ]
+        },
+        {
+          "day": 153,
+          "refs": [
+            "Psalms 73-75"
+          ]
+        },
+        {
+          "day": 154,
+          "refs": [
+            "Psalms 76-78"
+          ]
+        },
+        {
+          "day": 155,
+          "refs": [
+            "Psalms 79-81"
+          ]
+        },
+        {
+          "day": 156,
+          "refs": [
+            "Psalms 82-84"
+          ]
+        },
+        {
+          "day": 157,
+          "refs": [
+            "Psalms 85-87"
+          ]
+        },
+        {
+          "day": 158,
+          "refs": [
+            "Psalms 88-90"
+          ]
+        },
+        {
+          "day": 159,
+          "refs": [
+            "Psalms 91-93"
+          ]
+        },
+        {
+          "day": 160,
+          "refs": [
+            "Psalms 94-96"
+          ]
+        },
+        {
+          "day": 161,
+          "refs": [
+            "Psalms 97-99"
+          ]
+        },
+        {
+          "day": 162,
+          "refs": [
+            "Psalms 100-102"
+          ]
+        },
+        {
+          "day": 163,
+          "refs": [
+            "Psalms 103-105"
+          ]
+        },
+        {
+          "day": 164,
+          "refs": [
+            "Psalms 106-108"
+          ]
+        },
+        {
+          "day": 165,
+          "refs": [
+            "Psalms 109-111"
+          ]
+        },
+        {
+          "day": 166,
+          "refs": [
+            "Psalms 112-114"
+          ]
+        },
+        {
+          "day": 167,
+          "refs": [
+            "Psalms 115-117"
+          ]
+        },
+        {
+          "day": 168,
+          "refs": [
+            "Psalms 118-120"
+          ]
+        },
+        {
+          "day": 169,
+          "refs": [
+            "Psalms 121-123"
+          ]
+        },
+        {
+          "day": 170,
+          "refs": [
+            "Psalms 124-126"
+          ]
+        },
+        {
+          "day": 171,
+          "refs": [
+            "Psalms 127-129"
+          ]
+        },
+        {
+          "day": 172,
+          "refs": [
+            "Psalms 130-132"
+          ]
+        },
+        {
+          "day": 173,
+          "refs": [
+            "Psalms 133-135"
+          ]
+        },
+        {
+          "day": 174,
+          "refs": [
+            "Psalms 136-138"
+          ]
+        },
+        {
+          "day": 175,
+          "refs": [
+            "Psalms 139-141"
+          ]
+        },
+        {
+          "day": 176,
+          "refs": [
+            "Psalms 142-144"
+          ]
+        },
+        {
+          "day": 177,
+          "refs": [
+            "Psalms 145-147"
+          ]
+        },
+        {
+          "day": 178,
+          "refs": [
+            "Psalms 148-150"
+          ]
+        },
+        {
+          "day": 179,
+          "refs": [
+            "Proverbs 1-3"
+          ]
+        },
+        {
+          "day": 180,
+          "refs": [
+            "Proverbs 4-6"
+          ]
+        },
+        {
+          "day": 181,
+          "refs": [
+            "Proverbs 7-9"
+          ]
+        },
+        {
+          "day": 182,
+          "refs": [
+            "Proverbs 10-12"
+          ]
+        },
+        {
+          "day": 183,
+          "refs": [
+            "Proverbs 13-15"
+          ]
+        },
+        {
+          "day": 184,
+          "refs": [
+            "Proverbs 16-18"
+          ]
+        },
+        {
+          "day": 185,
+          "refs": [
+            "Proverbs 19-21"
+          ]
+        },
+        {
+          "day": 186,
+          "refs": [
+            "Proverbs 22-24"
+          ]
+        },
+        {
+          "day": 187,
+          "refs": [
+            "Proverbs 25-27"
+          ]
+        },
+        {
+          "day": 188,
+          "refs": [
+            "Proverbs 28-30"
+          ]
+        },
+        {
+          "day": 189,
+          "refs": [
+            "Proverbs 31",
+            "Ecclesiastes 1-2"
+          ]
+        },
+        {
+          "day": 190,
+          "refs": [
+            "Ecclesiastes 3-5"
+          ]
+        },
+        {
+          "day": 191,
+          "refs": [
+            "Ecclesiastes 6-8"
+          ]
+        },
+        {
+          "day": 192,
+          "refs": [
+            "Ecclesiastes 9-11"
+          ]
+        },
+        {
+          "day": 193,
+          "refs": [
+            "Ecclesiastes 12",
+            "Song of Songs 1-2"
+          ]
+        },
+        {
+          "day": 194,
+          "refs": [
+            "Song of Songs 3-5"
+          ]
+        },
+        {
+          "day": 195,
+          "refs": [
+            "Song of Songs 6-8"
+          ]
+        },
+        {
+          "day": 196,
+          "refs": [
+            "Isaiah 1-3"
+          ]
+        },
+        {
+          "day": 197,
+          "refs": [
+            "Isaiah 4-6"
+          ]
+        },
+        {
+          "day": 198,
+          "refs": [
+            "Isaiah 7-9"
+          ]
+        },
+        {
+          "day": 199,
+          "refs": [
+            "Isaiah 10-12"
+          ]
+        },
+        {
+          "day": 200,
+          "refs": [
+            "Isaiah 13-15"
+          ]
+        },
+        {
+          "day": 201,
+          "refs": [
+            "Isaiah 16-18"
+          ]
+        },
+        {
+          "day": 202,
+          "refs": [
+            "Isaiah 19-21"
+          ]
+        },
+        {
+          "day": 203,
+          "refs": [
+            "Isaiah 22-24"
+          ]
+        },
+        {
+          "day": 204,
+          "refs": [
+            "Isaiah 25-27"
+          ]
+        },
+        {
+          "day": 205,
+          "refs": [
+            "Isaiah 28-30"
+          ]
+        },
+        {
+          "day": 206,
+          "refs": [
+            "Isaiah 31-33"
+          ]
+        },
+        {
+          "day": 207,
+          "refs": [
+            "Isaiah 34-36"
+          ]
+        },
+        {
+          "day": 208,
+          "refs": [
+            "Isaiah 37-39"
+          ]
+        },
+        {
+          "day": 209,
+          "refs": [
+            "Isaiah 40-42"
+          ]
+        },
+        {
+          "day": 210,
+          "refs": [
+            "Isaiah 43-45"
+          ]
+        },
+        {
+          "day": 211,
+          "refs": [
+            "Isaiah 46-48"
+          ]
+        },
+        {
+          "day": 212,
+          "refs": [
+            "Isaiah 49-51"
+          ]
+        },
+        {
+          "day": 213,
+          "refs": [
+            "Isaiah 52-54"
+          ]
+        },
+        {
+          "day": 214,
+          "refs": [
+            "Isaiah 55-57"
+          ]
+        },
+        {
+          "day": 215,
+          "refs": [
+            "Isaiah 58-60"
+          ]
+        },
+        {
+          "day": 216,
+          "refs": [
+            "Isaiah 61-63"
+          ]
+        },
+        {
+          "day": 217,
+          "refs": [
+            "Isaiah 64-66"
+          ]
+        },
+        {
+          "day": 218,
+          "refs": [
+            "Jeremiah 1-3"
+          ]
+        },
+        {
+          "day": 219,
+          "refs": [
+            "Jeremiah 4-6"
+          ]
+        },
+        {
+          "day": 220,
+          "refs": [
+            "Jeremiah 7-9"
+          ]
+        },
+        {
+          "day": 221,
+          "refs": [
+            "Jeremiah 10-12"
+          ]
+        },
+        {
+          "day": 222,
+          "refs": [
+            "Jeremiah 13-15"
+          ]
+        },
+        {
+          "day": 223,
+          "refs": [
+            "Jeremiah 16-18"
+          ]
+        },
+        {
+          "day": 224,
+          "refs": [
+            "Jeremiah 19-21"
+          ]
+        },
+        {
+          "day": 225,
+          "refs": [
+            "Jeremiah 22-24"
+          ]
+        },
+        {
+          "day": 226,
+          "refs": [
+            "Jeremiah 25-27"
+          ]
+        },
+        {
+          "day": 227,
+          "refs": [
+            "Jeremiah 28-30"
+          ]
+        },
+        {
+          "day": 228,
+          "refs": [
+            "Jeremiah 31-33"
+          ]
+        },
+        {
+          "day": 229,
+          "refs": [
+            "Jeremiah 34-36"
+          ]
+        },
+        {
+          "day": 230,
+          "refs": [
+            "Jeremiah 37-39"
+          ]
+        },
+        {
+          "day": 231,
+          "refs": [
+            "Jeremiah 40-42"
+          ]
+        },
+        {
+          "day": 232,
+          "refs": [
+            "Jeremiah 43-45"
+          ]
+        },
+        {
+          "day": 233,
+          "refs": [
+            "Jeremiah 46-48"
+          ]
+        },
+        {
+          "day": 234,
+          "refs": [
+            "Jeremiah 49-51"
+          ]
+        },
+        {
+          "day": 235,
+          "refs": [
+            "Jeremiah 52",
+            "Lamentations 1-2"
+          ]
+        },
+        {
+          "day": 236,
+          "refs": [
+            "Lamentations 3-5"
+          ]
+        },
+        {
+          "day": 237,
+          "refs": [
+            "Ezekiel 1-3"
+          ]
+        },
+        {
+          "day": 238,
+          "refs": [
+            "Ezekiel 4-6"
+          ]
+        },
+        {
+          "day": 239,
+          "refs": [
+            "Ezekiel 7-9"
+          ]
+        },
+        {
+          "day": 240,
+          "refs": [
+            "Ezekiel 10-12"
+          ]
+        },
+        {
+          "day": 241,
+          "refs": [
+            "Ezekiel 13-15"
+          ]
+        },
+        {
+          "day": 242,
+          "refs": [
+            "Ezekiel 16-18"
+          ]
+        },
+        {
+          "day": 243,
+          "refs": [
+            "Ezekiel 19-21"
+          ]
+        },
+        {
+          "day": 244,
+          "refs": [
+            "Ezekiel 22-24"
+          ]
+        },
+        {
+          "day": 245,
+          "refs": [
+            "Ezekiel 25-27"
+          ]
+        },
+        {
+          "day": 246,
+          "refs": [
+            "Ezekiel 28-30"
+          ]
+        },
+        {
+          "day": 247,
+          "refs": [
+            "Ezekiel 31-33"
+          ]
+        },
+        {
+          "day": 248,
+          "refs": [
+            "Ezekiel 34-36"
+          ]
+        },
+        {
+          "day": 249,
+          "refs": [
+            "Ezekiel 37-39"
+          ]
+        },
+        {
+          "day": 250,
+          "refs": [
+            "Ezekiel 40-42"
+          ]
+        },
+        {
+          "day": 251,
+          "refs": [
+            "Ezekiel 43-45"
+          ]
+        },
+        {
+          "day": 252,
+          "refs": [
+            "Ezekiel 46-48"
+          ]
+        },
+        {
+          "day": 253,
+          "refs": [
+            "Daniel 1-3"
+          ]
+        },
+        {
+          "day": 254,
+          "refs": [
+            "Daniel 4-6"
+          ]
+        },
+        {
+          "day": 255,
+          "refs": [
+            "Daniel 7-9"
+          ]
+        },
+        {
+          "day": 256,
+          "refs": [
+            "Daniel 10-12"
+          ]
+        },
+        {
+          "day": 257,
+          "refs": [
+            "Hosea 1-3"
+          ]
+        },
+        {
+          "day": 258,
+          "refs": [
+            "Hosea 4-6"
+          ]
+        },
+        {
+          "day": 259,
+          "refs": [
+            "Hosea 7-9"
+          ]
+        },
+        {
+          "day": 260,
+          "refs": [
+            "Hosea 10-12"
+          ]
+        },
+        {
+          "day": 261,
+          "refs": [
+            "Hosea 13-14",
+            "Joel 1"
+          ]
+        },
+        {
+          "day": 262,
+          "refs": [
+            "Joel 2-3",
+            "Amos 1"
+          ]
+        },
+        {
+          "day": 263,
+          "refs": [
+            "Amos 2-4"
+          ]
+        },
+        {
+          "day": 264,
+          "refs": [
+            "Amos 5-7"
+          ]
+        },
+        {
+          "day": 265,
+          "refs": [
+            "Amos 8-9",
+            "Obadiah 1"
+          ]
+        },
+        {
+          "day": 266,
+          "refs": [
+            "Jonah 1-3"
+          ]
+        },
+        {
+          "day": 267,
+          "refs": [
+            "Jonah 4",
+            "Micah 1-2"
+          ]
+        },
+        {
+          "day": 268,
+          "refs": [
+            "Micah 3-5"
+          ]
+        },
+        {
+          "day": 269,
+          "refs": [
+            "Micah 6-7",
+            "Nahum 1"
+          ]
+        },
+        {
+          "day": 270,
+          "refs": [
+            "Nahum 2-3",
+            "Habakkuk 1"
+          ]
+        },
+        {
+          "day": 271,
+          "refs": [
+            "Habakkuk 2-3",
+            "Zephaniah 1"
+          ]
+        },
+        {
+          "day": 272,
+          "refs": [
+            "Zephaniah 2-3",
+            "Haggai 1"
+          ]
+        },
+        {
+          "day": 273,
+          "refs": [
+            "Haggai 2",
+            "Zechariah 1-2"
+          ]
+        },
+        {
+          "day": 274,
+          "refs": [
+            "Zechariah 3-5"
+          ]
+        },
+        {
+          "day": 275,
+          "refs": [
+            "Zechariah 6-8"
+          ]
+        },
+        {
+          "day": 276,
+          "refs": [
+            "Zechariah 9-11"
+          ]
+        },
+        {
+          "day": 277,
+          "refs": [
+            "Zechariah 12-14"
+          ]
+        },
+        {
+          "day": 278,
+          "refs": [
+            "Malachi 1-3"
+          ]
+        },
+        {
+          "day": 279,
+          "refs": [
+            "Malachi 4",
+            "Matthew 1-2"
+          ]
+        },
+        {
+          "day": 280,
+          "refs": [
+            "Matthew 3-5"
+          ]
+        },
+        {
+          "day": 281,
+          "refs": [
+            "Matthew 6-8"
+          ]
+        },
+        {
+          "day": 282,
+          "refs": [
+            "Matthew 9-11"
+          ]
+        },
+        {
+          "day": 283,
+          "refs": [
+            "Matthew 12-14"
+          ]
+        },
+        {
+          "day": 284,
+          "refs": [
+            "Matthew 15-17"
+          ]
+        },
+        {
+          "day": 285,
+          "refs": [
+            "Matthew 18-20"
+          ]
+        },
+        {
+          "day": 286,
+          "refs": [
+            "Matthew 21-23"
+          ]
+        },
+        {
+          "day": 287,
+          "refs": [
+            "Matthew 24-26"
+          ]
+        },
+        {
+          "day": 288,
+          "refs": [
+            "Matthew 27-28",
+            "Mark 1"
+          ]
+        },
+        {
+          "day": 289,
+          "refs": [
+            "Mark 2-4"
+          ]
+        },
+        {
+          "day": 290,
+          "refs": [
+            "Mark 5-7"
+          ]
+        },
+        {
+          "day": 291,
+          "refs": [
+            "Mark 8-10"
+          ]
+        },
+        {
+          "day": 292,
+          "refs": [
+            "Mark 11-13"
+          ]
+        },
+        {
+          "day": 293,
+          "refs": [
+            "Mark 14-16"
+          ]
+        },
+        {
+          "day": 294,
+          "refs": [
+            "Luke 1-3"
+          ]
+        },
+        {
+          "day": 295,
+          "refs": [
+            "Luke 4-6"
+          ]
+        },
+        {
+          "day": 296,
+          "refs": [
+            "Luke 7-9"
+          ]
+        },
+        {
+          "day": 297,
+          "refs": [
+            "Luke 10-12"
+          ]
+        },
+        {
+          "day": 298,
+          "refs": [
+            "Luke 13-15"
+          ]
+        },
+        {
+          "day": 299,
+          "refs": [
+            "Luke 16-18"
+          ]
+        },
+        {
+          "day": 300,
+          "refs": [
+            "Luke 19-21"
+          ]
+        },
+        {
+          "day": 301,
+          "refs": [
+            "Luke 22-24"
+          ]
+        },
+        {
+          "day": 302,
+          "refs": [
+            "John 1-3"
+          ]
+        },
+        {
+          "day": 303,
+          "refs": [
+            "John 4-6"
+          ]
+        },
+        {
+          "day": 304,
+          "refs": [
+            "John 7-9"
+          ]
+        },
+        {
+          "day": 305,
+          "refs": [
+            "John 10-12"
+          ]
+        },
+        {
+          "day": 306,
+          "refs": [
+            "John 13-15"
+          ]
+        },
+        {
+          "day": 307,
+          "refs": [
+            "John 16-18"
+          ]
+        },
+        {
+          "day": 308,
+          "refs": [
+            "John 19-21"
+          ]
+        },
+        {
+          "day": 309,
+          "refs": [
+            "Acts 1-3"
+          ]
+        },
+        {
+          "day": 310,
+          "refs": [
+            "Acts 4-6"
+          ]
+        },
+        {
+          "day": 311,
+          "refs": [
+            "Acts 7-9"
+          ]
+        },
+        {
+          "day": 312,
+          "refs": [
+            "Acts 10-12"
+          ]
+        },
+        {
+          "day": 313,
+          "refs": [
+            "Acts 13-15"
+          ]
+        },
+        {
+          "day": 314,
+          "refs": [
+            "Acts 16-18"
+          ]
+        },
+        {
+          "day": 315,
+          "refs": [
+            "Acts 19-21"
+          ]
+        },
+        {
+          "day": 316,
+          "refs": [
+            "Acts 22-24"
+          ]
+        },
+        {
+          "day": 317,
+          "refs": [
+            "Acts 25-27"
+          ]
+        },
+        {
+          "day": 318,
+          "refs": [
+            "Acts 28",
+            "Romans 1-2"
+          ]
+        },
+        {
+          "day": 319,
+          "refs": [
+            "Romans 3-5"
+          ]
+        },
+        {
+          "day": 320,
+          "refs": [
+            "Romans 6-8"
+          ]
+        },
+        {
+          "day": 321,
+          "refs": [
+            "Romans 9-11"
+          ]
+        },
+        {
+          "day": 322,
+          "refs": [
+            "Romans 12-14"
+          ]
+        },
+        {
+          "day": 323,
+          "refs": [
+            "Romans 15-16",
+            "1 Corinthians 1"
+          ]
+        },
+        {
+          "day": 324,
+          "refs": [
+            "1 Corinthians 2-4"
+          ]
+        },
+        {
+          "day": 325,
+          "refs": [
+            "1 Corinthians 5-7"
+          ]
+        },
+        {
+          "day": 326,
+          "refs": [
+            "1 Corinthians 8-10"
+          ]
+        },
+        {
+          "day": 327,
+          "refs": [
+            "1 Corinthians 11-13"
+          ]
+        },
+        {
+          "day": 328,
+          "refs": [
+            "1 Corinthians 14-16"
+          ]
+        },
+        {
+          "day": 329,
+          "refs": [
+            "2 Corinthians 1-3"
+          ]
+        },
+        {
+          "day": 330,
+          "refs": [
+            "2 Corinthians 4-6"
+          ]
+        },
+        {
+          "day": 331,
+          "refs": [
+            "2 Corinthians 7-9"
+          ]
+        },
+        {
+          "day": 332,
+          "refs": [
+            "2 Corinthians 10-12"
+          ]
+        },
+        {
+          "day": 333,
+          "refs": [
+            "2 Corinthians 13",
+            "Galatians 1-2"
+          ]
+        },
+        {
+          "day": 334,
+          "refs": [
+            "Galatians 3-5"
+          ]
+        },
+        {
+          "day": 335,
+          "refs": [
+            "Galatians 6",
+            "Ephesians 1-2"
+          ]
+        },
+        {
+          "day": 336,
+          "refs": [
+            "Ephesians 3-5"
+          ]
+        },
+        {
+          "day": 337,
+          "refs": [
+            "Ephesians 6",
+            "Philippians 1-2"
+          ]
+        },
+        {
+          "day": 338,
+          "refs": [
+            "Philippians 3-4",
+            "Colossians 1"
+          ]
+        },
+        {
+          "day": 339,
+          "refs": [
+            "Colossians 2-4"
+          ]
+        },
+        {
+          "day": 340,
+          "refs": [
+            "1 Thessalonians 1-3"
+          ]
+        },
+        {
+          "day": 341,
+          "refs": [
+            "1 Thessalonians 4-5",
+            "2 Thessalonians 1"
+          ]
+        },
+        {
+          "day": 342,
+          "refs": [
+            "2 Thessalonians 2-3",
+            "1 Timothy 1"
+          ]
+        },
+        {
+          "day": 343,
+          "refs": [
+            "1 Timothy 2-4"
+          ]
+        },
+        {
+          "day": 344,
+          "refs": [
+            "1 Timothy 5-6",
+            "2 Timothy 1"
+          ]
+        },
+        {
+          "day": 345,
+          "refs": [
+            "2 Timothy 2-4"
+          ]
+        },
+        {
+          "day": 346,
+          "refs": [
+            "Titus 1-3"
+          ]
+        },
+        {
+          "day": 347,
+          "refs": [
+            "Philemon 1",
+            "Hebrews 1-2"
+          ]
+        },
+        {
+          "day": 348,
+          "refs": [
+            "Hebrews 3-5"
+          ]
+        },
+        {
+          "day": 349,
+          "refs": [
+            "Hebrews 6-8"
+          ]
+        },
+        {
+          "day": 350,
+          "refs": [
+            "Hebrews 9-11"
+          ]
+        },
+        {
+          "day": 351,
+          "refs": [
+            "Hebrews 12-13",
+            "James 1"
+          ]
+        },
+        {
+          "day": 352,
+          "refs": [
+            "James 2-4"
+          ]
+        },
+        {
+          "day": 353,
+          "refs": [
+            "James 5",
+            "1 Peter 1-2"
+          ]
+        },
+        {
+          "day": 354,
+          "refs": [
+            "1 Peter 3-5"
+          ]
+        },
+        {
+          "day": 355,
+          "refs": [
+            "2 Peter 1-3"
+          ]
+        },
+        {
+          "day": 356,
+          "refs": [
+            "1 John 1-3"
+          ]
+        },
+        {
+          "day": 357,
+          "refs": [
+            "1 John 4-5",
+            "2 John 1"
+          ]
+        },
+        {
+          "day": 358,
+          "refs": [
+            "3 John 1",
+            "Jude 1",
+            "Revelation 1"
+          ]
+        },
+        {
+          "day": 359,
+          "refs": [
+            "Revelation 2-4"
+          ]
+        },
+        {
+          "day": 360,
+          "refs": [
+            "Revelation 5-7"
+          ]
+        },
+        {
+          "day": 361,
+          "refs": [
+            "Revelation 8-10"
+          ]
+        },
+        {
+          "day": 362,
+          "refs": [
+            "Revelation 11-13"
+          ]
+        },
+        {
+          "day": 363,
+          "refs": [
+            "Revelation 14-16"
+          ]
+        },
+        {
+          "day": 364,
+          "refs": [
+            "Revelation 17-19"
+          ]
+        },
+        {
+          "day": 365,
+          "refs": [
+            "Revelation 20-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-testament-90",
+      "name": "New Testament in 90 Days",
+      "description": "The full New Testament in 90 days, about three chapters a day.",
+      "days": 90,
+      "total_chapters": 260,
+      "schedule": [
+        {
+          "day": 1,
+          "refs": [
+            "Matthew 1-3"
+          ]
+        },
+        {
+          "day": 2,
+          "refs": [
+            "Matthew 4-6"
+          ]
+        },
+        {
+          "day": 3,
+          "refs": [
+            "Matthew 7-9"
+          ]
+        },
+        {
+          "day": 4,
+          "refs": [
+            "Matthew 10-12"
+          ]
+        },
+        {
+          "day": 5,
+          "refs": [
+            "Matthew 13-15"
+          ]
+        },
+        {
+          "day": 6,
+          "refs": [
+            "Matthew 16-18"
+          ]
+        },
+        {
+          "day": 7,
+          "refs": [
+            "Matthew 19-21"
+          ]
+        },
+        {
+          "day": 8,
+          "refs": [
+            "Matthew 22-24"
+          ]
+        },
+        {
+          "day": 9,
+          "refs": [
+            "Matthew 25-27"
+          ]
+        },
+        {
+          "day": 10,
+          "refs": [
+            "Matthew 28",
+            "Mark 1-2"
+          ]
+        },
+        {
+          "day": 11,
+          "refs": [
+            "Mark 3-5"
+          ]
+        },
+        {
+          "day": 12,
+          "refs": [
+            "Mark 6-8"
+          ]
+        },
+        {
+          "day": 13,
+          "refs": [
+            "Mark 9-11"
+          ]
+        },
+        {
+          "day": 14,
+          "refs": [
+            "Mark 12-14"
+          ]
+        },
+        {
+          "day": 15,
+          "refs": [
+            "Mark 15-16",
+            "Luke 1"
+          ]
+        },
+        {
+          "day": 16,
+          "refs": [
+            "Luke 2-4"
+          ]
+        },
+        {
+          "day": 17,
+          "refs": [
+            "Luke 5-7"
+          ]
+        },
+        {
+          "day": 18,
+          "refs": [
+            "Luke 8-10"
+          ]
+        },
+        {
+          "day": 19,
+          "refs": [
+            "Luke 11-13"
+          ]
+        },
+        {
+          "day": 20,
+          "refs": [
+            "Luke 14-16"
+          ]
+        },
+        {
+          "day": 21,
+          "refs": [
+            "Luke 17-19"
+          ]
+        },
+        {
+          "day": 22,
+          "refs": [
+            "Luke 20-22"
+          ]
+        },
+        {
+          "day": 23,
+          "refs": [
+            "Luke 23-24",
+            "John 1"
+          ]
+        },
+        {
+          "day": 24,
+          "refs": [
+            "John 2-4"
+          ]
+        },
+        {
+          "day": 25,
+          "refs": [
+            "John 5-7"
+          ]
+        },
+        {
+          "day": 26,
+          "refs": [
+            "John 8-10"
+          ]
+        },
+        {
+          "day": 27,
+          "refs": [
+            "John 11-13"
+          ]
+        },
+        {
+          "day": 28,
+          "refs": [
+            "John 14-16"
+          ]
+        },
+        {
+          "day": 29,
+          "refs": [
+            "John 17-19"
+          ]
+        },
+        {
+          "day": 30,
+          "refs": [
+            "John 20-21",
+            "Acts 1"
+          ]
+        },
+        {
+          "day": 31,
+          "refs": [
+            "Acts 2-4"
+          ]
+        },
+        {
+          "day": 32,
+          "refs": [
+            "Acts 5-7"
+          ]
+        },
+        {
+          "day": 33,
+          "refs": [
+            "Acts 8-10"
+          ]
+        },
+        {
+          "day": 34,
+          "refs": [
+            "Acts 11-13"
+          ]
+        },
+        {
+          "day": 35,
+          "refs": [
+            "Acts 14-16"
+          ]
+        },
+        {
+          "day": 36,
+          "refs": [
+            "Acts 17-19"
+          ]
+        },
+        {
+          "day": 37,
+          "refs": [
+            "Acts 20-22"
+          ]
+        },
+        {
+          "day": 38,
+          "refs": [
+            "Acts 23-25"
+          ]
+        },
+        {
+          "day": 39,
+          "refs": [
+            "Acts 26-28"
+          ]
+        },
+        {
+          "day": 40,
+          "refs": [
+            "Romans 1-3"
+          ]
+        },
+        {
+          "day": 41,
+          "refs": [
+            "Romans 4-6"
+          ]
+        },
+        {
+          "day": 42,
+          "refs": [
+            "Romans 7-9"
+          ]
+        },
+        {
+          "day": 43,
+          "refs": [
+            "Romans 10-12"
+          ]
+        },
+        {
+          "day": 44,
+          "refs": [
+            "Romans 13-15"
+          ]
+        },
+        {
+          "day": 45,
+          "refs": [
+            "Romans 16",
+            "1 Corinthians 1-2"
+          ]
+        },
+        {
+          "day": 46,
+          "refs": [
+            "1 Corinthians 3-5"
+          ]
+        },
+        {
+          "day": 47,
+          "refs": [
+            "1 Corinthians 6-8"
+          ]
+        },
+        {
+          "day": 48,
+          "refs": [
+            "1 Corinthians 9-11"
+          ]
+        },
+        {
+          "day": 49,
+          "refs": [
+            "1 Corinthians 12-14"
+          ]
+        },
+        {
+          "day": 50,
+          "refs": [
+            "1 Corinthians 15-16",
+            "2 Corinthians 1"
+          ]
+        },
+        {
+          "day": 51,
+          "refs": [
+            "2 Corinthians 2-4"
+          ]
+        },
+        {
+          "day": 52,
+          "refs": [
+            "2 Corinthians 5-7"
+          ]
+        },
+        {
+          "day": 53,
+          "refs": [
+            "2 Corinthians 8-10"
+          ]
+        },
+        {
+          "day": 54,
+          "refs": [
+            "2 Corinthians 11-13"
+          ]
+        },
+        {
+          "day": 55,
+          "refs": [
+            "Galatians 1-3"
+          ]
+        },
+        {
+          "day": 56,
+          "refs": [
+            "Galatians 4-6"
+          ]
+        },
+        {
+          "day": 57,
+          "refs": [
+            "Ephesians 1-3"
+          ]
+        },
+        {
+          "day": 58,
+          "refs": [
+            "Ephesians 4-6"
+          ]
+        },
+        {
+          "day": 59,
+          "refs": [
+            "Philippians 1-3"
+          ]
+        },
+        {
+          "day": 60,
+          "refs": [
+            "Philippians 4",
+            "Colossians 1-2"
+          ]
+        },
+        {
+          "day": 61,
+          "refs": [
+            "Colossians 3-4",
+            "1 Thessalonians 1"
+          ]
+        },
+        {
+          "day": 62,
+          "refs": [
+            "1 Thessalonians 2-4"
+          ]
+        },
+        {
+          "day": 63,
+          "refs": [
+            "1 Thessalonians 5",
+            "2 Thessalonians 1-2"
+          ]
+        },
+        {
+          "day": 64,
+          "refs": [
+            "2 Thessalonians 3",
+            "1 Timothy 1-2"
+          ]
+        },
+        {
+          "day": 65,
+          "refs": [
+            "1 Timothy 3-5"
+          ]
+        },
+        {
+          "day": 66,
+          "refs": [
+            "1 Timothy 6",
+            "2 Timothy 1-2"
+          ]
+        },
+        {
+          "day": 67,
+          "refs": [
+            "2 Timothy 3-4",
+            "Titus 1"
+          ]
+        },
+        {
+          "day": 68,
+          "refs": [
+            "Titus 2-3",
+            "Philemon 1"
+          ]
+        },
+        {
+          "day": 69,
+          "refs": [
+            "Hebrews 1-3"
+          ]
+        },
+        {
+          "day": 70,
+          "refs": [
+            "Hebrews 4-6"
+          ]
+        },
+        {
+          "day": 71,
+          "refs": [
+            "Hebrews 7-9"
+          ]
+        },
+        {
+          "day": 72,
+          "refs": [
+            "Hebrews 10-12"
+          ]
+        },
+        {
+          "day": 73,
+          "refs": [
+            "Hebrews 13",
+            "James 1-2"
+          ]
+        },
+        {
+          "day": 74,
+          "refs": [
+            "James 3-5"
+          ]
+        },
+        {
+          "day": 75,
+          "refs": [
+            "1 Peter 1-3"
+          ]
+        },
+        {
+          "day": 76,
+          "refs": [
+            "1 Peter 4-5",
+            "2 Peter 1"
+          ]
+        },
+        {
+          "day": 77,
+          "refs": [
+            "2 Peter 2-3",
+            "1 John 1"
+          ]
+        },
+        {
+          "day": 78,
+          "refs": [
+            "1 John 2-4"
+          ]
+        },
+        {
+          "day": 79,
+          "refs": [
+            "1 John 5",
+            "2 John 1",
+            "3 John 1"
+          ]
+        },
+        {
+          "day": 80,
+          "refs": [
+            "Jude 1",
+            "Revelation 1-2"
+          ]
+        },
+        {
+          "day": 81,
+          "refs": [
+            "Revelation 3-4"
+          ]
+        },
+        {
+          "day": 82,
+          "refs": [
+            "Revelation 5-6"
+          ]
+        },
+        {
+          "day": 83,
+          "refs": [
+            "Revelation 7-8"
+          ]
+        },
+        {
+          "day": 84,
+          "refs": [
+            "Revelation 9-10"
+          ]
+        },
+        {
+          "day": 85,
+          "refs": [
+            "Revelation 11-12"
+          ]
+        },
+        {
+          "day": 86,
+          "refs": [
+            "Revelation 13-14"
+          ]
+        },
+        {
+          "day": 87,
+          "refs": [
+            "Revelation 15-16"
+          ]
+        },
+        {
+          "day": 88,
+          "refs": [
+            "Revelation 17-18"
+          ]
+        },
+        {
+          "day": 89,
+          "refs": [
+            "Revelation 19-20"
+          ]
+        },
+        {
+          "day": 90,
+          "refs": [
+            "Revelation 21-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psalms-proverbs-31",
+      "name": "Psalms & Proverbs in 31 Days",
+      "description": "Worship and wisdom for a month: the Psalms and Proverbs.",
+      "days": 31,
+      "total_chapters": 181,
+      "schedule": [
+        {
+          "day": 1,
+          "refs": [
+            "Psalms 1-6"
+          ]
+        },
+        {
+          "day": 2,
+          "refs": [
+            "Psalms 7-12"
+          ]
+        },
+        {
+          "day": 3,
+          "refs": [
+            "Psalms 13-18"
+          ]
+        },
+        {
+          "day": 4,
+          "refs": [
+            "Psalms 19-24"
+          ]
+        },
+        {
+          "day": 5,
+          "refs": [
+            "Psalms 25-30"
+          ]
+        },
+        {
+          "day": 6,
+          "refs": [
+            "Psalms 31-36"
+          ]
+        },
+        {
+          "day": 7,
+          "refs": [
+            "Psalms 37-42"
+          ]
+        },
+        {
+          "day": 8,
+          "refs": [
+            "Psalms 43-48"
+          ]
+        },
+        {
+          "day": 9,
+          "refs": [
+            "Psalms 49-54"
+          ]
+        },
+        {
+          "day": 10,
+          "refs": [
+            "Psalms 55-60"
+          ]
+        },
+        {
+          "day": 11,
+          "refs": [
+            "Psalms 61-66"
+          ]
+        },
+        {
+          "day": 12,
+          "refs": [
+            "Psalms 67-72"
+          ]
+        },
+        {
+          "day": 13,
+          "refs": [
+            "Psalms 73-78"
+          ]
+        },
+        {
+          "day": 14,
+          "refs": [
+            "Psalms 79-84"
+          ]
+        },
+        {
+          "day": 15,
+          "refs": [
+            "Psalms 85-90"
+          ]
+        },
+        {
+          "day": 16,
+          "refs": [
+            "Psalms 91-96"
+          ]
+        },
+        {
+          "day": 17,
+          "refs": [
+            "Psalms 97-102"
+          ]
+        },
+        {
+          "day": 18,
+          "refs": [
+            "Psalms 103-108"
+          ]
+        },
+        {
+          "day": 19,
+          "refs": [
+            "Psalms 109-114"
+          ]
+        },
+        {
+          "day": 20,
+          "refs": [
+            "Psalms 115-120"
+          ]
+        },
+        {
+          "day": 21,
+          "refs": [
+            "Psalms 121-126"
+          ]
+        },
+        {
+          "day": 22,
+          "refs": [
+            "Psalms 127-132"
+          ]
+        },
+        {
+          "day": 23,
+          "refs": [
+            "Psalms 133-138"
+          ]
+        },
+        {
+          "day": 24,
+          "refs": [
+            "Psalms 139-144"
+          ]
+        },
+        {
+          "day": 25,
+          "refs": [
+            "Psalms 145-150"
+          ]
+        },
+        {
+          "day": 26,
+          "refs": [
+            "Proverbs 1-6"
+          ]
+        },
+        {
+          "day": 27,
+          "refs": [
+            "Proverbs 7-11"
+          ]
+        },
+        {
+          "day": 28,
+          "refs": [
+            "Proverbs 12-16"
+          ]
+        },
+        {
+          "day": 29,
+          "refs": [
+            "Proverbs 17-21"
+          ]
+        },
+        {
+          "day": 30,
+          "refs": [
+            "Proverbs 22-26"
+          ]
+        },
+        {
+          "day": 31,
+          "refs": [
+            "Proverbs 27-31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gospels-30",
+      "name": "The Gospels in 30 Days",
+      "description": "The life, death, and resurrection of Jesus in 30 days.",
+      "days": 30,
+      "total_chapters": 89,
+      "schedule": [
+        {
+          "day": 1,
+          "refs": [
+            "Matthew 1-3"
+          ]
+        },
+        {
+          "day": 2,
+          "refs": [
+            "Matthew 4-6"
+          ]
+        },
+        {
+          "day": 3,
+          "refs": [
+            "Matthew 7-9"
+          ]
+        },
+        {
+          "day": 4,
+          "refs": [
+            "Matthew 10-12"
+          ]
+        },
+        {
+          "day": 5,
+          "refs": [
+            "Matthew 13-15"
+          ]
+        },
+        {
+          "day": 6,
+          "refs": [
+            "Matthew 16-18"
+          ]
+        },
+        {
+          "day": 7,
+          "refs": [
+            "Matthew 19-21"
+          ]
+        },
+        {
+          "day": 8,
+          "refs": [
+            "Matthew 22-24"
+          ]
+        },
+        {
+          "day": 9,
+          "refs": [
+            "Matthew 25-27"
+          ]
+        },
+        {
+          "day": 10,
+          "refs": [
+            "Matthew 28",
+            "Mark 1-2"
+          ]
+        },
+        {
+          "day": 11,
+          "refs": [
+            "Mark 3-5"
+          ]
+        },
+        {
+          "day": 12,
+          "refs": [
+            "Mark 6-8"
+          ]
+        },
+        {
+          "day": 13,
+          "refs": [
+            "Mark 9-11"
+          ]
+        },
+        {
+          "day": 14,
+          "refs": [
+            "Mark 12-14"
+          ]
+        },
+        {
+          "day": 15,
+          "refs": [
+            "Mark 15-16",
+            "Luke 1"
+          ]
+        },
+        {
+          "day": 16,
+          "refs": [
+            "Luke 2-4"
+          ]
+        },
+        {
+          "day": 17,
+          "refs": [
+            "Luke 5-7"
+          ]
+        },
+        {
+          "day": 18,
+          "refs": [
+            "Luke 8-10"
+          ]
+        },
+        {
+          "day": 19,
+          "refs": [
+            "Luke 11-13"
+          ]
+        },
+        {
+          "day": 20,
+          "refs": [
+            "Luke 14-16"
+          ]
+        },
+        {
+          "day": 21,
+          "refs": [
+            "Luke 17-19"
+          ]
+        },
+        {
+          "day": 22,
+          "refs": [
+            "Luke 20-22"
+          ]
+        },
+        {
+          "day": 23,
+          "refs": [
+            "Luke 23-24",
+            "John 1"
+          ]
+        },
+        {
+          "day": 24,
+          "refs": [
+            "John 2-4"
+          ]
+        },
+        {
+          "day": 25,
+          "refs": [
+            "John 5-7"
+          ]
+        },
+        {
+          "day": 26,
+          "refs": [
+            "John 8-10"
+          ]
+        },
+        {
+          "day": 27,
+          "refs": [
+            "John 11-13"
+          ]
+        },
+        {
+          "day": 28,
+          "refs": [
+            "John 14-16"
+          ]
+        },
+        {
+          "day": 29,
+          "refs": [
+            "John 17-19"
+          ]
+        },
+        {
+          "day": 30,
+          "refs": [
+            "John 20-21"
+          ]
+        }
+      ]
+    }
+  ]
+}

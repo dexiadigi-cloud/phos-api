@@ -1,0 +1,74 @@
+SEED=20260920, picks=24 (20 random + 4 fixed)
+[00] PASS BSB Jeremiah 10:14 (word-sequence)
+  DB : Every man is senseless and devoid of knowledge; every goldsmith is put to shame by his idols. For his molten i
+  SRC: Every man is senseless and devoid of knowledge; every goldsmith is put to shame by his idols. For his molten i
+[01] PASS BSB Ezekiel 13:15 (word-sequence)
+  DB : And after I have vented My wrath against the wall and against those who whitewashed it, I will say to you: ‘Th
+  SRC: And after I have vented My wrath against the wall and against those who whitewashed it, I will say to you: ‘Th
+[02] PASS BSB Matthew 5:25 (word-sequence)
+  DB : Reconcile quickly with your adversary, while you are still on the way to court. Otherwise, he may hand you ove
+  SRC: Reconcile quickly with your adversary, while you are still on the way to court. Otherwise, he may hand you ove
+[03] PASS BSB 1 Kings 12:32 (word-sequence)
+  DB : And Jeroboam ordained a feast on the fifteenth day of the eighth month, like the feast that was in Judah, and 
+  SRC: And Jeroboam ordained a feast on the fifteenth day of the eighth month, like the feast that was in Judah, and 
+[04] PASS BSB Numbers 15:32 (word-sequence)
+  DB : While the Israelites were in the wilderness, a man was found gathering wood on the Sabbath day.
+  SRC: While the Israelites were in the wilderness, a man was found gathering wood on the Sabbath day.
+[05] PASS BSB Psalms 62:8 (word-sequence)
+  DB : Trust in Him at all times, O people; pour out your hearts before Him. God is our refuge. Selah
+  SRC: Trust in Him at all times, O people; pour out your hearts before Him. God is our refuge. Selah
+[06] PASS KJV Psalms 133:1 (exact-normalized)
+  DB : A Song of degrees of David. Behold, how good and how pleasant it is for brethren to dwell together in unity!
+  SRC: A Song of degrees of David. Behold, how good and how pleasant it is for brethren to dwell together in unity!
+[07] PASS KJV Proverbs 11:7 (exact-normalized)
+  DB : When a wicked man dieth, his expectation shall perish: and the hope of unjust men perisheth.
+  SRC: When a wicked man dieth, his expectation shall perish: and the hope of unjust men perisheth.
+[08] PASS KJV Genesis 42:31 (exact-normalized)
+  DB : And we said unto him, We are true men; we are no spies:
+  SRC: And we said unto him, We are true men; we are no spies:
+[09] PASS KJV Ezekiel 36:15 (exact-normalized)
+  DB : Neither will I cause men to hear in thee the shame of the heathen any more, neither shalt thou bear the reproa
+  SRC: Neither will I cause men to hear in thee the shame of the heathen any more, neither shalt thou bear the reproa
+[10] PASS KJV Deuteronomy 5:12 (exact-normalized)
+  DB : Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee.
+  SRC: Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee.
+[11] PASS KJV Isaiah 4:1 (exact-normalized)
+  DB : And in that day seven women shall take hold of one man, saying, We will eat our own bread, and wear our own ap
+  SRC: And in that day seven women shall take hold of one man, saying, We will eat our own bread, and wear our own ap
+[12] PASS WEB 2 Chronicles 9:2 (exact-normalized)
+  DB : Solomon told her all her questions; and there was not anything hidden from Solomon which he didn’t tell her.
+  SRC: Solomon told her all her questions; and there was not anything hidden from Solomon which he didn’t tell her.
+[13] PASS WEB Genesis 25:34 (exact-normalized)
+  DB : Jacob gave Esau bread and stew of lentils. He ate and drank, rose up, and went his way. So Esau despised his b
+  SRC: Jacob gave Esau bread and stew of lentils. He ate and drank, rose up, and went his way. So Esau despised his b
+[14] PASS WEB Numbers 14:36 (exact-normalized)
+  DB : The men, whom Moses sent to spy out the land, who returned, and made all the congregation to murmur against hi
+  SRC: The men, whom Moses sent to spy out the land, who returned, and made all the congregation to murmur against hi
+[15] PASS WEB Matthew 16:11 (exact-normalized)
+  DB : How is it that you don’t perceive that I didn’t speak to you concerning bread? But beware of the yeast of the 
+  SRC: How is it that you don’t perceive that I didn’t speak to you concerning bread? But beware of the yeast of the 
+[16] PASS ASV 2 Kings 3:6 (exact-normalized)
+  DB : And king Jehoram went out of Samaria at that time, and mustered all Israel.
+  SRC: And king Jehoram went out of Samaria at that time, and mustered all Israel.
+[17] PASS ASV Proverbs 12:24 (exact-normalized)
+  DB : The hand of the diligent shall bear rule; But the slothful shall be put under taskwork.
+  SRC: The hand of the diligent shall bear rule; But the slothful shall be put under taskwork.
+[18] PASS ASV Titus 3:9 (exact-normalized)
+  DB : but shun foolish questionings, and genealogies, and strifes, and fightings about the law; for they are unprofi
+  SRC: but shun foolish questionings, and genealogies, and strifes, and fightings about the law; for they are unprofi
+[19] PASS ASV Psalms 92:5 (exact-normalized)
+  DB : How great are thy works, O Jehovah! Thy thoughts are very deep.
+  SRC: How great are thy works, O Jehovah! Thy thoughts are very deep.
+[20] PASS BSB Genesis 1:1 (word-sequence)
+  DB : In the beginning God created the heavens and the earth.
+  SRC: In the beginning God created the heavens and the earth.
+[21] PASS KJV John 3:16 (exact-normalized)
+  DB : For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not per
+  SRC: For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not per
+[22] PASS WEB Psalms 23:1 (exact-normalized)
+  DB : Yahweh is my shepherd: I shall lack nothing.
+  SRC: Yahweh is my shepherd: I shall lack nothing.
+[23] PASS ASV Romans 8:28 (exact-normalized)
+  DB : And we know that to them that love God all things work together for good, even to them that are called accordi
+  SRC: And we know that to them that love God all things work together for good, even to them that are called accordi
+TOTAL: 24/24 pass

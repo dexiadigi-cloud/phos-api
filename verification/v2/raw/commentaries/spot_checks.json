@@ -1,0 +1,368 @@
+{
+ "seed": 20260920,
+ "per_source": 12,
+ "passed": 36,
+ "failed": 0,
+ "checks": [
+  {
+   "source": "matthew_henry",
+   "id": 4804,
+   "book": "Psalms",
+   "range": "108:1-108:5",
+   "raw_loc": "HelloAO item 1",
+   "pass": true,
+   "detail": "",
+   "db_chars": 2812
+  },
+  {
+   "source": "matthew_henry",
+   "id": 5181,
+   "book": "Romans",
+   "range": "15:7-15:12",
+   "raw_loc": "HelloAO item 7",
+   "pass": true,
+   "detail": "",
+   "db_chars": 12607
+  },
+  {
+   "source": "matthew_henry",
+   "id": 2296,
+   "book": "Isaiah",
+   "range": "16:6-16:14",
+   "raw_loc": "HelloAO item 6",
+   "pass": true,
+   "detail": "",
+   "db_chars": 10673
+  },
+  {
+   "source": "matthew_henry",
+   "id": 1047,
+   "book": "Acts",
+   "range": "22:3-22:21",
+   "raw_loc": "HelloAO item 3",
+   "pass": true,
+   "detail": "",
+   "db_chars": 28633
+  },
+  {
+   "source": "matthew_henry",
+   "id": 3709,
+   "book": "Nehemiah",
+   "range": "2:0-2:0",
+   "raw_loc": "intro",
+   "pass": true,
+   "detail": "",
+   "db_chars": 790
+  },
+  {
+   "source": "matthew_henry",
+   "id": 3359,
+   "book": "Luke",
+   "range": "3:21-3:38",
+   "raw_loc": "HelloAO item 21",
+   "pass": true,
+   "detail": "",
+   "db_chars": 9305
+  },
+  {
+   "source": "matthew_henry",
+   "id": 2840,
+   "book": "John",
+   "range": "8:12-8:20",
+   "raw_loc": "HelloAO item 12",
+   "pass": true,
+   "detail": "",
+   "db_chars": 17988
+  },
+  {
+   "source": "matthew_henry",
+   "id": 1977,
+   "book": "Genesis",
+   "range": "21:9-21:13",
+   "raw_loc": "HelloAO item 9",
+   "pass": true,
+   "detail": "",
+   "db_chars": 5718
+  },
+  {
+   "source": "matthew_henry",
+   "id": 3590,
+   "book": "Micah",
+   "range": "2:0-2:0",
+   "raw_loc": "intro",
+   "pass": true,
+   "detail": "",
+   "db_chars": 720
+  },
+  {
+   "source": "matthew_henry",
+   "id": 2842,
+   "book": "John",
+   "range": "8:31-8:37",
+   "raw_loc": "HelloAO item 31",
+   "pass": true,
+   "detail": "",
+   "db_chars": 22355
+  },
+  {
+   "source": "matthew_henry",
+   "id": 174,
+   "book": "1 Corinthians",
+   "range": "16:1-16:4",
+   "raw_loc": "HelloAO item 1",
+   "pass": true,
+   "detail": "",
+   "db_chars": 9565
+  },
+  {
+   "source": "matthew_henry",
+   "id": 1037,
+   "book": "Acts",
+   "range": "20:13-20:16",
+   "raw_loc": "HelloAO item 13",
+   "pass": true,
+   "detail": "",
+   "db_chars": 4175
+  },
+  {
+   "source": "jfb",
+   "id": 6868,
+   "book": "Amos",
+   "range": "1:1-1:15",
+   "raw_loc": "sections 1-15",
+   "pass": true,
+   "detail": "",
+   "db_chars": 11049
+  },
+  {
+   "source": "jfb",
+   "id": 5986,
+   "book": "2 Samuel",
+   "range": "18:1-18:4",
+   "raw_loc": "sections 1-4",
+   "pass": true,
+   "detail": "",
+   "db_chars": 540
+  },
+  {
+   "source": "jfb",
+   "id": 6434,
+   "book": "Job",
+   "range": "28:1-28:28",
+   "raw_loc": "sections 1-28",
+   "pass": true,
+   "detail": "",
+   "db_chars": 8767
+  },
+  {
+   "source": "jfb",
+   "id": 7257,
+   "book": "Acts",
+   "range": "25:13-25:27",
+   "raw_loc": "sections 13-27",
+   "pass": true,
+   "detail": "",
+   "db_chars": 3632
+  },
+  {
+   "source": "jfb",
+   "id": 6351,
+   "book": "Nehemiah",
+   "range": "5:6-5:19",
+   "raw_loc": "sections 6-19",
+   "pass": true,
+   "detail": "",
+   "db_chars": 2675
+  },
+  {
+   "source": "jfb",
+   "id": 7190,
+   "book": "John",
+   "range": "18:1-18:13",
+   "raw_loc": "sections 1-13",
+   "pass": true,
+   "detail": "",
+   "db_chars": 8932
+  },
+  {
+   "source": "jfb",
+   "id": 7357,
+   "book": "2 Timothy",
+   "range": "3:10-3:10",
+   "raw_loc": "sections 10-10",
+   "pass": true,
+   "detail": "",
+   "db_chars": 7434
+  },
+  {
+   "source": "jfb",
+   "id": 7060,
+   "book": "Luke",
+   "range": "1:5-1:25",
+   "raw_loc": "sections 5-25",
+   "pass": true,
+   "detail": "",
+   "db_chars": 6899
+  },
+  {
+   "source": "jfb",
+   "id": 7163,
+   "book": "John",
+   "range": "2:1-2:12",
+   "raw_loc": "sections 1-12",
+   "pass": true,
+   "detail": "",
+   "db_chars": 2470
+  },
+  {
+   "source": "jfb",
+   "id": 6193,
+   "book": "1 Chronicles",
+   "range": "15:1-15:24",
+   "raw_loc": "sections 1-24",
+   "pass": true,
+   "detail": "",
+   "db_chars": 5972
+  },
+  {
+   "source": "jfb",
+   "id": 5642,
+   "book": "Numbers",
+   "range": "36:1-36:13",
+   "raw_loc": "sections 1-13",
+   "pass": true,
+   "detail": "",
+   "db_chars": 2912
+  },
+  {
+   "source": "jfb",
+   "id": 5528,
+   "book": "Exodus",
+   "range": "24:1-24:18",
+   "raw_loc": "sections 1-18",
+   "pass": true,
+   "detail": "",
+   "db_chars": 4947
+  },
+  {
+   "source": "barnes_nt",
+   "id": 8970,
+   "book": "Mark",
+   "range": "12:8-12:8",
+   "raw_loc": "verse 8",
+   "pass": true,
+   "detail": "",
+   "db_chars": 142
+  },
+  {
+   "source": "barnes_nt",
+   "id": 9491,
+   "book": "Luke",
+   "range": "7:11-7:11",
+   "raw_loc": "verse 11",
+   "pass": true,
+   "detail": "",
+   "db_chars": 1175
+  },
+  {
+   "source": "barnes_nt",
+   "id": 10951,
+   "book": "John",
+   "range": "13:38-13:38",
+   "raw_loc": "verse 38",
+   "pass": true,
+   "detail": "",
+   "db_chars": 106
+  },
+  {
+   "source": "barnes_nt",
+   "id": 14316,
+   "book": "1 John",
+   "range": "5:6-5:6",
+   "raw_loc": "verse 6",
+   "pass": true,
+   "detail": "",
+   "db_chars": 12365
+  },
+  {
+   "source": "barnes_nt",
+   "id": 8949,
+   "book": "Mark",
+   "range": "11:20-11:20",
+   "raw_loc": "verse 20",
+   "pass": true,
+   "detail": "",
+   "db_chars": 106
+  },
+  {
+   "source": "barnes_nt",
+   "id": 10533,
+   "book": "John",
+   "range": "5:39-5:39",
+   "raw_loc": "verse 39",
+   "pass": true,
+   "detail": "",
+   "db_chars": 2407
+  },
+  {
+   "source": "barnes_nt",
+   "id": 11474,
+   "book": "Acts",
+   "range": "8:17-8:17",
+   "raw_loc": "verse 17",
+   "pass": true,
+   "detail": "",
+   "db_chars": 700
+  },
+  {
+   "source": "barnes_nt",
+   "id": 11347,
+   "book": "Acts",
+   "range": "5:5-5:5",
+   "raw_loc": "verse 5",
+   "pass": true,
+   "detail": "",
+   "db_chars": 2365
+  },
+  {
+   "source": "barnes_nt",
+   "id": 12022,
+   "book": "Acts",
+   "range": "23:8-23:8",
+   "raw_loc": "verse 8",
+   "pass": true,
+   "detail": "",
+   "db_chars": 1629
+  },
+  {
+   "source": "barnes_nt",
+   "id": 9237,
+   "book": "Luke",
+   "range": "1:59-1:59",
+   "raw_loc": "verse 59",
+   "pass": true,
+   "detail": "",
+   "db_chars": 353
+  },
+  {
+   "source": "barnes_nt",
+   "id": 10079,
+   "book": "Luke",
+   "range": "20:16-20:16",
+   "raw_loc": "verse 16",
+   "pass": true,
+   "detail": "",
+   "db_chars": 153
+  },
+  {
+   "source": "barnes_nt",
+   "id": 13117,
+   "book": "Philippians",
+   "range": "3:10-3:10",
+   "raw_loc": "verse 10",
+   "pass": true,
+   "detail": "",
+   "db_chars": 6021
+  }
+ ]
+}

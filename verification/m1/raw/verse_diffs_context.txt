@@ -1,0 +1,921 @@
+===== WEB missing keys in context =====
+-- Acts 8:37 missing in WEB; same chapter in KJV and WEB:
+   KJV: 1: And Saul was consenting unto his death. And at that time there was a great perse
+   KJV: 10: To whom they all gave heed, from the least to the greatest, saying, This man is 
+   KJV: 11: And to him they had regard, because that of long time he had bewitched them with
+   KJV: 12: But when they believed Philip preaching the things concerning the kingdom of God
+   KJV: 13: Then Simon himself believed also: and when he was baptized, he continued with Ph
+   KJV: 14: Now when the apostles which were at Jerusalem heard that Samaria had received th
+   KJV: 15: Who, when they were come down, prayed for them, that they might receive the Holy
+   KJV: 16: (For as yet he was fallen upon none of them: only they were baptized in the name
+   KJV: 17: Then laid they their hands on them, and they received the Holy Ghost.
+   KJV: 18: And when Simon saw that through laying on of the apostles' hands the Holy Ghost 
+   KJV: 19: Saying, Give me also this power, that on whomsoever I lay hands, he may receive 
+   KJV: 2: And devout men carried Stephen to his burial, and made great lamentation over hi
+   KJV: 20: But Peter said unto him, Thy money perish with thee, because thou hast thought t
+   KJV: 21: Thou hast neither part nor lot in this matter: for thy heart is not right in the
+   KJV: 22: Repent therefore of this thy wickedness, and pray God, if perhaps the thought of
+   KJV: 23: For I perceive that thou art in the gall of bitterness, and in the bond of iniqu
+   KJV: 24: Then answered Simon, and said, Pray ye to the Lord for me, that none of these th
+   KJV: 25: And they, when they had testified and preached the word of the Lord, returned to
+   KJV: 26: And the angel of the Lord spake unto Philip, saying, Arise, and go toward the so
+   KJV: 27: And he arose and went: and, behold, a man of Ethiopia, an eunuch of great author
+   KJV: 28: Was returning, and sitting in his chariot read Esaias the prophet.
+   KJV: 29: Then the Spirit said unto Philip, Go near, and join thyself to this chariot.
+   KJV: 3: As for Saul, he made havock of the church, entering into every house, and haling
+   KJV: 30: And Philip ran thither to him, and heard him read the prophet Esaias, and said, 
+   KJV: 31: And he said, How can I, except some man should guide me? And he desired Philip t
+   KJV: 32: The place of the scripture which he read was this, He was led as a sheep to the 
+   KJV: 33: In his humiliation his judgment was taken away: and who shall declare his genera
+   KJV: 34: And the eunuch answered Philip, and said, I pray thee, of whom speaketh the prop
+   KJV: 35: Then Philip opened his mouth, and began at the same scripture, and preached unto
+   KJV: 36: And as they went on their way, they came unto a certain water: and the eunuch sa
+   KJV: 37: And Philip said, If thou believest with all thine heart, thou mayest. And he ans
+   KJV: 38: And he commanded the chariot to stand still: and they went down both into the wa
+   KJV: 39: And when they were come up out of the water, the Spirit of the Lord caught away 
+   KJV: 4: Therefore they that were scattered abroad went every where preaching the word.
+   KJV: 40: But Philip was found at Azotus: and passing through he preached in all the citie
+   KJV: 5: Then Philip went down to the city of Samaria, and preached Christ unto them.
+   KJV: 6: And the people with one accord gave heed unto those things which Philip spake, h
+   KJV: 7: For unclean spirits, crying with loud voice, came out of many that were possesse
+   KJV: 8: And there was great joy in that city.
+   KJV: 9: But there was a certain man, called Simon, which beforetime in the same city use
+   WEB: 
+   WEB1: Saul was consenting to his death. A great persecution arose against the assembly: 10: to whom they all listened, from the least to the greatest, saying, “This man is : 11: They listened to him, because for a long time he had amazed them with his sorcer: 12: But when they believed Philip preaching good news concerning the Kingdom of God : 13: Simon himself also believed. Being baptized, he continued with Philip. Seeing si: 14: Now when the apostles who were at Jerusalem heard that Samaria had received the : 15: who, when they had come down, prayed for them, that they might receive the Holy : 16: for as yet he had fallen on none of them. They had only been baptized in the nam: 17: Then they laid their hands on them, and they received the Holy Spirit.: 18: Now when Simon saw that the Holy Spirit was given through the laying on of the a: 19: saying, “Give me also this power, that whomever I lay my hands on may receive th: 2: Devout men buried Stephen, and lamented greatly over him.: 20: But Peter said to him, “May your silver perish with you, because you thought you: 21: You have neither part nor lot in this matter, for your heart isn’t right before : 22: Repent therefore of this, your wickedness, and ask God if perhaps the thought of: 23: For I see that you are in the gall of bitterness and in the bondage of iniquity.: 24: Simon answered, “Pray for me to the Lord, that none of the things which you have: 25: They therefore, when they had testified and spoken the word of the Lord, returne: 26: But an angel of the Lord spoke to Philip, saying, “Arise, and go toward the sout: 27: He arose and went; and behold, there was a man of Ethiopia, a eunuch of great au: 28: He was returning and sitting in his chariot, and was reading the prophet Isaiah.: 29: The Spirit said to Philip, “Go near, and join yourself to this chariot.”: 3: But Saul ravaged the assembly, entering into every house, and dragged both men a: 30: Philip ran to him, and heard him reading Isaiah the prophet, and said, “Do you u: 31: He said, “How can I, unless someone explains it to me?” He begged Philip to come: 32: Now the passage of the Scripture which he was reading was this, “He was led as a: 33: In his humiliation, his judgment was taken away. Who will declare His generation: 34: The eunuch answered Philip, “Who is the prophet talking about? About himself, or: 35: Philip opened his mouth, and beginning from this Scripture, preached to him Jesu: 36: As they went on the way, they came to some water, and the eunuch said, “Behold, : 38: He commanded the chariot to stand still, and they both went down into the water,: 39: When they came up out of the water, the Spirit of the Lord caught Philip away, a: 4: Therefore those who were scattered abroad went around preaching the word.: 40: But Philip was found at Azotus. Passing through, he preached the Good News to al: 5: Philip went down to the city of Samaria, and proclaimed to them the Christ.: 6: The multitudes listened with one accord to the things that were spoken by Philip: 7: For unclean spirits came out of many of those who had them. They came out, cryin: 8: There was great joy in that city.: 9: But there was a certain man, Simon by name, who used to practice sorcery in the 
+-- Acts 15:34 missing in WEB; same chapter in KJV and WEB:
+   KJV: 1: And certain men which came down from Judaea taught the brethren, and said, Excep
+   KJV: 10: Now therefore why tempt ye God, to put a yoke upon the neck of the disciples, wh
+   KJV: 11: But we believe that through the grace of the Lord Jesus Christ we shall be saved
+   KJV: 12: Then all the multitude kept silence, and gave audience to Barnabas and Paul, dec
+   KJV: 13: And after they had held their peace, James answered, saying, Men and brethren, h
+   KJV: 14: Simeon hath declared how God at the first did visit the Gentiles, to take out of
+   KJV: 15: And to this agree the words of the prophets; as it is written,
+   KJV: 16: After this I will return, and will build again the tabernacle of David, which is
+   KJV: 17: That the residue of men might seek after the Lord, and all the Gentiles, upon wh
+   KJV: 18: Known unto God are all his works from the beginning of the world.
+   KJV: 19: Wherefore my sentence is, that we trouble not them, which from among the Gentile
+   KJV: 2: When therefore Paul and Barnabas had no small dissension and disputation with th
+   KJV: 20: But that we write unto them, that they abstain from pollutions of idols, and fro
+   KJV: 21: For Moses of old time hath in every city them that preach him, being read in the
+   KJV: 22: Then pleased it the apostles and elders, with the whole church, to send chosen m
+   KJV: 23: And they wrote letters by them after this manner; The apostles and elders and br
+   KJV: 24: Forasmuch as we have heard, that certain which went out from us have troubled yo
+   KJV: 25: It seemed good unto us, being assembled with one accord, to send chosen men unto
+   KJV: 26: Men that have hazarded their lives for the name of our Lord Jesus Christ.
+   KJV: 27: We have sent therefore Judas and Silas, who shall also tell you the same things 
+   KJV: 28: For it seemed good to the Holy Ghost, and to us, to lay upon you no greater burd
+   KJV: 29: That ye abstain from meats offered to idols, and from blood, and from things str
+   KJV: 3: And being brought on their way by the church, they passed through Phenice and Sa
+   KJV: 30: So when they were dismissed, they came to Antioch: and when they had gathered th
+   KJV: 31: Which when they had read, they rejoiced for the consolation.
+   KJV: 32: And Judas and Silas, being prophets also themselves, exhorted the brethren with 
+   KJV: 33: And after they had tarried there a space, they were let go in peace from the bre
+   KJV: 34: Notwithstanding it pleased Silas to abide there still.
+   KJV: 35: Paul also and Barnabas continued in Antioch, teaching and preaching the word of 
+   KJV: 36: And some days after Paul said unto Barnabas, Let us go again and visit our breth
+   KJV: 37: And Barnabas determined to take with them John, whose surname was Mark.
+   KJV: 38: But Paul thought not good to take him with them, who departed from them from Pam
+   KJV: 39: And the contention was so sharp between them, that they departed asunder one fro
+   KJV: 4: And when they were come to Jerusalem, they were received of the church, and of t
+   KJV: 40: And Paul chose Silas, and departed, being recommended by the brethren unto the g
+   KJV: 41: And he went through Syria and Cilicia, confirming the churches.
+   KJV: 5: But there rose up certain of the sect of the Pharisees which believed, saying, T
+   KJV: 6: And the apostles and elders came together for to consider of this matter.
+   KJV: 7: And when there had been much disputing, Peter rose up, and said unto them, Men a
+   KJV: 8: And God, which knoweth the hearts, bare them witness, giving them the Holy Ghost
+   KJV: 9: And put no difference between us and them, purifying their hearts by faith.
+   WEB: 
+   WEB1: Some men came down from Judea and taught the brothers, “Unless you are circumcis: 10: Now therefore why do you tempt God, that you should put a yoke on the neck of th: 11: But we believe that we are saved through the grace of the Lord Jesus, just as th: 12: All the multitude kept silence, and they listened to Barnabas and Paul reporting: 13: After they were silent, James answered, “Brothers, listen to me.: 14: Simeon has reported how God first visited the nations, to take out of them a peo: 15: This agrees with the words of the prophets. As it is written,: 16: ‘After these things I will return. I will again build the tabernacle of David, w: 17: That the rest of men may seek after the Lord; all the Gentiles who are called by: 18: All of God’s works are known to him from eternity.’: 19: “Therefore my judgment is that we don’t trouble those from among the Gentiles wh: 2: Therefore when Paul and Barnabas had no small discord and discussion with them, : 20: but that we write to them that they abstain from the pollution of idols, from se: 21: For Moses from generations of old has in every city those who preach him, being : 22: Then it seemed good to the apostles and the elders, with the whole assembly, to : 23: They wrote these things by their hand: “The apostles, the elders, and the brothe: 24: Because we have heard that some who went out from us have troubled you with word: 25: it seemed good to us, having come to one accord, to choose out men and send them: 26: men who have risked their lives for the name of our Lord Jesus Christ.: 27: We have sent therefore Judas and Silas, who themselves will also tell you the sa: 28: For it seemed good to the Holy Spirit, and to us, to lay no greater burden on yo: 29: that you abstain from things sacrificed to idols, from blood, from things strang: 3: They, being sent on their way by the assembly, passed through both Phoenicia and: 30: So, when they were sent off, they came to Antioch. Having gathered the multitude: 31: When they had read it, they rejoiced over the encouragement.: 32: Judas and Silas, also being prophets themselves, encouraged the brothers with ma: 33: After they had spent some time there, they were sent back with greetings from th: 35: But Paul and Barnabas stayed in Antioch, teaching and preaching the word of the : 36: After some days Paul said to Barnabas, “Let’s return now and visit our brothers : 37: Barnabas planned to take John, who was called Mark, with them also.: 38: But Paul didn’t think that it was a good idea to take with them someone who had : 39: Then the contention grew so sharp that they separated from each other. Barnabas : 4: When they had come to Jerusalem, they were received by the assembly and the apos: 40: but Paul chose Silas, and went out, being commended by the brothers to the grace: 41: He went through Syria and Cilicia, strengthening the assemblies.: 5: But some of the sect of the Pharisees who believed rose up, saying, “It is neces: 6: The apostles and the elders were gathered together to see about this matter.: 7: When there had been much discussion, Peter rose up and said to them, “Brothers, : 8: God, who knows the heart, testified about them, giving them the Holy Spirit, jus: 9: He made no distinction between us and them, cleansing their hearts by faith.
+-- Acts 24:7 missing in WEB; same chapter in KJV and WEB:
+   KJV: 1: And after five days Ananias the high priest descended with the elders, and with 
+   KJV: 10: Then Paul, after that the governor had beckoned unto him to speak, answered, For
+   KJV: 11: Because that thou mayest understand, that there are yet but twelve days since I 
+   KJV: 12: And they neither found me in the temple disputing with any man, neither raising 
+   KJV: 13: Neither can they prove the things whereof they now accuse me.
+   KJV: 14: But this I confess unto thee, that after the way which they call heresy, so wors
+   KJV: 15: And have hope toward God, which they themselves also allow, that there shall be 
+   KJV: 16: And herein do I exercise myself, to have always a conscience void of offence tow
+   KJV: 17: Now after many years I came to bring alms to my nation, and offerings.
+   KJV: 18: Whereupon certain Jews from Asia found me purified in the temple, neither with m
+   KJV: 19: Who ought to have been here before thee, and object, if they had ought against m
+   KJV: 2: And when he was called forth, Tertullus began to accuse him, saying, Seeing that
+   KJV: 20: Or else let these same here say, if they have found any evil doing in me, while 
+   KJV: 21: Except it be for this one voice, that I cried standing among them, Touching the 
+   KJV: 22: And when Felix heard these things, having more perfect knowledge of that way, he
+   KJV: 23: And he commanded a centurion to keep Paul, and to let him have liberty, and that
+   KJV: 24: And after certain days, when Felix came with his wife Drusilla, which was a Jewe
+   KJV: 25: And as he reasoned of righteousness, temperance, and judgment to come, Felix tre
+   KJV: 26: He hoped also that money should have been given him of Paul, that he might loose
+   KJV: 27: But after two years Porcius Festus came into Felix' room: and Felix, willing to 
+   KJV: 3: We accept it always, and in all places, most noble Felix, with all thankfulness.
+   KJV: 4: Notwithstanding, that I be not further tedious unto thee, I pray thee that thou 
+   KJV: 5: For we have found this man a pestilent fellow, and a mover of sedition among all
+   KJV: 6: Who also hath gone about to profane the temple: whom we took, and would have jud
+   KJV: 7: But the chief captain Lysias came upon us, and with great violence took him away
+   KJV: 8: Commanding his accusers to come unto thee: by examining of whom thyself mayest t
+   KJV: 9: And the Jews also assented, saying that these things were so.
+   WEB: 
+   WEB1: After five days, the high priest, Ananias, came down with certain elders and an : 10: When the governor had beckoned to him to speak, Paul answered, “Because I know t: 11: seeing that you can recognize that it is not more than twelve days since I went : 12: In the temple they didn’t find me disputing with anyone or stirring up a crowd, : 13: Nor can they prove to you the things of which they now accuse me.: 14: But this I confess to you, that after the Way, which they call a sect, so I serv: 15: having hope toward God, which these also themselves look for, that there will be: 16: Herein I also practice always having a conscience void of offense toward God and: 17: Now after some years, I came to bring gifts for the needy to my nation, and offe: 18: amid which certain Jews from Asia found me purified in the temple, not with a mo: 19: They ought to have been here before you, and to make accusation, if they had any: 2: When he was called, Tertullus began to accuse him, saying, “Seeing that by you w: 20: Or else let these men themselves say what injustice they found in me when I stoo: 21: unless it is for this one thing that I cried standing among them, ‘Concerning th: 22: But Felix, having more exact knowledge concerning the Way, deferred them, saying: 23: He ordered the centurion that Paul should be kept in custody, and should have so: 24: But after some days, Felix came with Drusilla, his wife, who was a Jewess, and s: 25: As he reasoned about righteousness, self-control, and the judgment to come, Feli: 26: Meanwhile, he also hoped that money would be given to him by Paul, that he might: 27: But when two years were fulfilled, Felix was succeeded by Porcius Festus, and de: 3: we accept it in all ways and in all places, most excellent Felix, with all thank: 4: But, that I don’t delay you, I entreat you to bear with us and hear a few words.: 5: For we have found this man to be a plague, an instigator of insurrections among : 6: He even tried to profane the temple, and we arrested him.: 8: By examining him yourself you may ascertain all these things of which we accuse : 9: The Jews also joined in the attack, affirming that these things were so.
+-- Luke 17:36 missing in WEB; same chapter in KJV and WEB:
+   KJV: 1: Then said he unto the disciples, It is impossible but that offences will come: b
+   KJV: 10: So likewise ye, when ye shall have done all those things which are commanded you
+   KJV: 11: And it came to pass, as he went to Jerusalem, that he passed through the midst o
+   KJV: 12: And as he entered into a certain village, there met him ten men that were lepers
+   KJV: 13: And they lifted up their voices, and said, Jesus, Master, have mercy on us.
+   KJV: 14: And when he saw them, he said unto them, Go shew yourselves unto the priests. An
+   KJV: 15: And one of them, when he saw that he was healed, turned back, and with a loud vo
+   KJV: 16: And fell down on his face at his feet, giving him thanks: and he was a Samaritan
+   KJV: 17: And Jesus answering said, Were there not ten cleansed? but where are the nine?
+   KJV: 18: There are not found that returned to give glory to God, save this stranger.
+   KJV: 19: And he said unto him, Arise, go thy way: thy faith hath made thee whole.
+   KJV: 2: It were better for him that a millstone were hanged about his neck, and he cast 
+   KJV: 20: And when he was demanded of the Pharisees, when the kingdom of God should come, 
+   KJV: 21: Neither shall they say, Lo here! or, lo there! for, behold, the kingdom of God i
+   KJV: 22: And he said unto the disciples, The days will come, when ye shall desire to see 
+   KJV: 23: And they shall say to you, See here; or, see there: go not after them, nor follo
+   KJV: 24: For as the lightning, that lighteneth out of the one part under heaven, shineth 
+   KJV: 25: But first must he suffer many things, and be rejected of this generation.
+   KJV: 26: And as it was in the days of Noe, so shall it be also in the days of the Son of 
+   KJV: 27: They did eat, they drank, they married wives, they were given in marriage, until
+   KJV: 28: Likewise also as it was in the days of Lot; they did eat, they drank, they bough
+   KJV: 29: But the same day that Lot went out of Sodom it rained fire and brimstone from he
+   KJV: 3: Take heed to yourselves: If thy brother trespass against thee, rebuke him; and i
+   KJV: 30: Even thus shall it be in the day when the Son of man is revealed.
+   KJV: 31: In that day, he which shall be upon the housetop, and his stuff in the house, le
+   KJV: 32: Remember Lot's wife.
+   KJV: 33: Whosoever shall seek to save his life shall lose it; and whosoever shall lose hi
+   KJV: 34: I tell you, in that night there shall be two men in one bed; the one shall be ta
+   KJV: 35: Two women shall be grinding together; the one shall be taken, and the other left
+   KJV: 36: Two men shall be in the field; the one shall be taken, and the other left.
+   KJV: 37: And they answered and said unto him, Where, Lord? And he said unto them, Whereso
+   KJV: 4: And if he trespass against thee seven times in a day, and seven times in a day t
+   KJV: 5: And the apostles said unto the Lord, Increase our faith.
+   KJV: 6: And the Lord said, If ye had faith as a grain of mustard seed, ye might say unto
+   KJV: 7: But which of you, having a servant plowing or feeding cattle, will say unto him 
+   KJV: 8: And will not rather say unto him, Make ready wherewith I may sup, and gird thyse
+   KJV: 9: Doth he thank that servant because he did the things that were commanded him? I 
+   WEB: 
+   WEB1: He said to the disciples, “It is impossible that no occasions of stumbling shoul: 10: Even so you also, when you have done all the things that are commanded you, say,: 11: As he was on his way to Jerusalem, he was passing along the borders of Samaria a: 12: As he entered into a certain village, ten men who were lepers met him, who stood: 13: They lifted up their voices, saying, “Jesus, Master, have mercy on us!”: 14: When he saw them, he said to them, “Go and show yourselves to the priests.” As t: 15: One of them, when he saw that he was healed, turned back, glorifying God with a : 16: He fell on his face at Jesus’ feet, giving him thanks; and he was a Samaritan.: 17: Jesus answered, “Weren’t the ten cleansed? But where are the nine?: 18: Were there none found who returned to give glory to God, except this stranger?”: 19: Then he said to him, “Get up, and go your way. Your faith has healed you.”: 2: It would be better for him if a millstone were hung around his neck, and he were: 20: Being asked by the Pharisees when the Kingdom of God would come, he answered the: 21: neither will they say, ‘Look, here!’ or, ‘Look, there!’ for behold, the Kingdom : 22: He said to the disciples, “The days will come, when you will desire to see one o: 23: They will tell you, ‘Look, here!’ or ‘Look, there!’ Don’t go away, nor follow af: 24: for as the lightning, when it flashes out of the one part under the sky, shines : 25: But first, he must suffer many things and be rejected by this generation.: 26: As it was in the days of Noah, even so will it be also in the days of the Son of: 27: They ate, they drank, they married, they were given in marriage, until the day t: 28: Likewise, even as it was in the days of Lot: they ate, they drank, they bought, : 29: but in the day that Lot went out from Sodom, it rained fire and sulfur from the : 3: Be careful. If your brother sins against you, rebuke him. If he repents, forgive: 30: It will be the same way in the day that the Son of Man is revealed.: 31: In that day, he who will be on the housetop, and his goods in the house, let him: 32: Remember Lot’s wife!: 33: Whoever seeks to save his life loses it, but whoever loses his life preserves it: 34: I tell you, in that night there will be two people in one bed. The one will be t: 35: There will be two grinding grain together. One will be taken, and the other will: 37: They, answering, asked him, “Where, Lord?” He said to them, “Where the body is, : 4: If he sins against you seven times in the day, and seven times returns, saying, : 5: The apostles said to the Lord, “Increase our faith.”: 6: The Lord said, “If you had faith like a grain of mustard seed, you would tell th: 7: But who is there among you, having a servant plowing or keeping sheep, that will: 8: and will not rather tell him, ‘Prepare my supper, clothe yourself properly, and : 9: Does he thank that servant because he did the things that were commanded? I thin
+-- Romans 16:25 missing in WEB; same chapter in KJV and WEB:
+   KJV: 1: I commend unto you Phebe our sister, which is a servant of the church which is a
+   KJV: 10: Salute Apelles approved in Christ. Salute them which are of Aristobulus' househo
+   KJV: 11: Salute Herodion my kinsman. Greet them that be of the household of Narcissus, wh
+   KJV: 12: Salute Tryphena and Tryphosa, who labour in the Lord. Salute the beloved Persis,
+   KJV: 13: Salute Rufus chosen in the Lord, and his mother and mine.
+   KJV: 14: Salute Asyncritus, Phlegon, Hermas, Patrobas, Hermes, and the brethren which are
+   KJV: 15: Salute Philologus, and Julia, Nereus, and his sister, and Olympas, and all the s
+   KJV: 16: Salute one another with an holy kiss. The churches of Christ salute you.
+   KJV: 17: Now I beseech you, brethren, mark them which cause divisions and offences contra
+   KJV: 18: For they that are such serve not our Lord Jesus Christ, but their own belly; and
+   KJV: 19: For your obedience is come abroad unto all men. I am glad therefore on your beha
+   KJV: 2: That ye receive her in the Lord, as becometh saints, and that ye assist her in w
+   KJV: 20: And the God of peace shall bruise Satan under your feet shortly. The grace of ou
+   KJV: 21: Timotheus my workfellow, and Lucius, and Jason, and Sosipater, my kinsmen, salut
+   KJV: 22: I Tertius, who wrote this epistle, salute you in the Lord.
+   KJV: 23: Gaius mine host, and of the whole church, saluteth you. Erastus the chamberlain 
+   KJV: 24: The grace of our Lord Jesus Christ be with you all. Amen.
+   KJV: 25: Now to him that is of power to stablish you according to my gospel, and the prea
+   KJV: 26: But now is made manifest, and by the scriptures of the prophets, according to th
+   KJV: 27: To God only wise, be glory through Jesus Christ for ever. Amen.
+   KJV: 3: Greet Priscilla and Aquila my helpers in Christ Jesus:
+   KJV: 4: Who have for my life laid down their own necks: unto whom not only I give thanks
+   KJV: 5: Likewise greet the church that is in their house. Salute my wellbeloved Epaenetu
+   KJV: 6: Greet Mary, who bestowed much labour on us.
+   KJV: 7: Salute Andronicus and Junia, my kinsmen, and my fellowprisoners, who are of note
+   KJV: 8: Greet Amplias my beloved in the Lord.
+   KJV: 9: Salute Urbane, our helper in Christ, and Stachys my beloved.
+   WEB: 
+   WEB1: I commend to you Phoebe, our sister, who is a servant of the assembly that is at: 10: Greet Apelles, the approved in Christ. Greet those who are of the household of A: 11: Greet Herodion, my kinsman. Greet them of the household of Narcissus, who are in: 12: Greet Tryphaena and Tryphosa, who labor in the Lord. Greet Persis, the beloved, : 13: Greet Rufus, the chosen in the Lord, and his mother and mine.: 14: Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas, and the brothers who are wi: 15: Greet Philologus and Julia, Nereus and his sister, and Olympas, and all the sain: 16: Greet one another with a holy kiss. The assemblies of Christ greet you.: 17: Now I beg you, brothers, look out for those who are causing the divisions and oc: 18: For those who are such don’t serve our Lord, Jesus Christ, but their own belly; : 19: For your obedience has become known to all. I rejoice therefore over you. But I : 2: that you receive her in the Lord, in a way worthy of the saints, and that you as: 20: And the God of peace will quickly crush Satan under your feet. The grace of our : 21: Timothy, my fellow worker, greets you, as do Lucius, Jason, and Sosipater, my re: 22: I, Tertius, who write the letter, greet you in the Lord.: 23: Gaius, my host and host of the whole assembly, greets you. Erastus, the treasure: 24: The grace of our Lord Jesus Christ be with you all! Amen.: 3: Greet Prisca and Aquila, my fellow workers in Christ Jesus,: 4: who for my life, laid down their own necks; to whom not only I give thanks, but : 5: Greet the assembly that is in their house. Greet Epaenetus, my beloved, who is t: 6: Greet Mary, who labored much for us.: 7: Greet Andronicus and Junia, my relatives and my fellow prisoners, who are notabl: 8: Greet Amplias, my beloved in the Lord.: 9: Greet Urbanus, our fellow worker in Christ, and Stachys, my beloved.
+-- Romans 16:26 missing in WEB; same chapter in KJV and WEB:
+   KJV: 1: I commend unto you Phebe our sister, which is a servant of the church which is a
+   KJV: 10: Salute Apelles approved in Christ. Salute them which are of Aristobulus' househo
+   KJV: 11: Salute Herodion my kinsman. Greet them that be of the household of Narcissus, wh
+   KJV: 12: Salute Tryphena and Tryphosa, who labour in the Lord. Salute the beloved Persis,
+   KJV: 13: Salute Rufus chosen in the Lord, and his mother and mine.
+   KJV: 14: Salute Asyncritus, Phlegon, Hermas, Patrobas, Hermes, and the brethren which are
+   KJV: 15: Salute Philologus, and Julia, Nereus, and his sister, and Olympas, and all the s
+   KJV: 16: Salute one another with an holy kiss. The churches of Christ salute you.
+   KJV: 17: Now I beseech you, brethren, mark them which cause divisions and offences contra
+   KJV: 18: For they that are such serve not our Lord Jesus Christ, but their own belly; and
+   KJV: 19: For your obedience is come abroad unto all men. I am glad therefore on your beha
+   KJV: 2: That ye receive her in the Lord, as becometh saints, and that ye assist her in w
+   KJV: 20: And the God of peace shall bruise Satan under your feet shortly. The grace of ou
+   KJV: 21: Timotheus my workfellow, and Lucius, and Jason, and Sosipater, my kinsmen, salut
+   KJV: 22: I Tertius, who wrote this epistle, salute you in the Lord.
+   KJV: 23: Gaius mine host, and of the whole church, saluteth you. Erastus the chamberlain 
+   KJV: 24: The grace of our Lord Jesus Christ be with you all. Amen.
+   KJV: 25: Now to him that is of power to stablish you according to my gospel, and the prea
+   KJV: 26: But now is made manifest, and by the scriptures of the prophets, according to th
+   KJV: 27: To God only wise, be glory through Jesus Christ for ever. Amen.
+   KJV: 3: Greet Priscilla and Aquila my helpers in Christ Jesus:
+   KJV: 4: Who have for my life laid down their own necks: unto whom not only I give thanks
+   KJV: 5: Likewise greet the church that is in their house. Salute my wellbeloved Epaenetu
+   KJV: 6: Greet Mary, who bestowed much labour on us.
+   KJV: 7: Salute Andronicus and Junia, my kinsmen, and my fellowprisoners, who are of note
+   KJV: 8: Greet Amplias my beloved in the Lord.
+   KJV: 9: Salute Urbane, our helper in Christ, and Stachys my beloved.
+   WEB: 
+   WEB1: I commend to you Phoebe, our sister, who is a servant of the assembly that is at: 10: Greet Apelles, the approved in Christ. Greet those who are of the household of A: 11: Greet Herodion, my kinsman. Greet them of the household of Narcissus, who are in: 12: Greet Tryphaena and Tryphosa, who labor in the Lord. Greet Persis, the beloved, : 13: Greet Rufus, the chosen in the Lord, and his mother and mine.: 14: Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas, and the brothers who are wi: 15: Greet Philologus and Julia, Nereus and his sister, and Olympas, and all the sain: 16: Greet one another with a holy kiss. The assemblies of Christ greet you.: 17: Now I beg you, brothers, look out for those who are causing the divisions and oc: 18: For those who are such don’t serve our Lord, Jesus Christ, but their own belly; : 19: For your obedience has become known to all. I rejoice therefore over you. But I : 2: that you receive her in the Lord, in a way worthy of the saints, and that you as: 20: And the God of peace will quickly crush Satan under your feet. The grace of our : 21: Timothy, my fellow worker, greets you, as do Lucius, Jason, and Sosipater, my re: 22: I, Tertius, who write the letter, greet you in the Lord.: 23: Gaius, my host and host of the whole assembly, greets you. Erastus, the treasure: 24: The grace of our Lord Jesus Christ be with you all! Amen.: 3: Greet Prisca and Aquila, my fellow workers in Christ Jesus,: 4: who for my life, laid down their own necks; to whom not only I give thanks, but : 5: Greet the assembly that is in their house. Greet Epaenetus, my beloved, who is t: 6: Greet Mary, who labored much for us.: 7: Greet Andronicus and Junia, my relatives and my fellow prisoners, who are notabl: 8: Greet Amplias, my beloved in the Lord.: 9: Greet Urbanus, our fellow worker in Christ, and Stachys, my beloved.
+-- Romans 16:27 missing in WEB; same chapter in KJV and WEB:
+   KJV: 1: I commend unto you Phebe our sister, which is a servant of the church which is a
+   KJV: 10: Salute Apelles approved in Christ. Salute them which are of Aristobulus' househo
+   KJV: 11: Salute Herodion my kinsman. Greet them that be of the household of Narcissus, wh
+   KJV: 12: Salute Tryphena and Tryphosa, who labour in the Lord. Salute the beloved Persis,
+   KJV: 13: Salute Rufus chosen in the Lord, and his mother and mine.
+   KJV: 14: Salute Asyncritus, Phlegon, Hermas, Patrobas, Hermes, and the brethren which are
+   KJV: 15: Salute Philologus, and Julia, Nereus, and his sister, and Olympas, and all the s
+   KJV: 16: Salute one another with an holy kiss. The churches of Christ salute you.
+   KJV: 17: Now I beseech you, brethren, mark them which cause divisions and offences contra
+   KJV: 18: For they that are such serve not our Lord Jesus Christ, but their own belly; and
+   KJV: 19: For your obedience is come abroad unto all men. I am glad therefore on your beha
+   KJV: 2: That ye receive her in the Lord, as becometh saints, and that ye assist her in w
+   KJV: 20: And the God of peace shall bruise Satan under your feet shortly. The grace of ou
+   KJV: 21: Timotheus my workfellow, and Lucius, and Jason, and Sosipater, my kinsmen, salut
+   KJV: 22: I Tertius, who wrote this epistle, salute you in the Lord.
+   KJV: 23: Gaius mine host, and of the whole church, saluteth you. Erastus the chamberlain 
+   KJV: 24: The grace of our Lord Jesus Christ be with you all. Amen.
+   KJV: 25: Now to him that is of power to stablish you according to my gospel, and the prea
+   KJV: 26: But now is made manifest, and by the scriptures of the prophets, according to th
+   KJV: 27: To God only wise, be glory through Jesus Christ for ever. Amen.
+   KJV: 3: Greet Priscilla and Aquila my helpers in Christ Jesus:
+   KJV: 4: Who have for my life laid down their own necks: unto whom not only I give thanks
+   KJV: 5: Likewise greet the church that is in their house. Salute my wellbeloved Epaenetu
+   KJV: 6: Greet Mary, who bestowed much labour on us.
+   KJV: 7: Salute Andronicus and Junia, my kinsmen, and my fellowprisoners, who are of note
+   KJV: 8: Greet Amplias my beloved in the Lord.
+   KJV: 9: Salute Urbane, our helper in Christ, and Stachys my beloved.
+   WEB: 
+   WEB1: I commend to you Phoebe, our sister, who is a servant of the assembly that is at: 10: Greet Apelles, the approved in Christ. Greet those who are of the household of A: 11: Greet Herodion, my kinsman. Greet them of the household of Narcissus, who are in: 12: Greet Tryphaena and Tryphosa, who labor in the Lord. Greet Persis, the beloved, : 13: Greet Rufus, the chosen in the Lord, and his mother and mine.: 14: Greet Asyncritus, Phlegon, Hermes, Patrobas, Hermas, and the brothers who are wi: 15: Greet Philologus and Julia, Nereus and his sister, and Olympas, and all the sain: 16: Greet one another with a holy kiss. The assemblies of Christ greet you.: 17: Now I beg you, brothers, look out for those who are causing the divisions and oc: 18: For those who are such don’t serve our Lord, Jesus Christ, but their own belly; : 19: For your obedience has become known to all. I rejoice therefore over you. But I : 2: that you receive her in the Lord, in a way worthy of the saints, and that you as: 20: And the God of peace will quickly crush Satan under your feet. The grace of our : 21: Timothy, my fellow worker, greets you, as do Lucius, Jason, and Sosipater, my re: 22: I, Tertius, who write the letter, greet you in the Lord.: 23: Gaius, my host and host of the whole assembly, greets you. Erastus, the treasure: 24: The grace of our Lord Jesus Christ be with you all! Amen.: 3: Greet Prisca and Aquila, my fellow workers in Christ Jesus,: 4: who for my life, laid down their own necks; to whom not only I give thanks, but : 5: Greet the assembly that is in their house. Greet Epaenetus, my beloved, who is t: 6: Greet Mary, who labored much for us.: 7: Greet Andronicus and Junia, my relatives and my fellow prisoners, who are notabl: 8: Greet Amplias, my beloved in the Lord.: 9: Greet Urbanus, our fellow worker in Christ, and Stachys, my beloved.
+===== ASV missing keys in context =====
+-- Acts 8:37 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And Saul was consenting unto his death. And at that time there was a great perse
+   KJV: 10: To whom they all gave heed, from the least to the greatest, saying, This man is 
+   KJV: 11: And to him they had regard, because that of long time he had bewitched them with
+   KJV: 12: But when they believed Philip preaching the things concerning the kingdom of God
+   KJV: 13: Then Simon himself believed also: and when he was baptized, he continued with Ph
+   KJV: 14: Now when the apostles which were at Jerusalem heard that Samaria had received th
+   KJV: 15: Who, when they were come down, prayed for them, that they might receive the Holy
+   KJV: 16: (For as yet he was fallen upon none of them: only they were baptized in the name
+   KJV: 17: Then laid they their hands on them, and they received the Holy Ghost.
+   KJV: 18: And when Simon saw that through laying on of the apostles' hands the Holy Ghost 
+   KJV: 19: Saying, Give me also this power, that on whomsoever I lay hands, he may receive 
+   KJV: 2: And devout men carried Stephen to his burial, and made great lamentation over hi
+   KJV: 20: But Peter said unto him, Thy money perish with thee, because thou hast thought t
+   KJV: 21: Thou hast neither part nor lot in this matter: for thy heart is not right in the
+   KJV: 22: Repent therefore of this thy wickedness, and pray God, if perhaps the thought of
+   KJV: 23: For I perceive that thou art in the gall of bitterness, and in the bond of iniqu
+   KJV: 24: Then answered Simon, and said, Pray ye to the Lord for me, that none of these th
+   KJV: 25: And they, when they had testified and preached the word of the Lord, returned to
+   KJV: 26: And the angel of the Lord spake unto Philip, saying, Arise, and go toward the so
+   KJV: 27: And he arose and went: and, behold, a man of Ethiopia, an eunuch of great author
+   KJV: 28: Was returning, and sitting in his chariot read Esaias the prophet.
+   KJV: 29: Then the Spirit said unto Philip, Go near, and join thyself to this chariot.
+   KJV: 3: As for Saul, he made havock of the church, entering into every house, and haling
+   KJV: 30: And Philip ran thither to him, and heard him read the prophet Esaias, and said, 
+   KJV: 31: And he said, How can I, except some man should guide me? And he desired Philip t
+   KJV: 32: The place of the scripture which he read was this, He was led as a sheep to the 
+   KJV: 33: In his humiliation his judgment was taken away: and who shall declare his genera
+   KJV: 34: And the eunuch answered Philip, and said, I pray thee, of whom speaketh the prop
+   KJV: 35: Then Philip opened his mouth, and began at the same scripture, and preached unto
+   KJV: 36: And as they went on their way, they came unto a certain water: and the eunuch sa
+   KJV: 37: And Philip said, If thou believest with all thine heart, thou mayest. And he ans
+   KJV: 38: And he commanded the chariot to stand still: and they went down both into the wa
+   KJV: 39: And when they were come up out of the water, the Spirit of the Lord caught away 
+   KJV: 4: Therefore they that were scattered abroad went every where preaching the word.
+   KJV: 40: But Philip was found at Azotus: and passing through he preached in all the citie
+   KJV: 5: Then Philip went down to the city of Samaria, and preached Christ unto them.
+   KJV: 6: And the people with one accord gave heed unto those things which Philip spake, h
+   KJV: 7: For unclean spirits, crying with loud voice, came out of many that were possesse
+   KJV: 8: And there was great joy in that city.
+   KJV: 9: But there was a certain man, called Simon, which beforetime in the same city use
+   ASV: 
+   ASV1: And Saul was consenting unto his death. And there arose on that day a great pers: 10: to whom they all gave heed, from the least to the greatest, saying, This man is : 11: And they gave heed to him, because that of long time he had amazed them with his: 12: But when they believed Philip preaching good tidings concerning the kingdom of G: 13: And Simon also himself believed: and being baptized, he continued with Philip; a: 14: Now when the apostles that were at Jerusalem heard that Samaria had received the: 15: who, when they were come down, prayed for them, that they might receive the Holy: 16: for as yet it was fallen upon none of them: only they had been baptized into the: 17: Then laid they their hands on them, and they received the Holy Spirit.: 18: Now when Simon saw that through the laying on of the apostles’ hands the Holy Sp: 19: saying, Give me also this power, that on whomsoever I lay my hands, he may recei: 2: And devout men buried Stephen, and made great lamentation over him.: 20: But Peter said unto him, Thy silver perish with thee, because thou hast thought : 21: Thou hast neither part nor lot in this matter: for thy heart is not right before: 22: Repent therefore of this thy wickedness, and pray the Lord, if perhaps the thoug: 23: For I see that thou art in the gall of bitterness and in the bond of iniquity.: 24: And Simon answered and said, Pray ye for me to the Lord, that none of the things: 25: They therefore, when they had testified and spoken the word of the Lord, returne: 26: But an angel of the Lord spake unto Philip, saying, Arise, and go toward the sou: 27: And he arose and went: and behold, a man of Ethiopia, a eunuch of great authorit: 28: and he was returning and sitting in his chariot, and was reading the prophet Isa: 29: And the Spirit said unto Philip, Go near, and join thyself to this chariot.: 3: But Saul laid waste the church, entering into every house, and dragging men and : 30: And Philip ran to him, and heard him reading Isaiah the prophet, and said, Under: 31: And he said, How can I, except some one shall guide me? And he besought Philip t: 32: Now the passage of the scripture which he was reading was this, He was led as a : 33: In his humiliation his judgment was taken away: His generation who shall declare: 34: And the eunuch answered Philip, and said, I pray thee, of whom speaketh the prop: 35: And Philip opened his mouth, and beginning from this scripture, preached unto hi: 36: And as they went on the way, they came unto a certain water; and the eunuch sait: 38: And he commanded the chariot to stand still: and they both went down into the wa: 39: And when they came up out of the water, the Spirit of the Lord caught away Phili: 4: They therefore that were scattered abroad went about preaching the word.: 40: But Philip was found at Azotus: and passing through he preached the gospel to al: 5: And Philip went down to the city of Samaria, and proclaimed unto them the Christ: 6: And the multitudes gave heed with one accord unto the things that were spoken by: 7: For from many of those that had unclean spirits, they came out, crying with a lo: 8: And there was much joy in that city.: 9: But there was a certain man, Simon by name, who beforetime in the city used sorc
+-- Acts 15:34 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And certain men which came down from Judaea taught the brethren, and said, Excep
+   KJV: 10: Now therefore why tempt ye God, to put a yoke upon the neck of the disciples, wh
+   KJV: 11: But we believe that through the grace of the Lord Jesus Christ we shall be saved
+   KJV: 12: Then all the multitude kept silence, and gave audience to Barnabas and Paul, dec
+   KJV: 13: And after they had held their peace, James answered, saying, Men and brethren, h
+   KJV: 14: Simeon hath declared how God at the first did visit the Gentiles, to take out of
+   KJV: 15: And to this agree the words of the prophets; as it is written,
+   KJV: 16: After this I will return, and will build again the tabernacle of David, which is
+   KJV: 17: That the residue of men might seek after the Lord, and all the Gentiles, upon wh
+   KJV: 18: Known unto God are all his works from the beginning of the world.
+   KJV: 19: Wherefore my sentence is, that we trouble not them, which from among the Gentile
+   KJV: 2: When therefore Paul and Barnabas had no small dissension and disputation with th
+   KJV: 20: But that we write unto them, that they abstain from pollutions of idols, and fro
+   KJV: 21: For Moses of old time hath in every city them that preach him, being read in the
+   KJV: 22: Then pleased it the apostles and elders, with the whole church, to send chosen m
+   KJV: 23: And they wrote letters by them after this manner; The apostles and elders and br
+   KJV: 24: Forasmuch as we have heard, that certain which went out from us have troubled yo
+   KJV: 25: It seemed good unto us, being assembled with one accord, to send chosen men unto
+   KJV: 26: Men that have hazarded their lives for the name of our Lord Jesus Christ.
+   KJV: 27: We have sent therefore Judas and Silas, who shall also tell you the same things 
+   KJV: 28: For it seemed good to the Holy Ghost, and to us, to lay upon you no greater burd
+   KJV: 29: That ye abstain from meats offered to idols, and from blood, and from things str
+   KJV: 3: And being brought on their way by the church, they passed through Phenice and Sa
+   KJV: 30: So when they were dismissed, they came to Antioch: and when they had gathered th
+   KJV: 31: Which when they had read, they rejoiced for the consolation.
+   KJV: 32: And Judas and Silas, being prophets also themselves, exhorted the brethren with 
+   KJV: 33: And after they had tarried there a space, they were let go in peace from the bre
+   KJV: 34: Notwithstanding it pleased Silas to abide there still.
+   KJV: 35: Paul also and Barnabas continued in Antioch, teaching and preaching the word of 
+   KJV: 36: And some days after Paul said unto Barnabas, Let us go again and visit our breth
+   KJV: 37: And Barnabas determined to take with them John, whose surname was Mark.
+   KJV: 38: But Paul thought not good to take him with them, who departed from them from Pam
+   KJV: 39: And the contention was so sharp between them, that they departed asunder one fro
+   KJV: 4: And when they were come to Jerusalem, they were received of the church, and of t
+   KJV: 40: And Paul chose Silas, and departed, being recommended by the brethren unto the g
+   KJV: 41: And he went through Syria and Cilicia, confirming the churches.
+   KJV: 5: But there rose up certain of the sect of the Pharisees which believed, saying, T
+   KJV: 6: And the apostles and elders came together for to consider of this matter.
+   KJV: 7: And when there had been much disputing, Peter rose up, and said unto them, Men a
+   KJV: 8: And God, which knoweth the hearts, bare them witness, giving them the Holy Ghost
+   KJV: 9: And put no difference between us and them, purifying their hearts by faith.
+   ASV: 
+   ASV1: And certain men came down from Judæa and taught the brethren, saying, Except ye : 10: Now therefore why make ye trial of God, that ye should put a yoke upon the neck : 11: But we believe that we shall be saved through the grace of the Lord Jesus, in li: 12: And all the multitude kept silence; and they hearkened unto Barnabas and Paul re: 13: And after they had held their peace, James answered, saying, Brethren, hearken u: 14: Symeon hath rehearsed how first God visited the Gentiles, to take out of them a : 15: And to this agree the words of the prophets; as it is written,: 16: After these things I will return, And I will build again the tabernacle of David: 17: That the residue of men may seek after the Lord, And all the Gentiles, upon whom: 18: Saith the Lord, who maketh these things known from of old.: 19: Wherefore my judgment is, that we trouble not them that from among the Gentiles : 2: And when Paul and Barnabas had no small dissension and questioning with them, th: 20: but that we write unto them, that they abstain from the pollutions of idols, and: 21: For Moses from generations of old hath in every city them that preach him, being: 22: Then it seemed good to the apostles and the elders, with the whole church, to ch: 23: and they wrote thus by them, The apostles and the elders, brethren, unto the bre: 24: Forasmuch as we have heard that certain who went out from us have troubled you w: 25: it seemed good unto us, having come to one accord, to choose out men and send th: 26: men that have hazarded their lives for the name of our Lord Jesus Christ.: 27: We have sent therefore Judas and Silas, who themselves also shall tell you the s: 28: For it seemed good to the Holy Spirit, and to us, to lay upon you no greater bur: 29: that ye abstain from things sacrificed to idols, and from blood, and from things: 3: They therefore, being brought on their way by the church, passed through both Ph: 30: So they, when they were dismissed, came down to Antioch; and having gathered the: 31: And when they had read it, they rejoiced for the consolation.: 32: And Judas and Silas, being themselves also prophets, exhorted the brethren with : 33: And after they had spent some time there, they were dismissed in peace from the : 35: But Paul and Barnabas tarried in Antioch, teaching and preaching the word of the: 36: And after some days Paul said unto Barnabas, Let us return now and visit the bre: 37: And Barnabas was minded to take with them John also, who was called Mark.: 38: But Paul thought not good to take with them him who withdrew from them from Pamp: 39: And there arose a sharp contention, so that they parted asunder one from the oth: 4: And when they were come to Jerusalem, they were received of the church and the a: 40: but Paul chose Silas, and went forth, being commended by the brethren to the gra: 41: And he went through Syria and Cilicia, confirming the churches.: 5: But there rose up certain of the sect of the Pharisees who believed, saying, It : 6: And the apostles and the elders were gathered together to consider of this matte: 7: And when there had been much questioning, Peter rose up, and said unto them, Bre: 8: And God, who knoweth the heart, bare them witness, giving them the Holy Spirit, : 9: and he made no distinction between us and them, cleansing their hearts by faith.
+-- Acts 24:7 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And after five days Ananias the high priest descended with the elders, and with 
+   KJV: 10: Then Paul, after that the governor had beckoned unto him to speak, answered, For
+   KJV: 11: Because that thou mayest understand, that there are yet but twelve days since I 
+   KJV: 12: And they neither found me in the temple disputing with any man, neither raising 
+   KJV: 13: Neither can they prove the things whereof they now accuse me.
+   KJV: 14: But this I confess unto thee, that after the way which they call heresy, so wors
+   KJV: 15: And have hope toward God, which they themselves also allow, that there shall be 
+   KJV: 16: And herein do I exercise myself, to have always a conscience void of offence tow
+   KJV: 17: Now after many years I came to bring alms to my nation, and offerings.
+   KJV: 18: Whereupon certain Jews from Asia found me purified in the temple, neither with m
+   KJV: 19: Who ought to have been here before thee, and object, if they had ought against m
+   KJV: 2: And when he was called forth, Tertullus began to accuse him, saying, Seeing that
+   KJV: 20: Or else let these same here say, if they have found any evil doing in me, while 
+   KJV: 21: Except it be for this one voice, that I cried standing among them, Touching the 
+   KJV: 22: And when Felix heard these things, having more perfect knowledge of that way, he
+   KJV: 23: And he commanded a centurion to keep Paul, and to let him have liberty, and that
+   KJV: 24: And after certain days, when Felix came with his wife Drusilla, which was a Jewe
+   KJV: 25: And as he reasoned of righteousness, temperance, and judgment to come, Felix tre
+   KJV: 26: He hoped also that money should have been given him of Paul, that he might loose
+   KJV: 27: But after two years Porcius Festus came into Felix' room: and Felix, willing to 
+   KJV: 3: We accept it always, and in all places, most noble Felix, with all thankfulness.
+   KJV: 4: Notwithstanding, that I be not further tedious unto thee, I pray thee that thou 
+   KJV: 5: For we have found this man a pestilent fellow, and a mover of sedition among all
+   KJV: 6: Who also hath gone about to profane the temple: whom we took, and would have jud
+   KJV: 7: But the chief captain Lysias came upon us, and with great violence took him away
+   KJV: 8: Commanding his accusers to come unto thee: by examining of whom thyself mayest t
+   KJV: 9: And the Jews also assented, saying that these things were so.
+   ASV: 
+   ASV1: And after five days the high priest Ananias came down with certain elders, andwi: 10: And when the governor had beckoned unto him to speak, Paul answered, Forasmuch a: 11: seeing that thou canst take knowledge that it is not more than twelve days since: 12: and neither in the temple did they find me disputing with any man or stirring up: 13: Neither can they prove to thee the things whereof they now accuse me.: 14: But this I confess unto thee, that after the Way which they call a sect, so serv: 15: having hope toward God, which these also themselves look for, that there shall b: 16: Herein I also exercise myself to have a conscience void of offence toward God an: 17: Now after some years I came to bring alms to my nation, and offerings:: 18: amidst which they found me purified in the temple, with no crowd, nor yet with t: 19: who ought to have been here before thee, and to make accusation, if they had aug: 2: And when he was called, Tertullus began to accuse him, saying, Seeing that by th: 20: Or else let these men themselves say what wrong-doing they found when I stood be: 21: except it be for this one voice, that I cried standing among them, Touching the : 22: But Felix, having more exact knowledge concerning the Way, deferred them, saying: 23: And he gave order to the centurion that he should be kept in charge, and should : 24: But after certain days, Felix came with Drusilla, his wife, who was a Jewess, an: 25: And as he reasoned of righteousness, and self-control, and the judgment to come,: 26: He hoped withal that money would be given him of Paul: wherefore also he sent fo: 27: But when two years were fulfilled, Felix was succeeded by Porcius Festus; and de: 3: we accept it in all ways and in all places, most excellent Felix, with all thank: 4: But, that I be not further tedious unto thee, I entreat thee to hear us of thy c: 5: For we have found this man a pestilent fellow, and a mover of insurrections amon: 6: who moreover assayed to profane the temple: on whom also we laid hold:: 8: from whom thou wilt be able, by examining him thyself, to take knowledge of all : 9: And the Jews also joined in the charge, affirming that these things were so.
+-- Acts 28:29 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And when they were escaped, then they knew that the island was called Melita.
+   KJV: 10: Who also honoured us with many honours; and when we departed, they laded us with
+   KJV: 11: And after three months we departed in a ship of Alexandria, which had wintered i
+   KJV: 12: And landing at Syracuse, we tarried there three days.
+   KJV: 13: And from thence we fetched a compass, and came to Rhegium: and after one day the
+   KJV: 14: Where we found brethren, and were desired to tarry with them seven days: and so 
+   KJV: 15: And from thence, when the brethren heard of us, they came to meet us as far as A
+   KJV: 16: And when we came to Rome, the centurion delivered the prisoners to the captain o
+   KJV: 17: And it came to pass, that after three days Paul called the chief of the Jews tog
+   KJV: 18: Who, when they had examined me, would have let me go, because there was no cause
+   KJV: 19: But when the Jews spake against it, I was constrained to appeal unto Caesar; not
+   KJV: 2: And the barbarous people shewed us no little kindness: for they kindled a fire, 
+   KJV: 20: For this cause therefore have I called for you, to see you, and to speak with yo
+   KJV: 21: And they said unto him, We neither received letters out of Judaea concerning the
+   KJV: 22: But we desire to hear of thee what thou thinkest: for as concerning this sect, w
+   KJV: 23: And when they had appointed him a day, there came many to him into his lodging; 
+   KJV: 24: And some believed the things which were spoken, and some believed not.
+   KJV: 25: And when they agreed not among themselves, they departed, after that Paul had sp
+   KJV: 26: Saying, Go unto this people, and say, Hearing ye shall hear, and shall not under
+   KJV: 27: For the heart of this people is waxed gross, and their ears are dull of hearing,
+   KJV: 28: Be it known therefore unto you, that the salvation of God is sent unto the Genti
+   KJV: 29: And when he had said these words, the Jews departed, and had great reasoning amo
+   KJV: 3: And when Paul had gathered a bundle of sticks, and laid them on the fire, there 
+   KJV: 30: And Paul dwelt two whole years in his own hired house, and received all that cam
+   KJV: 31: Preaching the kingdom of God, and teaching those things which concern the Lord J
+   KJV: 4: And when the barbarians saw the venomous beast hang on his hand, they said among
+   KJV: 5: And he shook off the beast into the fire, and felt no harm.
+   KJV: 6: Howbeit they looked when he should have swollen, or fallen down dead suddenly: b
+   KJV: 7: In the same quarters were possessions of the chief man of the island, whose name
+   KJV: 8: And it came to pass, that the father of Publius lay sick of a fever and of a blo
+   KJV: 9: So when this was done, others also, which had diseases in the island, came, and 
+   ASV: 
+   ASV1: And when we were escaped, then we knew that the island was called Melita.: 10: who also honored us with many honors; and when we sailed, they put on board such: 11: And after three months we set sail in a ship of Alexandria which had wintered in: 12: And touching at Syracuse, we tarried there three days.: 13: And from thence we made a circuit, and arrived at Rhegium: and after one day a s: 14: where we found brethren, and were entreated to tarry with them seven days: and s: 15: And from thence the brethren, when they heard of us, came to meet us as far as T: 16: And when we entered into Rome, Paul was suffered to abide by himself with the so: 17: And it came to pass, that after three days he called together those that were th: 18: who, when they had examined me, desired to set me at liberty, because there was : 19: But when the Jews spake against it, I was constrained to appeal unto Cæsar; not : 2: And the barbarians showed us no common kindness: for they kindled a fire, and re: 20: For this cause therefore did I entreat you to see and to speak with me: for beca: 21: And they said unto him, We neither received letters from Judæa concerning thee, : 22: But we desire to hear of thee what thou thinkest: for as concerning this sect, i: 23: And when they had appointed him a day, they came to him into his lodging in grea: 24: And some believed the things which were spoken, and some disbelieved.: 25: And when they agreed not among themselves, they departed after that Paul had spo: 26: saying, Go thou unto this people, and say, By hearing ye shall hear, and shall i: 27: For this people’s heart is waxed gross, And their ears are dull of hearing, And : 28: Be it known therefore unto you, that this salvation of God is sent unto the Gent: 3: But when Paul had gathered a bundle of sticks and laid them on the fire, a viper: 30: And he abode two whole years in his own hired dwelling, and received all that we: 31: preaching the kingdom of God, and teaching the things concerning the Lord Jesus : 4: And when the barbarians saw the venomous creature hanging from his hand, they sa: 5: Howbeit he shook off the creature into the fire, and took no harm.: 6: But they expected that he would have swollen, or fallen down dead suddenly: but : 7: Now in the neighborhood of that place were lands belonging to the chief man of t: 8: And it was so, that the father of Publius lay sick of fever and dysentery: unto : 9: And when this was done, the rest also that had diseases in the island came, and 
+-- John 5:4 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: After this there was a feast of the Jews; and Jesus went up to Jerusalem.
+   KJV: 10: The Jews therefore said unto him that was cured, It is the sabbath day: it is no
+   KJV: 11: He answered them, He that made me whole, the same said unto me, Take up thy bed,
+   KJV: 12: Then asked they him, What man is that which said unto thee, Take up thy bed, and
+   KJV: 13: And he that was healed wist not who it was: for Jesus had conveyed himself away,
+   KJV: 14: Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art m
+   KJV: 15: The man departed, and told the Jews that it was Jesus, which had made him whole.
+   KJV: 16: And therefore did the Jews persecute Jesus, and sought to slay him, because he h
+   KJV: 17: But Jesus answered them, My Father worketh hitherto, and I work.
+   KJV: 18: Therefore the Jews sought the more to kill him, because he not only had broken t
+   KJV: 19: Then answered Jesus and said unto them, Verily, verily, I say unto you, The Son 
+   KJV: 2: Now there is at Jerusalem by the sheep market a pool, which is called in the Heb
+   KJV: 20: For the Father loveth the Son, and sheweth him all things that himself doeth: an
+   KJV: 21: For as the Father raiseth up the dead, and quickeneth them; even so the Son quic
+   KJV: 22: For the Father judgeth no man, but hath committed all judgment unto the Son:
+   KJV: 23: That all men should honour the Son, even as they honour the Father. He that hono
+   KJV: 24: Verily, verily, I say unto you, He that heareth my word, and believeth on him th
+   KJV: 25: Verily, verily, I say unto you, The hour is coming, and now is, when the dead sh
+   KJV: 26: For as the Father hath life in himself; so hath he given to the Son to have life
+   KJV: 27: And hath given him authority to execute judgment also, because he is the Son of 
+   KJV: 28: Marvel not at this: for the hour is coming, in the which all that are in the gra
+   KJV: 29: And shall come forth; they that have done good, unto the resurrection of life; a
+   KJV: 3: In these lay a great multitude of impotent folk, of blind, halt, withered, waiti
+   KJV: 30: I can of mine own self do nothing: as I hear, I judge: and my judgment is just; 
+   KJV: 31: If I bear witness of myself, my witness is not true.
+   KJV: 32: There is another that beareth witness of me; and I know that the witness which h
+   KJV: 33: Ye sent unto John, and he bare witness unto the truth.
+   KJV: 34: But I receive not testimony from man: but these things I say, that ye might be s
+   KJV: 35: He was a burning and a shining light: and ye were willing for a season to rejoic
+   KJV: 36: But I have greater witness than that of John: for the works which the Father hat
+   KJV: 37: And the Father himself, which hath sent me, hath borne witness of me. Ye have ne
+   KJV: 38: And ye have not his word abiding in you: for whom he hath sent, him ye believe n
+   KJV: 39: Search the scriptures; for in them ye think ye have eternal life: and they are t
+   KJV: 4: For an angel went down at a certain season into the pool, and troubled the water
+   KJV: 40: And ye will not come to me, that ye might have life.
+   KJV: 41: I receive not honour from men.
+   KJV: 42: But I know you, that ye have not the love of God in you.
+   KJV: 43: I am come in my Father's name, and ye receive me not: if another shall come in h
+   KJV: 44: How can ye believe, which receive honour one of another, and seek not the honour
+   KJV: 45: Do not think that I will accuse you to the Father: there is one that accuseth yo
+   KJV: 46: For had ye believed Moses, ye would have believed me: for he wrote of me.
+   KJV: 47: But if ye believe not his writings, how shall ye believe my words?
+   KJV: 5: And a certain man was there, which had an infirmity thirty and eight years.
+   KJV: 6: When Jesus saw him lie, and knew that he had been now a long time in that case, 
+   KJV: 7: The impotent man answered him, Sir, I have no man, when the water is troubled, t
+   KJV: 8: Jesus saith unto him, Rise, take up thy bed, and walk.
+   KJV: 9: And immediately the man was made whole, and took up his bed, and walked: and on 
+   ASV: 
+   ASV1: After these things there was a feast of the Jews; and Jesus went up to Jerusalem: 10: So the Jews said unto him that was cured, It is the sabbath, and it is not lawfu: 11: But he answered them, He that made me whole, the same said unto me, Take up thy : 12: They asked him, Who is the man that said unto thee, Take up thy bed, and walk?: 13: But he that was healed knew not who it was; for Jesus had conveyed himself away,: 14: Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art m: 15: The man went away, and told the Jews that it was Jesus who had made him whole.: 16: And for this cause the Jews persecuted Jesus, because he did these things on the: 17: But Jesus answered them, My Father worketh even until now, and I work.: 18: For this cause therefore the Jews sought the more to kill him, because he not on: 19: Jesus therefore answered and said unto them, Verily, verily, I say unto you, The: 2: Now there is in Jerusalem by the sheepgatea pool, which is called in Hebrew Beth: 20: For the Father loveth the Son, and showeth him all things that himself doeth: an: 21: For as the Father raiseth the dead and giveth them life, even so the Son also gi: 22: For neither doth the Father judge any man, but he hath given all judgment unto t: 23: that all may honor the Son, even as they honor the Father. He that honoreth not : 24: Verily, verily, I say unto you, He that heareth my word, and believeth him that : 25: Verily, verily, I say unto you, The hour cometh, and now is, when the dead shall: 26: For as the Father hath life in himself, even so gave he to the Son also to have : 27: and he gave him authority to execute judgment, because he is a son of man.: 28: Marvel not at this: for the hour cometh, in which all that are in the tombs shal: 29: and shall come forth; they that have done good, unto the resurrection of life; a: 3: In these lay a multitude of them that were sick, blind, halt, withered.: 30: I can of myself do nothing: as I hear, I judge: and my judgment is righteous; be: 31: If I bear witness of myself, my witness is not true.: 32: It is another that beareth witness of me; and I know that the witness which he w: 33: Ye have sent unto John, and he hath borne witness unto the truth.: 34: But the witness which I receive is not from man: howbeit I say these things, tha: 35: He was the lamp that burneth and shineth; and ye were willing to rejoice for a s: 36: But the witness which I have is greater than that of John; for the works which t: 37: And the Father that sent me, he hath borne witness of me. Ye have neither heard : 38: And ye have not his word abiding in you: for whom he sent, him ye believe not.: 39: Ye search the scriptures, because ye think that in them ye have eternal life; an: 40: and ye will not come to me, that ye may have life.: 41: I receive not glory from men.: 42: But I know you, that ye have not the love of God in yourselves.: 43: I am come in my Father’s name, and ye receive me not: if another shall come in h: 44: How can ye believe, who receive glory one of another, and the glory that cometh : 45: Think not that I will accuse you to the Father: there is one that accuseth you, : 46: For if ye believed Moses, ye would believe me; for he wrote of me.: 47: But if ye believe not his writings, how shall ye believe my words?: 5: And a certain man was there, who had been thirty and eight years in his infirmit: 6: When Jesus saw him lying, and knew that he had been now a long time in that case: 7: The sick man answered him, Sir, I have no man, when the water is troubled, to pu: 8: Jesus saith unto him, Arise, take up thy bed, and walk.: 9: And straightway the man was made whole, and took up his bed and walked. Now it w
+-- Luke 17:36 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: Then said he unto the disciples, It is impossible but that offences will come: b
+   KJV: 10: So likewise ye, when ye shall have done all those things which are commanded you
+   KJV: 11: And it came to pass, as he went to Jerusalem, that he passed through the midst o
+   KJV: 12: And as he entered into a certain village, there met him ten men that were lepers
+   KJV: 13: And they lifted up their voices, and said, Jesus, Master, have mercy on us.
+   KJV: 14: And when he saw them, he said unto them, Go shew yourselves unto the priests. An
+   KJV: 15: And one of them, when he saw that he was healed, turned back, and with a loud vo
+   KJV: 16: And fell down on his face at his feet, giving him thanks: and he was a Samaritan
+   KJV: 17: And Jesus answering said, Were there not ten cleansed? but where are the nine?
+   KJV: 18: There are not found that returned to give glory to God, save this stranger.
+   KJV: 19: And he said unto him, Arise, go thy way: thy faith hath made thee whole.
+   KJV: 2: It were better for him that a millstone were hanged about his neck, and he cast 
+   KJV: 20: And when he was demanded of the Pharisees, when the kingdom of God should come, 
+   KJV: 21: Neither shall they say, Lo here! or, lo there! for, behold, the kingdom of God i
+   KJV: 22: And he said unto the disciples, The days will come, when ye shall desire to see 
+   KJV: 23: And they shall say to you, See here; or, see there: go not after them, nor follo
+   KJV: 24: For as the lightning, that lighteneth out of the one part under heaven, shineth 
+   KJV: 25: But first must he suffer many things, and be rejected of this generation.
+   KJV: 26: And as it was in the days of Noe, so shall it be also in the days of the Son of 
+   KJV: 27: They did eat, they drank, they married wives, they were given in marriage, until
+   KJV: 28: Likewise also as it was in the days of Lot; they did eat, they drank, they bough
+   KJV: 29: But the same day that Lot went out of Sodom it rained fire and brimstone from he
+   KJV: 3: Take heed to yourselves: If thy brother trespass against thee, rebuke him; and i
+   KJV: 30: Even thus shall it be in the day when the Son of man is revealed.
+   KJV: 31: In that day, he which shall be upon the housetop, and his stuff in the house, le
+   KJV: 32: Remember Lot's wife.
+   KJV: 33: Whosoever shall seek to save his life shall lose it; and whosoever shall lose hi
+   KJV: 34: I tell you, in that night there shall be two men in one bed; the one shall be ta
+   KJV: 35: Two women shall be grinding together; the one shall be taken, and the other left
+   KJV: 36: Two men shall be in the field; the one shall be taken, and the other left.
+   KJV: 37: And they answered and said unto him, Where, Lord? And he said unto them, Whereso
+   KJV: 4: And if he trespass against thee seven times in a day, and seven times in a day t
+   KJV: 5: And the apostles said unto the Lord, Increase our faith.
+   KJV: 6: And the Lord said, If ye had faith as a grain of mustard seed, ye might say unto
+   KJV: 7: But which of you, having a servant plowing or feeding cattle, will say unto him 
+   KJV: 8: And will not rather say unto him, Make ready wherewith I may sup, and gird thyse
+   KJV: 9: Doth he thank that servant because he did the things that were commanded him? I 
+   ASV: 
+   ASV1: And he said unto his disciples, It is impossible but that occasions of stumbling: 10: Even so ye also, when ye shall have done all the things that are commanded you, : 11: And it came to pass, as they were on the way to Jerusalem, that he was passing a: 12: And as he entered into a certain village, there met him ten men that were lepers: 13: and they lifted up their voices, saying, Jesus, Master, have mercy on us.: 14: And when he saw them, he said unto them, Go and show yourselves unto the priests: 15: And one of them, when he saw that he was healed, turned back, with a loud voice : 16: and he fell upon his face at his feet, giving him thanks: and he was a Samaritan: 17: And Jesus answering said, Were not the ten cleansed? but where are the nine?: 18: Were there none found that returned to give glory to God, save this stranger?: 19: And he said unto him, Arise, and go thy way: thy faith hath made thee whole.: 2: It were well for him if a millstone were hanged about his neck, and he were thro: 20: And being asked by the Pharisees, when the kingdom of God cometh, he answered th: 21: neither shall they say, Lo, here! or, There! for lo, the kingdom of God is withi: 22: And he said unto the disciples, The days will come, when ye shall desire to see : 23: And they shall say to you, Lo, there! Lo, here! go not away, nor follow after th: 24: for as the lightning, when it lighteneth out of the one part under the heaven, s: 25: But first must he suffer many things and be rejected of this generation.: 26: And as it came to pass in the days of Noah, even so shall it be also in the days: 27: They ate, they drank, they married, they were given in marriage, until the day t: 28: Likewise even as it came to pass in the days of Lot; they ate, they drank, they : 29: but in the day that Lot went out from Sodom it rained fire and brimstone from he: 3: Take heed to yourselves: if thy brother sin, rebuke him; and if he repent, forgi: 30: after the same manner shall it be in the day that the Son of man is revealed.: 31: In that day, he that shall be on the housetop, and his goods in the house, let h: 32: Remember Lot’s wife.: 33: Whosoever shall seek to gain his life shall lose it: but whosoever shall lose hi: 34: I say unto you, In that night there shall be two men on one bed; the one shall b: 35: There shall be two women grinding together; the one shall be taken, and the othe: 37: And they answering say unto him, Where, Lord? And he said unto them, Where the b: 4: And if he sin against thee seven times in the day, and seven times turn again to: 5: And the apostles said unto the Lord, Increase our faith.: 6: And the Lord said, If ye had faith as a grain of mustard seed, ye would say unto: 7: But who is there of you, having a servant plowing or keeping sheep, that will sa: 8: and will not rather say unto him, Make ready wherewith I may sup, and gird thyse: 9: Doth he thank the servant because he did the things that were commanded?
+-- Luke 23:17 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And the whole multitude of them arose, and led him unto Pilate.
+   KJV: 10: And the chief priests and scribes stood and vehemently accused him.
+   KJV: 11: And Herod with his men of war set him at nought, and mocked him, and arrayed him
+   KJV: 12: And the same day Pilate and Herod were made friends together: for before they we
+   KJV: 13: And Pilate, when he had called together the chief priests and the rulers and the
+   KJV: 14: Said unto them, Ye have brought this man unto me, as one that perverteth the peo
+   KJV: 15: No, nor yet Herod: for I sent you to him; and, lo, nothing worthy of death is do
+   KJV: 16: I will therefore chastise him, and release him.
+   KJV: 17: (For of necessity he must release one unto them at the feast.)
+   KJV: 18: And they cried out all at once, saying, Away with this man, and release unto us 
+   KJV: 19: (Who for a certain sedition made in the city, and for murder, was cast into pris
+   KJV: 2: And they began to accuse him, saying, We found this fellow perverting the nation
+   KJV: 20: Pilate therefore, willing to release Jesus, spake again to them.
+   KJV: 21: But they cried, saying, Crucify him, crucify him.
+   KJV: 22: And he said unto them the third time, Why, what evil hath he done? I have found 
+   KJV: 23: And they were instant with loud voices, requiring that he might be crucified. An
+   KJV: 24: And Pilate gave sentence that it should be as they required.
+   KJV: 25: And he released unto them him that for sedition and murder was cast into prison,
+   KJV: 26: And as they led him away, they laid hold upon one Simon, a Cyrenian, coming out 
+   KJV: 27: And there followed him a great company of people, and of women, which also bewai
+   KJV: 28: But Jesus turning unto them said, Daughters of Jerusalem, weep not for me, but w
+   KJV: 29: For, behold, the days are coming, in the which they shall say, Blessed are the b
+   KJV: 3: And Pilate asked him, saying, Art thou the King of the Jews? And he answered him
+   KJV: 30: Then shall they begin to say to the mountains, Fall on us; and to the hills, Cov
+   KJV: 31: For if they do these things in a green tree, what shall be done in the dry?
+   KJV: 32: And there were also two other, malefactors, led with him to be put to death.
+   KJV: 33: And when they were come to the place, which is called Calvary, there they crucif
+   KJV: 34: Then said Jesus, Father, forgive them; for they know not what they do. And they 
+   KJV: 35: And the people stood beholding. And the rulers also with them derided him, sayin
+   KJV: 36: And the soldiers also mocked him, coming to him, and offering him vinegar,
+   KJV: 37: And saying, If thou be the king of the Jews, save thyself.
+   KJV: 38: And a superscription also was written over him in letters of Greek, and Latin, a
+   KJV: 39: And one of the malefactors which were hanged railed on him, saying, If thou be C
+   KJV: 4: Then said Pilate to the chief priests and to the people, I find no fault in this
+   KJV: 40: But the other answering rebuked him, saying, Dost not thou fear God, seeing thou
+   KJV: 41: And we indeed justly; for we receive the due reward of our deeds: but this man h
+   KJV: 42: And he said unto Jesus, Lord, remember me when thou comest into thy kingdom.
+   KJV: 43: And Jesus said unto him, Verily I say unto thee, To day shalt thou be with me in
+   KJV: 44: And it was about the sixth hour, and there was a darkness over all the earth unt
+   KJV: 45: And the sun was darkened, and the veil of the temple was rent in the midst.
+   KJV: 46: And when Jesus had cried with a loud voice, he said, Father, into thy hands I co
+   KJV: 47: Now when the centurion saw what was done, he glorified God, saying, Certainly th
+   KJV: 48: And all the people that came together to that sight, beholding the things which 
+   KJV: 49: And all his acquaintance, and the women that followed him from Galilee, stood af
+   KJV: 5: And they were the more fierce, saying, He stirreth up the people, teaching throu
+   KJV: 50: And, behold, there was a man named Joseph, a counsellor; and he was a good man, 
+   KJV: 51: (The same had not consented to the counsel and deed of them;) he was of Arimatha
+   KJV: 52: This man went unto Pilate, and begged the body of Jesus.
+   KJV: 53: And he took it down, and wrapped it in linen, and laid it in a sepulchre that wa
+   KJV: 54: And that day was the preparation, and the sabbath drew on.
+   KJV: 55: And the women also, which came with him from Galilee, followed after, and beheld
+   KJV: 56: And they returned, and prepared spices and ointments; and rested the sabbath day
+   KJV: 6: When Pilate heard of Galilee, he asked whether the man were a Galilaean.
+   KJV: 7: And as soon as he knew that he belonged unto Herod's jurisdiction, he sent him t
+   KJV: 8: And when Herod saw Jesus, he was exceeding glad: for he was desirous to see him 
+   KJV: 9: Then he questioned with him in many words; but he answered him nothing.
+   ASV: 
+   ASV1: And the whole company of them rose up, and brought him before Pilate.: 10: And the chief priests and the scribes stood, vehemently accusing him.: 11: And Herod with his soldiers set him at nought, and mocked him, and arraying him : 12: And Herod and Pilate became friends with each other that very day: for before th: 13: And Pilate called together the chief priests and the rulers and the people,: 14: and said unto them, Ye brought unto me this man, as one that perverteth the peop: 15: no, nor yet Herod: for he sent him back unto us; and behold, nothing worthy of d: 16: I will therefore chastise him, and release him.: 18: But they cried out all together, saying, Away with this man, and release unto us: 19: one who for a certain insurrection made in the city, and for murder, was cast in: 2: And they began to accuse him, saying, We found this man perverting our nation, a: 20: And Pilate spake unto them again, desiring to release Jesus;: 21: but they shouted, saying, Crucify, crucify him.: 22: And he said unto them the third time, Why, what evil hath this man done? I have : 23: But they were urgent with loud voices, asking that he might be crucified. And th: 24: And Pilate gave sentence that what they asked for should be done.: 25: And he released him that for insurrection and murder had been cast into prison, : 26: And when they led him away, they laid hold upon one Simon of Cyrene, coming from: 27: And there followed him a great multitude of the people, and of women who bewaile: 28: But Jesus turning unto them said, Daughters of Jerusalem, weep not for me, but w: 29: For behold, the days are coming, in which they shall say, Blessed are the barren: 3: And Pilate asked him, saying, Art thou the King of the Jews? And he answered him: 30: Then shall they begin to say to the mountains, Fall on us; and to the hills, Cov: 31: For if they do these things in the green tree, what shall be done in the dry?: 32: And there were also two others, malefactors, led with him to be put to death.: 33: And when they came unto the place which is called The skull, there they crucifie: 34: And Jesus said, Father, forgive them; for they know not what they do. And partin: 35: And the people stood beholding. And the rulers also scoffed at him, saying, He s: 36: And the soldiers also mocked him, coming to him, offering him vinegar,: 37: and saying, If thou art the King of the Jews, save thyself.: 38: And there was also a superscription over him, THIS IS THE KING OF THE JEWS.: 39: And one of the malefactors that were hanged railed on him, saying, Art not thou : 4: And Pilate said unto the chief priests and the multitudes, I find no fault in th: 40: But the other answered, and rebuking him said, Dost thou not even fear God, seei: 41: And we indeed justly; for we receive the due reward of our deeds: but this man h: 42: And he said, Jesus, remember me when thou comest in thy kingdom.: 43: And he said unto him, Verily I say unto thee, To-day shalt thou be with me in Pa: 44: And it was now about the sixth hour, and a darkness came over the whole land unt: 45: the sun’s light failing: and the veil of the temple was rent in the midst.: 46: And Jesus, crying with a loud voice, said, Father, into thy hands I commend my s: 47: And when the centurion saw what was done, he glorified God, saying, Certainly th: 48: And all the multitudes that came together to this sight, when they beheld the th: 49: And all his acquaintance, and the women that followed with him from Galilee, sto: 5: But they were the more urgent, saying, He stirreth up the people, teaching throu: 50: And behold, a man named Joseph, who was a councillor, a good and righteous man: 51: (he had not consented to their counsel and deed), a man of Arimathæa, a city of : 52: this man went to Pilate, and asked for the body of Jesus.: 53: And he took it down, and wrapped it in a linen cloth, and laid him in a tomb tha: 54: And it was the day of the Preparation, and the sabbath drew on.: 55: And the women, who had come with him out of Galilee, followed after, and beheld : 56: And they returned, and prepared spices and ointments. And on the sabbath they re: 6: But when Pilate heard it, he asked whether the man were a Galilæan.: 7: And when he knew that he was of Herod’s jurisdiction, he sent him unto Herod, wh: 8: Now when Herod saw Jesus, he was exceeding glad: for he was of a long time desir: 9: And he questioned him in many words; but he answered him nothing.
+-- Mark 7:16 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: Then came together unto him the Pharisees, and certain of the scribes, which cam
+   KJV: 10: For Moses said, Honour thy father and thy mother; and, Whoso curseth father or m
+   KJV: 11: But ye say, If a man shall say to his father or mother, It is Corban, that is to
+   KJV: 12: And ye suffer him no more to do ought for his father or his mother;
+   KJV: 13: Making the word of God of none effect through your tradition, which ye have deli
+   KJV: 14: And when he had called all the people unto him, he said unto them, Hearken unto 
+   KJV: 15: There is nothing from without a man, that entering into him can defile him: but 
+   KJV: 16: If any man have ears to hear, let him hear.
+   KJV: 17: And when he was entered into the house from the people, his disciples asked him 
+   KJV: 18: And he saith unto them, Are ye so without understanding also? Do ye not perceive
+   KJV: 19: Because it entereth not into his heart, but into the belly, and goeth out into t
+   KJV: 2: And when they saw some of his disciples eat bread with defiled, that is to say, 
+   KJV: 20: And he said, That which cometh out of the man, that defileth the man.
+   KJV: 21: For from within, out of the heart of men, proceed evil thoughts, adulteries, for
+   KJV: 22: Thefts, covetousness, wickedness, deceit, lasciviousness, an evil eye, blasphemy
+   KJV: 23: All these evil things come from within, and defile the man.
+   KJV: 24: And from thence he arose, and went into the borders of Tyre and Sidon, and enter
+   KJV: 25: For a certain woman, whose young daughter had an unclean spirit, heard of him, a
+   KJV: 26: The woman was a Greek, a Syrophenician by nation; and she besought him that he w
+   KJV: 27: But Jesus said unto her, Let the children first be filled: for it is not meet to
+   KJV: 28: And she answered and said unto him, Yes, Lord: yet the dogs under the table eat 
+   KJV: 29: And he said unto her, For this saying go thy way; the devil is gone out of thy d
+   KJV: 3: For the Pharisees, and all the Jews, except they wash their hands oft, eat not, 
+   KJV: 30: And when she was come to her house, she found the devil gone out, and her daught
+   KJV: 31: And again, departing from the coasts of Tyre and Sidon, he came unto the sea of 
+   KJV: 32: And they bring unto him one that was deaf, and had an impediment in his speech; 
+   KJV: 33: And he took him aside from the multitude, and put his fingers into his ears, and
+   KJV: 34: And looking up to heaven, he sighed, and saith unto him, Ephphatha, that is, Be 
+   KJV: 35: And straightway his ears were opened, and the string of his tongue was loosed, a
+   KJV: 36: And he charged them that they should tell no man: but the more he charged them, 
+   KJV: 37: And were beyond measure astonished, saying, He hath done all things well: he mak
+   KJV: 4: And when they come from the market, except they wash, they eat not. And many oth
+   KJV: 5: Then the Pharisees and scribes asked him, Why walk not thy disciples according t
+   KJV: 6: He answered and said unto them, Well hath Esaias prophesied of you hypocrites, a
+   KJV: 7: Howbeit in vain do they worship me, teaching for doctrines the commandments of m
+   KJV: 8: For laying aside the commandment of God, ye hold the tradition of men, as the wa
+   KJV: 9: And he said unto them, Full well ye reject the commandment of God, that ye may k
+   ASV: 
+   ASV1: And there are gathered together unto him the Pharisees, and certain of the scrib: 10: For Moses said, Honor thy father and thy mother; and, He that speaketh evil of f: 11: but ye say, If a man shall say to his father or his mother, That wherewith thou : 12: ye no longer suffer him to do aught for his father or his mother;: 13: making void the word of God by your tradition, which ye have delivered: and many: 14: And he called to him the multitude again, and said unto them, Hear me all of you: 15: there is nothing from without the man, that going into him can defile him; but t: 17: And when he was entered into the house from the multitude, his disciples asked o: 18: And he saith unto them, Are ye so without understanding also? Perceive ye not, t: 19: because it goeth not into his heart, but into his belly, and goeth out into the : 2: and had seen that some of his disciples ate their bread with defiled, that is, u: 20: And he said, That which proceedeth out of the man, that defileth the man.: 21: For from within, out of the heart of men, evil thoughts proceed, fornications, t: 22: covetings, wickednesses, deceit, lasciviousness, an evil eye, railing, pride, fo: 23: all these evil things proceed from within, and defile the man.: 24: And from thence he arose, and went away into the borders of Tyre and Sidon. And : 25: But straightway a woman, whose little daughter had an unclean spirit, having hea: 26: Now the woman was a Greek, a Syrophoenician by race. And she besought him that h: 27: And he said unto her, Let the children first be filled: for it is not meet to ta: 28: But she answered and saith unto him, Yea, Lord; even the dogs under the table ea: 29: And he said unto her, For this saying go thy way; the demon is gone out of thy d: 3: (For the Pharisees, and all the Jews, except they wash their hands diligently, e: 30: And she went away unto her house, and found the child laid upon the bed, and the: 31: And again he went out from the borders of Tyre, and came through Sidon unto the : 32: And they bring unto him one that was deaf, and had an impediment in his speech; : 33: And he took him aside from the multitude privately, and put his fingers into his: 34: and looking up to heaven, he sighed, and saith unto him, Ephphatha, that is, Be : 35: And his ears were opened, and the bond of his tongue was loosed, and he spake pl: 36: And he charged them that they should tell no man: but the more he charged them, : 37: And they were beyond measure astonished, saying, He hath done all things well; h: 4: and when they come from the marketplace, except they bathe themselves, they eat : 5: And the Pharisees and the scribes ask him, Why walk not thy disciples according : 6: And he said unto them, Well did Isaiah prophesy of you hypocrites, as it is writ: 7: But in vain do they worship me, Teachingas theirdoctrines the precepts of men.: 8: Ye leave the commandment of God, and hold fast the tradition of men.: 9: And he said unto them, Full well do ye reject the commandment of God, that ye ma
+-- Mark 9:44 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And he said unto them, Verily I say unto you, That there be some of them that st
+   KJV: 10: And they kept that saying with themselves, questioning one with another what the
+   KJV: 11: And they asked him, saying, Why say the scribes that Elias must first come?
+   KJV: 12: And he answered and told them, Elias verily cometh first, and restoreth all thin
+   KJV: 13: But I say unto you, That Elias is indeed come, and they have done unto him whats
+   KJV: 14: And when he came to his disciples, he saw a great multitude about them, and the 
+   KJV: 15: And straightway all the people, when they beheld him, were greatly amazed, and r
+   KJV: 16: And he asked the scribes, What question ye with them?
+   KJV: 17: And one of the multitude answered and said, Master, I have brought unto thee my 
+   KJV: 18: And wheresoever he taketh him, he teareth him: and he foameth, and gnasheth with
+   KJV: 19: He answereth him, and saith, O faithless generation, how long shall I be with yo
+   KJV: 2: And after six days Jesus taketh with him Peter, and James, and John, and leadeth
+   KJV: 20: And they brought him unto him: and when he saw him, straightway the spirit tare 
+   KJV: 21: And he asked his father, How long is it ago since this came unto him? And he sai
+   KJV: 22: And ofttimes it hath cast him into the fire, and into the waters, to destroy him
+   KJV: 23: Jesus said unto him, If thou canst believe, all things are possible to him that 
+   KJV: 24: And straightway the father of the child cried out, and said with tears, Lord, I 
+   KJV: 25: When Jesus saw that the people came running together, he rebuked the foul spirit
+   KJV: 26: And the spirit cried, and rent him sore, and came out of him: and he was as one 
+   KJV: 27: But Jesus took him by the hand, and lifted him up; and he arose.
+   KJV: 28: And when he was come into the house, his disciples asked him privately, Why coul
+   KJV: 29: And he said unto them, This kind can come forth by nothing, but by prayer and fa
+   KJV: 3: And his raiment became shining, exceeding white as snow; so as no fuller on eart
+   KJV: 30: And they departed thence, and passed through Galilee; and he would not that any 
+   KJV: 31: For he taught his disciples, and said unto them, The Son of man is delivered int
+   KJV: 32: But they understood not that saying, and were afraid to ask him.
+   KJV: 33: And he came to Capernaum: and being in the house he asked them, What was it that
+   KJV: 34: But they held their peace: for by the way they had disputed among themselves, wh
+   KJV: 35: And he sat down, and called the twelve, and saith unto them, If any man desire t
+   KJV: 36: And he took a child, and set him in the midst of them: and when he had taken him
+   KJV: 37: Whosoever shall receive one of such children in my name, receiveth me: and whoso
+   KJV: 38: And John answered him, saying, Master, we saw one casting out devils in thy name
+   KJV: 39: But Jesus said, Forbid him not: for there is no man which shall do a miracle in 
+   KJV: 4: And there appeared unto them Elias with Moses: and they were talking with Jesus.
+   KJV: 40: For he that is not against us is on our part.
+   KJV: 41: For whosoever shall give you a cup of water to drink in my name, because ye belo
+   KJV: 42: And whosoever shall offend one of these little ones that believe in me, it is be
+   KJV: 43: And if thy hand offend thee, cut it off: it is better for thee to enter into lif
+   KJV: 44: Where their worm dieth not, and the fire is not quenched.
+   KJV: 45: And if thy foot offend thee, cut it off: it is better for thee to enter halt int
+   KJV: 46: Where their worm dieth not, and the fire is not quenched.
+   KJV: 47: And if thine eye offend thee, pluck it out: it is better for thee to enter into 
+   KJV: 48: Where their worm dieth not, and the fire is not quenched.
+   KJV: 49: For every one shall be salted with fire, and every sacrifice shall be salted wit
+   KJV: 5: And Peter answered and said to Jesus, Master, it is good for us to be here: and 
+   KJV: 50: Salt is good: but if the salt have lost his saltness, wherewith will ye season i
+   KJV: 6: For he wist not what to say; for they were sore afraid.
+   KJV: 7: And there was a cloud that overshadowed them: and a voice came out of the cloud,
+   KJV: 8: And suddenly, when they had looked round about, they saw no man any more, save J
+   KJV: 9: And as they came down from the mountain, he charged them that they should tell n
+   ASV: 
+   ASV1: And he said unto them, Verily I say unto you, There are some here of them that s: 10: And they kept the saying, questioning among themselves what the rising again fro: 11: And they asked him, saying, How is it that the scribes say that Elijah must firs: 12: And he said unto them, Elijah indeed cometh first, and restoreth all things: and: 13: But I say unto you, that Elijah is come, and they have also done unto him whatso: 14: And when they came to the disciples, they saw a great multitude about them, and : 15: And straightway all the multitude, when they saw him, were greatly amazed, and r: 16: And he asked them, What question ye with them?: 17: And one of the multitude answered him, Teacher, I brought unto thee my son, who : 18: and wheresoever it taketh him, it dasheth him down: and he foameth, and grindeth: 19: And he answereth them and saith, O faithless generation, how long shall I be wit: 2: And after six days Jesus taketh with him Peter, and James, and John, and bringet: 20: And they brought him unto him: and when he saw him, straightway the spirit tare : 21: And he asked his father, How long time is it since this hath come unto him? And : 22: And oft-times it hath cast him both into the fire and into the waters, to destro: 23: And Jesus said unto him, If thou canst! All things are possible to him that beli: 24: Straightway the father of the child cried out, and said, I believe; help thou mi: 25: And when Jesus saw that a multitude came running together, he rebuked the unclea: 26: And having cried out, and torn him much, he came out: and the boy became as one : 27: But Jesus took him by the hand, and raised him up; and he arose.: 28: And when he was come into the house, his disciples asked him privately, How is i: 29: And he said unto them, This kind can come out by nothing, save by prayer.: 3: and his garments became glistering, exceeding white, so as no fuller on earth ca: 30: And they went forth from thence, and passed through Galilee; and he would not th: 31: For he taught his disciples, and said unto them, The Son of man is delivered up : 32: But they understood not the saying, and were afraid to ask him.: 33: And they came to Capernaum: and when he was in the house he asked them, What wer: 34: But they held their peace: for they had disputed one with another on the way, wh: 35: And he sat down, and called the twelve; and he saith unto them, If any man would: 36: And he took a little child, and set him in the midst of them: and taking him in : 37: Whosoever shall receive one of such little children in my name, receiveth me: an: 38: John said unto him, Teacher, we saw one casting out demons in thy name; and we f: 39: But Jesus said, Forbid him not: for there is no man who shall do a mighty work i: 4: And there appeared unto them Elijah with Moses: and they were talking with Jesus: 40: For he that is not against us is for us.: 41: For whosoever shall give you a cup of water to drink, because ye are Christ’s, v: 42: And whosoever shall cause one of these little ones that believe on me to stumble: 43: And if thy hand cause thee to stumble, cut it off: it is good for thee to enter : 45: And if thy foot cause thee to stumble, cut it off: it is good for thee to enter : 47: And if thine eye cause thee to stumble, cast it out: it is good for thee to ente: 48: where their worm dieth not, and the fire is not quenched.: 49: For every one shall be salted with fire.: 5: And Peter answereth and saith to Jesus, Rabbi, it is good for us to be here: and: 50: Salt is good: but if the salt have lost its saltness, wherewith will ye season i: 6: For he knew not what to answer; for they became sore afraid.: 7: And there came a cloud overshadowing them: and there came a voice out of the clo: 8: And suddenly looking round about, they saw no one any more, save Jesus only with: 9: And as they were coming down from the mountain, he charged them that they should
+-- Mark 9:46 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And he said unto them, Verily I say unto you, That there be some of them that st
+   KJV: 10: And they kept that saying with themselves, questioning one with another what the
+   KJV: 11: And they asked him, saying, Why say the scribes that Elias must first come?
+   KJV: 12: And he answered and told them, Elias verily cometh first, and restoreth all thin
+   KJV: 13: But I say unto you, That Elias is indeed come, and they have done unto him whats
+   KJV: 14: And when he came to his disciples, he saw a great multitude about them, and the 
+   KJV: 15: And straightway all the people, when they beheld him, were greatly amazed, and r
+   KJV: 16: And he asked the scribes, What question ye with them?
+   KJV: 17: And one of the multitude answered and said, Master, I have brought unto thee my 
+   KJV: 18: And wheresoever he taketh him, he teareth him: and he foameth, and gnasheth with
+   KJV: 19: He answereth him, and saith, O faithless generation, how long shall I be with yo
+   KJV: 2: And after six days Jesus taketh with him Peter, and James, and John, and leadeth
+   KJV: 20: And they brought him unto him: and when he saw him, straightway the spirit tare 
+   KJV: 21: And he asked his father, How long is it ago since this came unto him? And he sai
+   KJV: 22: And ofttimes it hath cast him into the fire, and into the waters, to destroy him
+   KJV: 23: Jesus said unto him, If thou canst believe, all things are possible to him that 
+   KJV: 24: And straightway the father of the child cried out, and said with tears, Lord, I 
+   KJV: 25: When Jesus saw that the people came running together, he rebuked the foul spirit
+   KJV: 26: And the spirit cried, and rent him sore, and came out of him: and he was as one 
+   KJV: 27: But Jesus took him by the hand, and lifted him up; and he arose.
+   KJV: 28: And when he was come into the house, his disciples asked him privately, Why coul
+   KJV: 29: And he said unto them, This kind can come forth by nothing, but by prayer and fa
+   KJV: 3: And his raiment became shining, exceeding white as snow; so as no fuller on eart
+   KJV: 30: And they departed thence, and passed through Galilee; and he would not that any 
+   KJV: 31: For he taught his disciples, and said unto them, The Son of man is delivered int
+   KJV: 32: But they understood not that saying, and were afraid to ask him.
+   KJV: 33: And he came to Capernaum: and being in the house he asked them, What was it that
+   KJV: 34: But they held their peace: for by the way they had disputed among themselves, wh
+   KJV: 35: And he sat down, and called the twelve, and saith unto them, If any man desire t
+   KJV: 36: And he took a child, and set him in the midst of them: and when he had taken him
+   KJV: 37: Whosoever shall receive one of such children in my name, receiveth me: and whoso
+   KJV: 38: And John answered him, saying, Master, we saw one casting out devils in thy name
+   KJV: 39: But Jesus said, Forbid him not: for there is no man which shall do a miracle in 
+   KJV: 4: And there appeared unto them Elias with Moses: and they were talking with Jesus.
+   KJV: 40: For he that is not against us is on our part.
+   KJV: 41: For whosoever shall give you a cup of water to drink in my name, because ye belo
+   KJV: 42: And whosoever shall offend one of these little ones that believe in me, it is be
+   KJV: 43: And if thy hand offend thee, cut it off: it is better for thee to enter into lif
+   KJV: 44: Where their worm dieth not, and the fire is not quenched.
+   KJV: 45: And if thy foot offend thee, cut it off: it is better for thee to enter halt int
+   KJV: 46: Where their worm dieth not, and the fire is not quenched.
+   KJV: 47: And if thine eye offend thee, pluck it out: it is better for thee to enter into 
+   KJV: 48: Where their worm dieth not, and the fire is not quenched.
+   KJV: 49: For every one shall be salted with fire, and every sacrifice shall be salted wit
+   KJV: 5: And Peter answered and said to Jesus, Master, it is good for us to be here: and 
+   KJV: 50: Salt is good: but if the salt have lost his saltness, wherewith will ye season i
+   KJV: 6: For he wist not what to say; for they were sore afraid.
+   KJV: 7: And there was a cloud that overshadowed them: and a voice came out of the cloud,
+   KJV: 8: And suddenly, when they had looked round about, they saw no man any more, save J
+   KJV: 9: And as they came down from the mountain, he charged them that they should tell n
+   ASV: 
+   ASV1: And he said unto them, Verily I say unto you, There are some here of them that s: 10: And they kept the saying, questioning among themselves what the rising again fro: 11: And they asked him, saying, How is it that the scribes say that Elijah must firs: 12: And he said unto them, Elijah indeed cometh first, and restoreth all things: and: 13: But I say unto you, that Elijah is come, and they have also done unto him whatso: 14: And when they came to the disciples, they saw a great multitude about them, and : 15: And straightway all the multitude, when they saw him, were greatly amazed, and r: 16: And he asked them, What question ye with them?: 17: And one of the multitude answered him, Teacher, I brought unto thee my son, who : 18: and wheresoever it taketh him, it dasheth him down: and he foameth, and grindeth: 19: And he answereth them and saith, O faithless generation, how long shall I be wit: 2: And after six days Jesus taketh with him Peter, and James, and John, and bringet: 20: And they brought him unto him: and when he saw him, straightway the spirit tare : 21: And he asked his father, How long time is it since this hath come unto him? And : 22: And oft-times it hath cast him both into the fire and into the waters, to destro: 23: And Jesus said unto him, If thou canst! All things are possible to him that beli: 24: Straightway the father of the child cried out, and said, I believe; help thou mi: 25: And when Jesus saw that a multitude came running together, he rebuked the unclea: 26: And having cried out, and torn him much, he came out: and the boy became as one : 27: But Jesus took him by the hand, and raised him up; and he arose.: 28: And when he was come into the house, his disciples asked him privately, How is i: 29: And he said unto them, This kind can come out by nothing, save by prayer.: 3: and his garments became glistering, exceeding white, so as no fuller on earth ca: 30: And they went forth from thence, and passed through Galilee; and he would not th: 31: For he taught his disciples, and said unto them, The Son of man is delivered up : 32: But they understood not the saying, and were afraid to ask him.: 33: And they came to Capernaum: and when he was in the house he asked them, What wer: 34: But they held their peace: for they had disputed one with another on the way, wh: 35: And he sat down, and called the twelve; and he saith unto them, If any man would: 36: And he took a little child, and set him in the midst of them: and taking him in : 37: Whosoever shall receive one of such little children in my name, receiveth me: an: 38: John said unto him, Teacher, we saw one casting out demons in thy name; and we f: 39: But Jesus said, Forbid him not: for there is no man who shall do a mighty work i: 4: And there appeared unto them Elijah with Moses: and they were talking with Jesus: 40: For he that is not against us is for us.: 41: For whosoever shall give you a cup of water to drink, because ye are Christ’s, v: 42: And whosoever shall cause one of these little ones that believe on me to stumble: 43: And if thy hand cause thee to stumble, cut it off: it is good for thee to enter : 45: And if thy foot cause thee to stumble, cut it off: it is good for thee to enter : 47: And if thine eye cause thee to stumble, cast it out: it is good for thee to ente: 48: where their worm dieth not, and the fire is not quenched.: 49: For every one shall be salted with fire.: 5: And Peter answereth and saith to Jesus, Rabbi, it is good for us to be here: and: 50: Salt is good: but if the salt have lost its saltness, wherewith will ye season i: 6: For he knew not what to answer; for they became sore afraid.: 7: And there came a cloud overshadowing them: and there came a voice out of the clo: 8: And suddenly looking round about, they saw no one any more, save Jesus only with: 9: And as they were coming down from the mountain, he charged them that they should
+-- Mark 11:26 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And when they came nigh to Jerusalem, unto Bethphage and Bethany, at the mount o
+   KJV: 10: Blessed be the kingdom of our father David, that cometh in the name of the Lord:
+   KJV: 11: And Jesus entered into Jerusalem, and into the temple: and when he had looked ro
+   KJV: 12: And on the morrow, when they were come from Bethany, he was hungry:
+   KJV: 13: And seeing a fig tree afar off having leaves, he came, if haply he might find an
+   KJV: 14: And Jesus answered and said unto it, No man eat fruit of thee hereafter for ever
+   KJV: 15: And they come to Jerusalem: and Jesus went into the temple, and began to cast ou
+   KJV: 16: And would not suffer that any man should carry any vessel through the temple.
+   KJV: 17: And he taught, saying unto them, Is it not written, My house shall be called of 
+   KJV: 18: And the scribes and chief priests heard it, and sought how they might destroy hi
+   KJV: 19: And when even was come, he went out of the city.
+   KJV: 2: And saith unto them, Go your way into the village over against you: and as soon 
+   KJV: 20: And in the morning, as they passed by, they saw the fig tree dried up from the r
+   KJV: 21: And Peter calling to remembrance saith unto him, Master, behold, the fig tree wh
+   KJV: 22: And Jesus answering saith unto them, Have faith in God.
+   KJV: 23: For verily I say unto you, That whosoever shall say unto this mountain, Be thou 
+   KJV: 24: Therefore I say unto you, What things soever ye desire, when ye pray, believe th
+   KJV: 25: And when ye stand praying, forgive, if ye have ought against any: that your Fath
+   KJV: 26: But if ye do not forgive, neither will your Father which is in heaven forgive yo
+   KJV: 27: And they come again to Jerusalem: and as he was walking in the temple, there com
+   KJV: 28: And say unto him, By what authority doest thou these things? and who gave thee t
+   KJV: 29: And Jesus answered and said unto them, I will also ask of you one question, and 
+   KJV: 3: And if any man say unto you, Why do ye this? say ye that the Lord hath need of h
+   KJV: 30: The baptism of John, was it from heaven, or of men? answer me.
+   KJV: 31: And they reasoned with themselves, saying, If we shall say, From heaven; he will
+   KJV: 32: But if we shall say, Of men; they feared the people: for all men counted John, t
+   KJV: 33: And they answered and said unto Jesus, We cannot tell. And Jesus answering saith
+   KJV: 4: And they went their way, and found the colt tied by the door without in a place 
+   KJV: 5: And certain of them that stood there said unto them, What do ye, loosing the col
+   KJV: 6: And they said unto them even as Jesus had commanded: and they let them go.
+   KJV: 7: And they brought the colt to Jesus, and cast their garments on him; and he sat u
+   KJV: 8: And many spread their garments in the way: and others cut down branches off the 
+   KJV: 9: And they that went before, and they that followed, cried, saying, Hosanna; Bless
+   ASV: 
+   ASV1: And when they draw nigh unto Jerusalem, unto Bethphage and Bethany, at the mount: 10: Blessed is the kingdom that cometh, the kingdom of our father David: Hosanna in : 11: And he entered into Jerusalem, into the temple; and when he had looked round abo: 12: And on the morrow, when they were come out from Bethany, he hungered.: 13: And seeing a fig tree afar off having leaves, he came, if haply he might find an: 14: And he answered and said unto it, No man eat fruit from thee henceforward for ev: 15: And they come to Jerusalem: and he entered into the temple, and began to cast ou: 16: and he would not suffer that any man should carry a vessel through the temple.: 17: And he taught, and said unto them, Is it not written, My house shall be called a: 18: And the chief priests and the scribes heard it, and sought how they might destro: 19: And every evening he went forth out of the city.: 2: and saith unto them, Go your way into the village that is over against you: and : 20: And as they passed by in the morning, they saw the fig tree withered away from t: 21: And Peter calling to remembrance saith unto him, Rabbi, behold, the fig tree whi: 22: And Jesus answering saith unto them, Have faith in God.: 23: Verily I say unto you, Whosoever shall say unto this mountain, Be thou taken up : 24: Therefore I say unto you, All things whatsoever ye pray and ask for, believe tha: 25: And whensoever ye stand praying, forgive, if ye have aught against any one; that: 27: And they come again to Jerusalem: and as he was walking in the temple, there com: 28: and they said unto him, By what authority doest thou these things? or who gave t: 29: And Jesus said unto them, I will ask of you one question, and answer me, and I w: 3: And if any one say unto you, Why do ye this? say ye, The Lord hath need of him; : 30: The baptism of John, was it from heaven, or from men? answer me.: 31: And they reasoned with themselves, saying, If we shall say, From heaven; he will: 32: But should we say, From men—they feared the people: for all verily held John to : 33: And they answered Jesus and say, We know not. And Jesus saith unto them, Neither: 4: And they went away, and found a colt tied at the door without in the open street: 5: And certain of them that stood there said unto them, What do ye, loosing the col: 6: And they said unto them even as Jesus had said: and they let them go.: 7: And they bring the colt unto Jesus, and cast on him their garments; and he sat u: 8: And many spread their garments upon the way; and others branches, which they had: 9: And they that went before, and they that followed, cried, Hosanna; Blessed is he
+-- Mark 15:28 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And straightway in the morning the chief priests held a consultation with the el
+   KJV: 10: For he knew that the chief priests had delivered him for envy.
+   KJV: 11: But the chief priests moved the people, that he should rather release Barabbas u
+   KJV: 12: And Pilate answered and said again unto them, What will ye then that I shall do 
+   KJV: 13: And they cried out again, Crucify him.
+   KJV: 14: Then Pilate said unto them, Why, what evil hath he done? And they cried out the 
+   KJV: 15: And so Pilate, willing to content the people, released Barabbas unto them, and d
+   KJV: 16: And the soldiers led him away into the hall, called Praetorium; and they call to
+   KJV: 17: And they clothed him with purple, and platted a crown of thorns, and put it abou
+   KJV: 18: And began to salute him, Hail, King of the Jews!
+   KJV: 19: And they smote him on the head with a reed, and did spit upon him, and bowing th
+   KJV: 2: And Pilate asked him, Art thou the King of the Jews? And he answering said unto 
+   KJV: 20: And when they had mocked him, they took off the purple from him, and put his own
+   KJV: 21: And they compel one Simon a Cyrenian, who passed by, coming out of the country, 
+   KJV: 22: And they bring him unto the place Golgotha, which is, being interpreted, The pla
+   KJV: 23: And they gave him to drink wine mingled with myrrh: but he received it not.
+   KJV: 24: And when they had crucified him, they parted his garments, casting lots upon the
+   KJV: 25: And it was the third hour, and they crucified him.
+   KJV: 26: And the superscription of his accusation was written over, THE KING OF THE JEWS.
+   KJV: 27: And with him they crucify two thieves; the one on his right hand, and the other 
+   KJV: 28: And the scripture was fulfilled, which saith, And he was numbered with the trans
+   KJV: 29: And they that passed by railed on him, wagging their heads, and saying, Ah, thou
+   KJV: 3: And the chief priests accused him of many things: but he answered nothing.
+   KJV: 30: Save thyself, and come down from the cross.
+   KJV: 31: Likewise also the chief priests mocking said among themselves with the scribes, 
+   KJV: 32: Let Christ the King of Israel descend now from the cross, that we may see and be
+   KJV: 33: And when the sixth hour was come, there was darkness over the whole land until t
+   KJV: 34: And at the ninth hour Jesus cried with a loud voice, saying, Eloi, Eloi, lama sa
+   KJV: 35: And some of them that stood by, when they heard it, said, Behold, he calleth Eli
+   KJV: 36: And one ran and filled a spunge full of vinegar, and put it on a reed, and gave 
+   KJV: 37: And Jesus cried with a loud voice, and gave up the ghost.
+   KJV: 38: And the veil of the temple was rent in twain from the top to the bottom.
+   KJV: 39: And when the centurion, which stood over against him, saw that he so cried out, 
+   KJV: 4: And Pilate asked him again, saying, Answerest thou nothing? behold how many thin
+   KJV: 40: There were also women looking on afar off: among whom was Mary Magdalene, and Ma
+   KJV: 41: (Who also, when he was in Galilee, followed him, and ministered unto him;) and m
+   KJV: 42: And now when the even was come, because it was the preparation, that is, the day
+   KJV: 43: Joseph of Arimathaea, an honourable counsellor, which also waited for the kingdo
+   KJV: 44: And Pilate marvelled if he were already dead: and calling unto him the centurion
+   KJV: 45: And when he knew it of the centurion, he gave the body to Joseph.
+   KJV: 46: And he bought fine linen, and took him down, and wrapped him in the linen, and l
+   KJV: 47: And Mary Magdalene and Mary the mother of Joses beheld where he was laid.
+   KJV: 5: But Jesus yet answered nothing; so that Pilate marvelled.
+   KJV: 6: Now at that feast he released unto them one prisoner, whomsoever they desired.
+   KJV: 7: And there was one named Barabbas, which lay bound with them that had made insurr
+   KJV: 8: And the multitude crying aloud began to desire him to do as he had ever done unt
+   KJV: 9: But Pilate answered them, saying, Will ye that I release unto you the King of th
+   ASV: 
+   ASV1: And straightway in the morning the chief priests with the elders and scribes, an: 10: For he perceived that for envy the chief priests had delivered him up.: 11: But the chief priests stirred up the multitude, that he should rather release Ba: 12: And Pilate again answered and said unto them, What then shall I do unto him whom: 13: And they cried out again, Crucify him.: 14: And Pilate said unto them, Why, what evil hath he done? But they cried out excee: 15: And Pilate, wishing to content the multitude, released unto them Barabbas, and d: 16: And the soldiers led him away within the court, which is the Prætorium; and they: 17: And they clothe him with purple, and platting a crown of thorns, they put it on : 18: and they began to salute him, Hail, King of the Jews!: 19: And they smote his head with a reed, and spat upon him, and bowing their knees w: 2: And Pilate asked him, Art thou the King of the Jews? And he answering saith unto: 20: And when they had mocked him, they took off from him the purple, and put on him : 21: And they compel one passing by, Simon of Cyrene, coming from the country, the fa: 22: And they bring him unto the place Golgotha, which is, being interpreted, The pla: 23: And they offered him wine mingled with myrrh: but he received it not.: 24: And they crucify him, and part his garments among them, casting lots upon them, : 25: And it was the third hour, and they crucified him.: 26: And the superscription of his accusation was written over, THE KING OF THE JEWS.: 27: And with him they crucify two robbers; one on his right hand, and one on his lef: 29: And they that passed by railed on him, wagging their heads, and saying, Ha! thou: 3: And the chief priests accused him of many things.: 30: save thyself, and come down from the cross.: 31: In like manner also the chief priests mocking him among themselves with the scri: 32: Let the Christ, the King of Israel, now come down from the cross, that we may se: 33: And when the sixth hour was come, there was darkness over the whole land until t: 34: And at the ninth hour Jesus cried with a loud voice, Eloi, Eloi, lama sabachthan: 35: And some of them that stood by, when they heard it, said, Behold, he calleth Eli: 36: And one ran, and filling a sponge full of vinegar, put it on a reed, and gave hi: 37: And Jesus uttered a loud voice, and gave up the ghost.: 38: And the veil of the temple was rent in two from the top to the bottom.: 39: And when the centurion, who stood by over against him, saw that he so gave up th: 4: And Pilate again asked him, saying, Answerest thou nothing? behold how many thin: 40: And there were also women beholding from afar: among whom were both Mary Magdale: 41: who, when he was in Galilee, followed him, and ministered unto him; and many oth: 42: And when even was now come, because it was the Preparation, that is, the day bef: 43: there came Joseph of Arimathæa, a councillor of honorable estate, who also himse: 44: And Pilate marvelled if he were already dead: and calling unto him the centurion: 45: And when he learned it of the centurion, he granted the corpse to Joseph.: 46: And he bought a linen cloth, and taking him down, wound him in the linen cloth, : 47: And Mary Magdalene and Mary the mother of Joses beheld where he was laid.: 5: But Jesus no more answered anything; insomuch that Pilate marvelled.: 6: Now at the feast he used to release unto them one prisoner, whom they asked of h: 7: And there was one called Barabbas, lying bound with them that had made insurrect: 8: And the multitude went up and began to ask him to do as he was wont to do unto t: 9: And Pilate answered them, saying, Will ye that I release unto you the King of th
+-- Matthew 17:21 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: And after six days Jesus taketh Peter, James, and John his brother, and bringeth
+   KJV: 10: And his disciples asked him, saying, Why then say the scribes that Elias must fi
+   KJV: 11: And Jesus answered and said unto them, Elias truly shall first come, and restore
+   KJV: 12: But I say unto you, That Elias is come already, and they knew him not, but have 
+   KJV: 13: Then the disciples understood that he spake unto them of John the Baptist.
+   KJV: 14: And when they were come to the multitude, there came to him a certain man, kneel
+   KJV: 15: Lord, have mercy on my son: for he is lunatick, and sore vexed: for ofttimes he 
+   KJV: 16: And I brought him to thy disciples, and they could not cure him.
+   KJV: 17: Then Jesus answered and said, O faithless and perverse generation, how long shal
+   KJV: 18: And Jesus rebuked the devil; and he departed out of him: and the child was cured
+   KJV: 19: Then came the disciples to Jesus apart, and said, Why could not we cast him out?
+   KJV: 2: And was transfigured before them: and his face did shine as the sun, and his rai
+   KJV: 20: And Jesus said unto them, Because of your unbelief: for verily I say unto you, I
+   KJV: 21: Howbeit this kind goeth not out but by prayer and fasting.
+   KJV: 22: And while they abode in Galilee, Jesus said unto them, The Son of man shall be b
+   KJV: 23: And they shall kill him, and the third day he shall be raised again. And they we
+   KJV: 24: And when they were come to Capernaum, they that received tribute money came to P
+   KJV: 25: He saith, Yes. And when he was come into the house, Jesus prevented him, saying,
+   KJV: 26: Peter saith unto him, Of strangers. Jesus saith unto him, Then are the children 
+   KJV: 27: Notwithstanding, lest we should offend them, go thou to the sea, and cast an hoo
+   KJV: 3: And, behold, there appeared unto them Moses and Elias talking with him.
+   KJV: 4: Then answered Peter, and said unto Jesus, Lord, it is good for us to be here: if
+   KJV: 5: While he yet spake, behold, a bright cloud overshadowed them: and behold a voice
+   KJV: 6: And when the disciples heard it, they fell on their face, and were sore afraid.
+   KJV: 7: And Jesus came and touched them, and said, Arise, and be not afraid.
+   KJV: 8: And when they had lifted up their eyes, they saw no man, save Jesus only.
+   KJV: 9: And as they came down from the mountain, Jesus charged them, saying, Tell the vi
+   ASV: 
+   ASV1: And after six days Jesus taketh with him Peter, and James, and John his brother,: 10: And his disciples asked him, saying, Why then say the scribes that Elijah must f: 11: And he answered and said, Elijah indeed cometh, and shall restore all things:: 12: but I say unto you, that Elijah is come already, and they knew him not, but did : 13: Then understood the disciples that he spake unto them of John the Baptist.: 14: And when they were come to the multitude, there came to him a man, kneeling to h: 15: Lord, have mercy on my son: for he is epileptic, and suffereth grievously; for o: 16: And I brought him to thy disciples, and they could not cure him.: 17: And Jesus answered and said, O faithless and perverse generation, how long shall: 18: And Jesus rebuked him; and the demon went out of him: and the boy was cured from: 19: Then came the disciples to Jesus apart, and said, Why could not we cast it out?: 2: and he was transfigured before them; and his face did shine as the sun, and his : 20: And he saith unto them, Because of your little faith: for verily I say unto you,: 22: And while they abode in Galilee, Jesus said unto them, The Son of man shall be d: 23: and they shall kill him, and the third day he shall be raised up. And they were : 24: And when they were come to Capernaum, they that received the half-shekel came to: 25: He saith, Yea. And when he came into the house, Jesus spake first to him, saying: 26: And when he said, From strangers, Jesus said unto him, Therefore the sons are fr: 27: But, lest we cause them to stumble, go thou to the sea, and cast a hook, and tak: 3: And behold, there appeared unto them Moses and Elijah talking with him.: 4: And Peter answered, and said unto Jesus, Lord, it is good for us to be here: if : 5: While he was yet speaking, behold, a bright cloud overshadowed them: and behold,: 6: And when the disciples heard it, they fell on their face, and were sore afraid.: 7: And Jesus came and touched them and said, Arise, and be not afraid.: 8: And lifting up their eyes, they saw no one, save Jesus only.: 9: And as they were coming down from the mountain, Jesus commanded them, saying, Te
+-- Matthew 18:11 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: At the same time came the disciples unto Jesus, saying, Who is the greatest in t
+   KJV: 10: Take heed that ye despise not one of these little ones; for I say unto you, That
+   KJV: 11: For the Son of man is come to save that which was lost.
+   KJV: 12: How think ye? if a man have an hundred sheep, and one of them be gone astray, do
+   KJV: 13: And if so be that he find it, verily I say unto you, he rejoiceth more of that s
+   KJV: 14: Even so it is not the will of your Father which is in heaven, that one of these 
+   KJV: 15: Moreover if thy brother shall trespass against thee, go and tell him his fault b
+   KJV: 16: But if he will not hear thee, then take with thee one or two more, that in the m
+   KJV: 17: And if he shall neglect to hear them, tell it unto the church: but if he neglect
+   KJV: 18: Verily I say unto you, Whatsoever ye shall bind on earth shall be bound in heave
+   KJV: 19: Again I say unto you, That if two of you shall agree on earth as touching any th
+   KJV: 2: And Jesus called a little child unto him, and set him in the midst of them,
+   KJV: 20: For where two or three are gathered together in my name, there am I in the midst
+   KJV: 21: Then came Peter to him, and said, Lord, how oft shall my brother sin against me,
+   KJV: 22: Jesus saith unto him, I say not unto thee, Until seven times: but, Until seventy
+   KJV: 23: Therefore is the kingdom of heaven likened unto a certain king, which would take
+   KJV: 24: And when he had begun to reckon, one was brought unto him, which owed him ten th
+   KJV: 25: But forasmuch as he had not to pay, his lord commanded him to be sold, and his w
+   KJV: 26: The servant therefore fell down, and worshipped him, saying, Lord, have patience
+   KJV: 27: Then the lord of that servant was moved with compassion, and loosed him, and for
+   KJV: 28: But the same servant went out, and found one of his fellowservants, which owed h
+   KJV: 29: And his fellowservant fell down at his feet, and besought him, saying, Have pati
+   KJV: 3: And said, Verily I say unto you, Except ye be converted, and become as little ch
+   KJV: 30: And he would not: but went and cast him into prison, till he should pay the debt
+   KJV: 31: So when his fellowservants saw what was done, they were very sorry, and came and
+   KJV: 32: Then his lord, after that he had called him, said unto him, O thou wicked servan
+   KJV: 33: Shouldest not thou also have had compassion on thy fellowservant, even as I had 
+   KJV: 34: And his lord was wroth, and delivered him to the tormentors, till he should pay 
+   KJV: 35: So likewise shall my heavenly Father do also unto you, if ye from your hearts fo
+   KJV: 4: Whosoever therefore shall humble himself as this little child, the same is great
+   KJV: 5: And whoso shall receive one such little child in my name receiveth me.
+   KJV: 6: But whoso shall offend one of these little ones which believe in me, it were bet
+   KJV: 7: Woe unto the world because of offences! for it must needs be that offences come;
+   KJV: 8: Wherefore if thy hand or thy foot offend thee, cut them off, and cast them from 
+   KJV: 9: And if thine eye offend thee, pluck it out, and cast it from thee: it is better 
+   ASV: 
+   ASV1: In that hour came the disciples unto Jesus, saying, Who then is greatest in the : 10: See that ye despise not one of these little ones: for I say unto you, that in he: 12: How think ye? if any man have a hundred sheep, and one of them be gone astray, d: 13: And if so be that he find it, verily I say unto you, he rejoiceth over it more t: 14: Even so it is not the will of your Father who is in heaven, that one of these li: 15: And if thy brother sin against thee, go, show him his fault between thee and him: 16: But if he hear thee not, take with thee one or two more, that at the mouth of tw: 17: And if he refuse to hear them, tell it unto the church: and if he refuse to hear: 18: Verily I say unto you, What things soever ye shall bind on earth shall be bound : 19: Again I say unto you, that if two of you shall agree on earth as touching anythi: 2: And he called to him a little child, and set him in the midst of them,: 20: For where two or three are gathered together in my name, there am I in the midst: 21: Then came Peter and said to him, Lord, how oft shall my brother sin against me, : 22: Jesus saith unto him, I say not unto thee, Until seven times; but, Until seventy: 23: Therefore is the kingdom of heaven likened unto a certain king, who would make a: 24: And when he had begun to reckon, one was brought unto him, that owed him ten tho: 25: But forasmuch as he had not wherewith to pay, his lord commanded him to be sold,: 26: The servant therefore fell down and worshipped him, saying, Lord, have patience : 27: And the lord of that servant, being moved with compassion, released him, and for: 28: But that servant went out, and found one of his fellow-servants, who owed him a : 29: So his fellow-servant fell down and besought him, saying, Have patience with me,: 3: and said, Verily I say unto you, Except ye turn, and become as little children, : 30: And he would not: but went and cast him into prison, till he should pay that whi: 31: So when his fellow-servants saw what was done, they were exceeding sorry, and ca: 32: Then his lord called him unto him, and saith to him, Thou wicked servant, I forg: 33: shouldest not thou also have had mercy on thy fellow-servant, even as I had merc: 34: And his lord was wroth, and delivered him to the tormentors, till he should pay : 35: So shall also my heavenly Father do unto you, if ye forgive not every one his br: 4: Whosoever therefore shall humble himself as this little child, the same is the g: 5: And whoso shall receive one such little child in my name receiveth me:: 6: but whoso shall cause one of these little ones that believe on me to stumble, it: 7: Woe unto the world because of occasions of stumbling! for it must needs be that : 8: And if thy hand or thy foot causeth thee to stumble, cut it off, and cast it fro: 9: And if thine eye causeth thee to stumble, pluck it out, and cast it from thee: i
+-- Matthew 23:14 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: Then spake Jesus to the multitude, and to his disciples,
+   KJV: 10: Neither be ye called masters: for one is your Master, even Christ.
+   KJV: 11: But he that is greatest among you shall be your servant.
+   KJV: 12: And whosoever shall exalt himself shall be abased; and he that shall humble hims
+   KJV: 13: But woe unto you, scribes and Pharisees, hypocrites! for ye shut up the kingdom 
+   KJV: 14: Woe unto you, scribes and Pharisees, hypocrites! for ye devour widows' houses, a
+   KJV: 15: Woe unto you, scribes and Pharisees, hypocrites! for ye compass sea and land to 
+   KJV: 16: Woe unto you, ye blind guides, which say, Whosoever shall swear by the temple, i
+   KJV: 17: Ye fools and blind: for whether is greater, the gold, or the temple that sanctif
+   KJV: 18: And, Whosoever shall swear by the altar, it is nothing; but whosoever sweareth b
+   KJV: 19: Ye fools and blind: for whether is greater, the gift, or the altar that sanctifi
+   KJV: 2: Saying, The scribes and the Pharisees sit in Moses' seat:
+   KJV: 20: Whoso therefore shall swear by the altar, sweareth by it, and by all things ther
+   KJV: 21: And whoso shall swear by the temple, sweareth by it, and by him that dwelleth th
+   KJV: 22: And he that shall swear by heaven, sweareth by the throne of God, and by him tha
+   KJV: 23: Woe unto you, scribes and Pharisees, hypocrites! for ye pay tithe of mint and an
+   KJV: 24: Ye blind guides, which strain at a gnat, and swallow a camel.
+   KJV: 25: Woe unto you, scribes and Pharisees, hypocrites! for ye make clean the outside o
+   KJV: 26: Thou blind Pharisee, cleanse first that which is within the cup and platter, tha
+   KJV: 27: Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sep
+   KJV: 28: Even so ye also outwardly appear righteous unto men, but within ye are full of h
+   KJV: 29: Woe unto you, scribes and Pharisees, hypocrites! because ye build the tombs of t
+   KJV: 3: All therefore whatsoever they bid you observe, that observe and do; but do not y
+   KJV: 30: And say, If we had been in the days of our fathers, we would not have been parta
+   KJV: 31: Wherefore ye be witnesses unto yourselves, that ye are the children of them whic
+   KJV: 32: Fill ye up then the measure of your fathers.
+   KJV: 33: Ye serpents, ye generation of vipers, how can ye escape the damnation of hell?
+   KJV: 34: Wherefore, behold, I send unto you prophets, and wise men, and scribes: and some
+   KJV: 35: That upon you may come all the righteous blood shed upon the earth, from the blo
+   KJV: 36: Verily I say unto you, All these things shall come upon this generation.
+   KJV: 37: O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which a
+   KJV: 38: Behold, your house is left unto you desolate.
+   KJV: 39: For I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed i
+   KJV: 4: For they bind heavy burdens and grievous to be borne, and lay them on men's shou
+   KJV: 5: But all their works they do for to be seen of men: they make broad their phylact
+   KJV: 6: And love the uppermost rooms at feasts, and the chief seats in the synagogues,
+   KJV: 7: And greetings in the markets, and to be called of men, Rabbi, Rabbi.
+   KJV: 8: But be not ye called Rabbi: for one is your Master, even Christ; and all ye are 
+   KJV: 9: And call no man your father upon the earth: for one is your Father, which is in 
+   ASV: 
+   ASV1: Then spake Jesus to the multitudes and to his disciples,: 10: Neither be ye called masters: for one is your master, even the Christ.: 11: But he that is greatest among you shall be your servant.: 12: And whosoever shall exalt himself shall be humbled; and whosoever shall humble h: 13: But woe unto you, scribes and Pharisees, hypocrites! because ye shut the kingdom: 15: Woe unto you, scribes and Pharisees, hypocrites! for ye compass sea and land to : 16: Woe unto you, ye blind guides, that say, Whosoever shall swear by the temple, it: 17: Ye fools and blind: for which is greater, the gold, or the temple that hath sanc: 18: And, Whosoever shall swear by the altar, it is nothing; but whosoever shall swea: 19: Ye blind: for which is greater, the gift, or the altar that sanctifieth the gift: 2: saying, The scribes and the Pharisees sit on Moses’ seat:: 20: He therefore that sweareth by the altar, sweareth by it, and by all things there: 21: And he that sweareth by the temple, sweareth by it, and by him that dwelleth the: 22: And he that sweareth by the heaven, sweareth by the throne of God, and by him th: 23: Woe unto you, scribes and Pharisees, hypocrites! for ye tithe mint and anise and: 24: Ye blind guides, that strain out the gnat, and swallow the camel!: 25: Woe unto you, scribes and Pharisees, hypocrites! for ye cleanse the outside of t: 26: Thou blind Pharisee, cleanse first the inside of the cup and of the platter, tha: 27: Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sep: 28: Even so ye also outwardly appear righteous unto men, but inwardly ye are full of: 29: Woe unto you, scribes and Pharisees, hypocrites! for ye build the sepulchres of : 3: all things therefore whatsoever they bid you, these do and observe: but do not y: 30: and say, If we had been in the days of our fathers, we should not have been part: 31: Wherefore ye witness to yourselves, that ye are sons of them that slew the proph: 32: Fill ye up then the measure of your fathers.: 33: Ye serpents, ye offspring of vipers, how shall ye escape the judgment of hell?: 34: Therefore, behold, I send unto you prophets, and wise men, and scribes: some of : 35: that upon you may come all the righteous blood shed on the earth, from the blood: 36: Verily I say unto you, All these things shall come upon this generation.: 37: O Jerusalem, Jerusalem, that killeth the prophets, and stoneth them that are sen: 38: Behold, your house is left unto you desolate.: 39: For I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed i: 4: Yea, they bind heavy burdens and grievous to be borne, and lay them on men’s sho: 5: But all their works they do to be seen of men: for they make broad their phylact: 6: and love the chief place at feasts, and the chief seats in the synagogues,: 7: and the salutations in the marketplaces, and to be called of men, Rabbi.: 8: But be not ye called Rabbi: for one is your teacher, and all ye are brethren.: 9: And call no man your father on the earth: for one is your Father, even he who is
+-- Romans 16:24 missing in ASV; same chapter in KJV and ASV:
+   KJV: 1: I commend unto you Phebe our sister, which is a servant of the church which is a
+   KJV: 10: Salute Apelles approved in Christ. Salute them which are of Aristobulus' househo
+   KJV: 11: Salute Herodion my kinsman. Greet them that be of the household of Narcissus, wh
+   KJV: 12: Salute Tryphena and Tryphosa, who labour in the Lord. Salute the beloved Persis,
+   KJV: 13: Salute Rufus chosen in the Lord, and his mother and mine.
+   KJV: 14: Salute Asyncritus, Phlegon, Hermas, Patrobas, Hermes, and the brethren which are
+   KJV: 15: Salute Philologus, and Julia, Nereus, and his sister, and Olympas, and all the s
+   KJV: 16: Salute one another with an holy kiss. The churches of Christ salute you.
+   KJV: 17: Now I beseech you, brethren, mark them which cause divisions and offences contra
+   KJV: 18: For they that are such serve not our Lord Jesus Christ, but their own belly; and
+   KJV: 19: For your obedience is come abroad unto all men. I am glad therefore on your beha
+   KJV: 2: That ye receive her in the Lord, as becometh saints, and that ye assist her in w
+   KJV: 20: And the God of peace shall bruise Satan under your feet shortly. The grace of ou
+   KJV: 21: Timotheus my workfellow, and Lucius, and Jason, and Sosipater, my kinsmen, salut
+   KJV: 22: I Tertius, who wrote this epistle, salute you in the Lord.
+   KJV: 23: Gaius mine host, and of the whole church, saluteth you. Erastus the chamberlain 
+   KJV: 24: The grace of our Lord Jesus Christ be with you all. Amen.
+   KJV: 25: Now to him that is of power to stablish you according to my gospel, and the prea
+   KJV: 26: But now is made manifest, and by the scriptures of the prophets, according to th
+   KJV: 27: To God only wise, be glory through Jesus Christ for ever. Amen.
+   KJV: 3: Greet Priscilla and Aquila my helpers in Christ Jesus:
+   KJV: 4: Who have for my life laid down their own necks: unto whom not only I give thanks
+   KJV: 5: Likewise greet the church that is in their house. Salute my wellbeloved Epaenetu
+   KJV: 6: Greet Mary, who bestowed much labour on us.
+   KJV: 7: Salute Andronicus and Junia, my kinsmen, and my fellowprisoners, who are of note
+   KJV: 8: Greet Amplias my beloved in the Lord.
+   KJV: 9: Salute Urbane, our helper in Christ, and Stachys my beloved.
+   ASV: 
+   ASV1: I commend unto you Phoebe our sister, who is a servant of the church that is at : 10: Salute Apelles the approved in Christ. Salute them that are of the household of : 11: Salute Herodion my kinsman. Salute them of the household of Narcissus, that are : 12: Salute Tryphæna and Tryphosa, who labor in the Lord. Salute Persis the beloved, : 13: Salute Rufus the chosen in the Lord, and his mother and mine.: 14: Salute Asyncritus, Phlegon, Hermes, Patrobas, Hermas, and the brethren that are : 15: Salute Philologus and Julia, Nereus and his sister, and Olympas, and all the sai: 16: Salute one another with a holy kiss. All the churches of Christ salute you.: 17: Now I beseech you, brethren, mark them that are causing the divisions and occasi: 18: For they that are such serve not our Lord Christ, but their own belly; and by th: 19: For your obedience is come abroad unto all men. I rejoice therefore over you: bu: 2: that ye receive her in the Lord, worthily of the saints, and that ye assist her : 20: And the God of peace shall bruise Satan under your feet shortly. The grace of ou: 21: Timothy my fellow-worker saluteth you; and Lucius and Jason and Sosipater, my ki: 22: I Tertius, who write the epistle, salute you in the Lord.: 23: Gaius my host, and of the whole church, saluteth you. Erastus the treasurer of t: 25: Now to him that is able to establish you according to my gospel and the preachin: 26: but now is manifested, and by the scriptures of the prophets, according to the c: 27: to the only wise God, through Jesus Christ, to whom be the glory for ever. Amen.: 3: Salute Prisca and Aquila my fellow-workers in Christ Jesus,: 4: who for my life laid down their own necks; unto whom not only I give thanks, but: 5: and salute the church that is in their house. Salute Epænetus my beloved, who is: 6: Salute Mary, who bestowed much labor on you.: 7: Salute Andronicus and Junias, my kinsmen, and my fellow-prisoners, who are of no: 8: Salute Ampliatus my beloved in the Lord.: 9: Salute Urbanus our fellow-worker in Christ, and Stachys my beloved.

@@ -1,0 +1,19 @@
+ASV rows=31086 KJV rows=31102
+KJV keys missing in ASV: 16
+  MISSING Acts 8:37
+  MISSING Acts 15:34
+  MISSING Acts 24:7
+  MISSING Acts 28:29
+  MISSING John 5:4
+  MISSING Luke 17:36
+  MISSING Luke 23:17
+  MISSING Mark 7:16
+  MISSING Mark 9:44
+  MISSING Mark 9:46
+  MISSING Mark 11:26
+  MISSING Mark 15:28
+  MISSING Matthew 17:21
+  MISSING Matthew 18:11
+  MISSING Matthew 23:14
+  MISSING Romans 16:24
+ASV keys not in KJV: 0

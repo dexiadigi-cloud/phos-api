@@ -1,0 +1,21 @@
+raw_zip_sha256=6784c7099465995a8e66f02ead82b0bca66603c1bdeaf8332949774b7bfd4293
+retrieval_date=2026-09-20
+source_url=https://www.crosswire.org/ftpmirror/pub/sword/packages/rawzip/TSK.zip
+module_title=Treasury of Scripture Knowledge version=1.4 license=Public Domain
+INFO no triple-br, using outline-end Genesis 19
+INFO no triple-br, using outline-end Exodus 1
+INFO no triple-br, using outline-end Numbers 8
+INFO no triple-br, using outline-end Numbers 15
+INFO no triple-br, using outline-end Deuteronomy 1
+INFO no triple-br, using outline-end Joshua 1
+INFO no triple-br, using outline-end 1 Samuel 1
+INFO no triple-br, using outline-end 2 Samuel 1
+INFO no triple-br, using outline-end 1 Kings 1
+INFO no triple-br, using outline-end 2 Kings 1
+INFO no triple-br, using outline-end Nehemiah 12
+SKIP grouped range Proverbs 10-24 (unreliable verse attribution)
+SKIP grouped range Isaiah 24-27 (unreliable verse attribution)
+INFO no triple-br, using outline-end Matthew 2
+stats={'chapters': 1170, 'phrases': 64322, 'refs_raw': 76915, 'refs_valid': 575235, 'skipped_invalid': 14, 'skipped_unresolved': 807, 'skipped_chapter_only': 0, 'lp_zero': 7525, 'markers_used': 1069}
+unique_rows=563760
+wrote 563760 rows to /home/hatch/workspace/scripture-desk/staging/crossrefs.db

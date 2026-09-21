@@ -1,0 +1,4 @@
+KJV: 66/66 chapter counts match source; mismatches=[]
+BSB: 66/66 chapter counts match source; mismatches=[]
+WEB: 66/66 chapter counts match source; mismatches=[]
+ASV: 66/66 chapter counts match source; mismatches=[]

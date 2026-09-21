@@ -1,0 +1,14 @@
+== data/raw/web.json
+distribution_license = 'Public Domain'
+distribution_version = '3.1'
+distribution_version_date = '2012-01-25'
+distribution_source = 'http://ebible.org/web/'
+distribution_versification = ''
+distribution_about = 'World English Bible (WEB)\\par\\par Public Domain\\par\\par\tThe World English Bible is a 1997 revision of the American Standard Version of the Holy Bible, first published in 1901. It is in the Public Domain. Please feel free to copy and distribute it freely.\\par\\par Thank you to Michael Paul Joh
+== data/raw/asv.json
+distribution_license = 'Public Domain'
+distribution_version = '2.0'
+distribution_version_date = '2021-02-18'
+distribution_source = 'http://www.ebible.org/bible/asv/'
+distribution_versification = 'KJV'
+distribution_about = 'The American Standard Version (ASV) of the Holy Bible is in the Public Domain. Please feel free to copy it, give it away, memorize it, publish it, sell it, or whatever God leads you to do with it.\\par\\par The American Standard Version of 1901 is an Americanization of the English Revised Bible, wh

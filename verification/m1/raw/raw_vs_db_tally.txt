@@ -1,0 +1,3 @@
+KJV raw non-empty keys=31102 DB=31102 match=True
+BSB raw \v markers=31086 DB=31086 (difference = verses with empty text after footnote/heading strip, expected small)
+WEB DB=31095 ASV DB=31086 (raw totals already confirmed 31095/31086 non-empty)

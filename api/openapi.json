@@ -1,0 +1,4555 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Phos (Dexia Bible API)",
+    "description": "A free public-domain Bible API. Serves BSB (default), KJV, WEB, and ASV scripture text with passage lookup, translation comparison, full-text search, a deterministic verse of the day, topic and mood discovery, guided reading plans with progress tracking, and public-domain study resources: commentaries (Matthew Henry, JFB, Barnes), Treasury of Scripture Knowledge cross-references, daily devotionals (Spurgeon, Daily Light), and Book of Common Prayer offices.\n\nAll served text is public domain; per-translation rights metadata is available at `GET /v1/translations`. Authenticate with a single API key in the `X-API-Key` header.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Service health (no auth required)",
+        "description": "Returns service status, the available translation codes, and the total verse row count across all translations. This endpoint does not require an API key.",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/translations": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Translation metadata and rights",
+        "description": "Per-translation metadata: name, edition, source, verse count, and rights/copyright/attribution text. All eighteen translations are public domain; the rights block preserves each translation's own copyright metadata as required by the getBible distribution terms.",
+        "operationId": "list_translations_v1_translations_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/TranslationInfo"
+                  },
+                  "type": "array",
+                  "title": "Response List Translations V1 Translations Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/v1/books": {
+      "get": {
+        "tags": [
+          "meta"
+        ],
+        "summary": "Canonical book list",
+        "description": "The 66 canonical books in order, with each book's chapter count, for the requested translation.",
+        "operationId": "list_books_v1_books_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BookInfo"
+                  },
+                  "title": "Response List Books V1 Books Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/passage": {
+      "get": {
+        "tags": [
+          "scripture"
+        ],
+        "summary": "Look up a passage",
+        "description": "Returns the verses for a Bible reference in canonical order. Accepts single verses ('John 3:16'), verse ranges ('Ps 23:1-3'), whole chapters ('John 14'), chapter ranges ('Genesis 1-2'), multi-chapter ranges ('John 3:16-4:2'), and comma lists ('Ps 23:1,3,5'). Book aliases are accepted ('Ps', 'Psalms', 'Song of Solomon', '1John'). Returns 400 for unparseable or out-of-range references, and 404 when a valid verse key is not present in the requested translation.",
+        "operationId": "get_passage_v1_passage_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "ref",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Bible reference to look up.",
+              "examples": [
+                "John 3:16-18",
+                "Ps 23:1-3",
+                "Romans 8:28-30"
+              ],
+              "title": "Ref"
+            },
+            "description": "Bible reference to look up."
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PassageResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/compare": {
+      "get": {
+        "tags": [
+          "scripture"
+        ],
+        "summary": "Compare translations side by side",
+        "description": "Returns the same reference rendered in each requested translation, side by side. A null text for a translation means that verse key is genuinely not present in that translation (WEB omits 7 and ASV omits 16 KJV verse keys, e.g. Acts 8:37) - this is reported, not an error.",
+        "operationId": "compare_translations_v1_compare_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "ref",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Bible reference to compare.",
+              "examples": [
+                "Ps 23:1",
+                "John 3:16"
+              ],
+              "title": "Ref"
+            },
+            "description": "Bible reference to compare."
+          },
+          {
+            "name": "translations",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Comma-separated translation codes.",
+              "examples": [
+                "BSB,KJV,WEB"
+              ],
+              "default": "BSB,KJV",
+              "title": "Translations"
+            },
+            "description": "Comma-separated translation codes."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompareResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/search": {
+      "get": {
+        "tags": [
+          "scripture"
+        ],
+        "summary": "Full-text search",
+        "description": "Searches verse text with the FTS5 index (porter stemming). Results are ranked best-first and include an <em>-highlighted snippet. Query terms are ANDed together.",
+        "operationId": "search_v1_search_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Search terms.",
+              "examples": [
+                "lovingkindness"
+              ],
+              "title": "Q"
+            },
+            "description": "Search terms."
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "KJV"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "maximum": 100,
+              "minimum": 1,
+              "description": "Max results (1-100).",
+              "examples": [
+                20
+              ],
+              "default": 20,
+              "title": "Limit"
+            },
+            "description": "Max results (1-100)."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/verse-of-day": {
+      "get": {
+        "tags": [
+          "daily"
+        ],
+        "summary": "Verse of the day",
+        "description": "Deterministic verse for a calendar date: SHA-256 of 'YYYY-MM-DD|TRANSLATION' selects a verse by offset into the translation's canonical order. The same date and translation always return the same verse.",
+        "operationId": "verse_of_day_v1_verse_of_day_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          },
+          {
+            "name": "day",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Date as YYYY-MM-DD. Defaults to today.",
+              "examples": [
+                "2026-09-20"
+              ],
+              "title": "Day"
+            },
+            "description": "Date as YYYY-MM-DD. Defaults to today."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VerseOfDayResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/topics": {
+      "get": {
+        "tags": [
+          "topics"
+        ],
+        "summary": "List curated topics",
+        "description": "The curated topic list (peace, anxiety, gratitude, ...), each with its description and the moods it speaks to. Fetch a topic's verses at GET /v1/topics/{topic_id}.",
+        "operationId": "list_topics_v1_topics_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/TopicSummary"
+                  },
+                  "type": "array",
+                  "title": "Response List Topics V1 Topics Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/v1/topics/{topic_id}": {
+      "get": {
+        "tags": [
+          "topics"
+        ],
+        "summary": "Verses for a topic",
+        "description": "The curated representative verses for one topic, resolved to full text in the requested translation.",
+        "operationId": "get_topic_v1_topics__topic_id__get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "topic_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Topic Id"
+            }
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TopicDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/moods": {
+      "get": {
+        "tags": [
+          "topics"
+        ],
+        "summary": "List moods",
+        "description": "The mood list (anxious, lonely, grateful, ...), each mapped to the topics that speak to it. Fetch a mood's verses at GET /v1/moods/{mood}.",
+        "operationId": "list_moods_v1_moods_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/MoodSummary"
+                  },
+                  "type": "array",
+                  "title": "Response List Moods V1 Moods Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/v1/moods/{mood}": {
+      "get": {
+        "tags": [
+          "topics"
+        ],
+        "summary": "Verses for a mood",
+        "description": "Maps a mood to its topics, each with the topic's verses resolved to full text in the requested translation.",
+        "operationId": "get_mood_v1_moods__mood__get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "mood",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Mood"
+            }
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MoodDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/reading-plans": {
+      "get": {
+        "tags": [
+          "plans"
+        ],
+        "summary": "List reading plans",
+        "description": "The available guided reading plans (Bible in a year, New Testament in 90 days, Psalms & Proverbs in 31 days, the Gospels in 30 days). Schedules are generated programmatically from the corpus's canonical chapter structure.",
+        "operationId": "list_plans_v1_reading_plans_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/PlanSummary"
+                  },
+                  "type": "array",
+                  "title": "Response List Plans V1 Reading Plans Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/v1/reading-plans/{plan_id}": {
+      "get": {
+        "tags": [
+          "plans"
+        ],
+        "summary": "Full plan schedule",
+        "description": "The complete day-by-day schedule for a reading plan: each day's chapter refs in canonical order.",
+        "operationId": "get_plan_v1_reading_plans__plan_id__get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "plan_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Plan Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlanDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/reading-plans/{plan_id}/today": {
+      "get": {
+        "tags": [
+          "plans"
+        ],
+        "summary": "Today's reading (stateless)",
+        "description": "Computes the current plan day from the given start date (day = (today - start_date) + 1, stateless, no login) and returns that day's passages with full text. Returns 400 with a 'finished' message once the plan's days are complete, and 400 if the plan has not started yet.",
+        "operationId": "plan_today_v1_reading_plans__plan_id__today_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "plan_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Plan Id"
+            }
+          },
+          {
+            "name": "start_date",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "The date the plan started, YYYY-MM-DD.",
+              "examples": [
+                "2026-01-01"
+              ],
+              "title": "Start Date"
+            },
+            "description": "The date the plan started, YYYY-MM-DD."
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlanTodayResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/reading-plans/{plan_id}/checkin": {
+      "post": {
+        "tags": [
+          "plans"
+        ],
+        "summary": "Check in a completed day",
+        "description": "Marks one plan day as read. Progress is stored locally in api/data/progress.db (checkmarks only, no scripture) and keyed by plan plus start_date, since v1 uses a single API key.",
+        "operationId": "plan_checkin_v1_reading_plans__plan_id__checkin_post",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "plan_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Plan Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CheckinRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckinResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/reading-plans/{plan_id}/progress": {
+      "get": {
+        "tags": [
+          "plans"
+        ],
+        "summary": "Reading progress",
+        "description": "Completed days and completion percent for a plan and start_date, from the local check-in store.",
+        "operationId": "plan_progress_v1_reading_plans__plan_id__progress_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "plan_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Plan Id"
+            }
+          },
+          {
+            "name": "start_date",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "The date the plan started, YYYY-MM-DD.",
+              "examples": [
+                "2026-01-01"
+              ],
+              "title": "Start Date"
+            },
+            "description": "The date the plan started, YYYY-MM-DD."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PlanProgressResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/study": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "One-call study bundle",
+        "description": "The 'route here first' endpoint: the passage in full text, TSK cross-references per verse (capped at 25 per verse with a total count), and commentary excerpts from all eight commentary sources whose ranges cover the reference (whole-chapter comments included). All study texts are public domain; per-source rights metadata is in `sources`.",
+        "operationId": "study_bundle_v1_study_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "ref",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Bible reference to study.",
+              "examples": [
+                "Ps 23:1",
+                "Romans 8:28-30"
+              ],
+              "title": "Ref"
+            },
+            "description": "Bible reference to study."
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StudyResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/commentary": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Commentary entries covering a reference",
+        "description": "Full-text commentary entries whose verse range covers the requested reference. A verse query also matches whole-chapter comments. Omit `source` to search all eight commentaries (Matthew Henry, JFB, Barnes NT, Gill, Clarke, Calvin, Keil & Delitzsch, Treasury of David).",
+        "operationId": "get_commentary_v1_commentary_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "ref",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Bible reference.",
+              "examples": [
+                "Genesis 1:1",
+                "Ps 23"
+              ],
+              "title": "Ref"
+            },
+            "description": "Bible reference."
+          },
+          {
+            "name": "source",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Commentary source: matthew_henry, jfb, barnes_nt, gill, clarke, calvin, keil_delitzsch, treasury_of_david.",
+              "examples": [
+                "matthew_henry"
+              ],
+              "title": "Source"
+            },
+            "description": "Commentary source: matthew_henry, jfb, barnes_nt, gill, clarke, calvin, keil_delitzsch, treasury_of_david."
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CommentaryItem"
+                  },
+                  "title": "Response Get Commentary V1 Commentary Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/cross-refs": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "TSK cross-references for a reference",
+        "description": "Treasury of Scripture Knowledge cross-references for each verse in the requested reference, in canonical order.",
+        "operationId": "get_cross_refs_v1_cross_refs_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "ref",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Bible reference.",
+              "examples": [
+                "Ps 23:1",
+                "John 3:16"
+              ],
+              "title": "Ref"
+            },
+            "description": "Bible reference."
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CrossRefVerse"
+                  },
+                  "title": "Response Get Cross Refs V1 Cross Refs Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/devotional": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Daily devotional",
+        "description": "The devotional entries for a calendar date. Spurgeon's Morning and Evening and Daily Light on the Daily Path provide morning and evening entries; My Utmost for His Highest, The Practice of the Presence of God, and The Imitation of Christ provide a single reading (evening is null). Anchor references are resolved to verse text in the requested translation.",
+        "operationId": "get_devotional_v1_devotional_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Date as YYYY-MM-DD. Defaults to today.",
+              "examples": [
+                "2026-09-20"
+              ],
+              "default": "",
+              "title": "Date"
+            },
+            "description": "Date as YYYY-MM-DD. Defaults to today."
+          },
+          {
+            "name": "source",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Devotional source: spurgeon, daily_light, my_utmost, practice_presence, or imitation_christ.",
+              "examples": [
+                "spurgeon"
+              ],
+              "default": "spurgeon",
+              "title": "Source"
+            },
+            "description": "Devotional source: spurgeon, daily_light, my_utmost, practice_presence, or imitation_christ."
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DevotionalResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/prayer": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Book of Common Prayer office",
+        "description": "A full Morning or Evening Prayer office from the 1662 or 1928 (US) Book of Common Prayer, as ordered liturgy blocks (sentences, confession, psalms, lessons, creed, collects, ...). Both editions are public domain.",
+        "operationId": "get_prayer_v1_prayer_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "office",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Office: morning or evening.",
+              "examples": [
+                "morning"
+              ],
+              "default": "morning",
+              "title": "Office"
+            },
+            "description": "Office: morning or evening."
+          },
+          {
+            "name": "edition",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "BCP edition: 1662 or 1928.",
+              "examples": [
+                "1662"
+              ],
+              "default": "1662",
+              "title": "Edition"
+            },
+            "description": "BCP edition: 1662 or 1928."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PrayerResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/memory-pack": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Memorization pack for a topic",
+        "description": "A numbered memorization pack: the curated topic's verses resolved to full text in the requested translation, in order, up to 10 verses.",
+        "operationId": "get_memory_pack_v1_memory_pack_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "topic",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Topic id, e.g. peace.",
+              "examples": [
+                "peace"
+              ],
+              "title": "Topic"
+            },
+            "description": "Topic id, e.g. peace."
+          },
+          {
+            "name": "translation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Translation code.",
+              "examples": [
+                "BSB"
+              ],
+              "default": "BSB",
+              "title": "Translation"
+            },
+            "description": "Translation code."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MemoryPackResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/word/sources": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Lexicon sources and rights",
+        "description": "Every word-study lexicon behind /v1/word: entry counts plus the rights and attribution metadata each source requires. Strong's (1890) is public domain; BDB (OpenScriptures) and the four STEPBible lexicons are CC BY 4.0 and must be attributed as shown.",
+        "operationId": "list_word_sources_v1_word_sources_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/LexiconSourceInfo"
+                  },
+                  "type": "array",
+                  "title": "Response List Word Sources V1 Word Sources Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/v1/interlinear/{book}/{chapter}/{verse}": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Interlinear: original-language words for a verse",
+        "description": "Word-by-word Hebrew (OT) or Greek (NT) for one KJV verse: the original word, transliteration, English gloss, Strong's number, morphology, and lemma, in reading order. The Greek reading follows the Nestle-Aland/SBL critical text; the Hebrew follows the Leningrad Codex with the translators' Qere choices. Forty-two KJV verses absent from the critical text (e.g. Mark 16:9-20, John 7:53-8:11) return reading='variant' with the Byzantine/Majority-tradition words instead. Source data: STEPBible TAGNT/TAHOT (CC BY 4.0, attribution in `sources`).",
+        "operationId": "get_interlinear_v1_interlinear__book___chapter___verse__get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "book",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Book"
+            }
+          },
+          {
+            "name": "chapter",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Chapter"
+            }
+          },
+          {
+            "name": "verse",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Verse"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InterlinearResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/verse-study/{book}/{chapter}/{verse}": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Phos Intensive Verse Study: everything for one verse",
+        "description": "One-call composite for a single verse: the verse in up to four translations, the most important original-language words with their meanings, the top cross-references, commentary excerpts from all eight commentary sources, devotionals anchored to the verse (or nearby), and a related prayer from the Book of Common Prayer. Interlinear word data: STEPBible TAGNT/TAHOT and STEPBible lexicon definitions are used under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); full attribution in `sources` and `rights_note`.",
+        "operationId": "verse_study_v1_verse_study__book___chapter___verse__get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "book",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Book"
+            }
+          },
+          {
+            "name": "chapter",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Chapter"
+            }
+          },
+          {
+            "name": "verse",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Verse"
+            }
+          },
+          {
+            "name": "translations",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Comma-separated translation codes (max 4). Each is validated against the translation registry.",
+              "examples": [
+                "BSB,KJV,WEB"
+              ],
+              "default": "BSB,KJV,WEB",
+              "title": "Translations"
+            },
+            "description": "Comma-separated translation codes (max 4). Each is validated against the translation registry."
+          },
+          {
+            "name": "office",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Prayer office the prayer is drawn from.",
+              "examples": [
+                "morning"
+              ],
+              "default": "morning",
+              "title": "Office"
+            },
+            "description": "Prayer office the prayer is drawn from."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VerseStudyResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/word": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Word study by Strong's number",
+        "description": "Lexicon entries for one Strong's number (e.g. G3056, H430; case-insensitive, leading zeros accepted). Omit `source` to get entries from every lexicon that has the number; Strong's Greek covers 89.1% of G1-G5624 from OCR, and STEPBible's Greek lexicons fill the gaps. Every entry carries its source's rights and attribution.",
+        "operationId": "get_word_v1_word_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "number",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Strong's number: G + digits or H + digits.",
+              "examples": [
+                "G3056",
+                "H430"
+              ],
+              "title": "Number"
+            },
+            "description": "Strong's number: G + digits or H + digits."
+          },
+          {
+            "name": "source",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Lexicon source: strongs, bdb, step_tbesh, step_tbesg, step_tflsj, step_tflsjx. Omit for all sources.",
+              "examples": [
+                "strongs"
+              ],
+              "title": "Source"
+            },
+            "description": "Lexicon source: strongs, bdb, step_tbesh, step_tbesg, step_tflsj, step_tflsjx. Omit for all sources."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WordResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/dictionary/sources": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Dictionary sources and rights",
+        "description": "Every Bible dictionary behind /v1/dictionary: entry counts plus the rights metadata each source requires. All four are public domain: Easton's (1897), ISBE 1915, Nave's Topical Bible (1896), and Torrey's New Topical Textbook (1897).",
+        "operationId": "list_dictionary_sources_v1_dictionary_sources_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/DictionarySourceInfo"
+                  },
+                  "type": "array",
+                  "title": "Response List Dictionary Sources V1 Dictionary Sources Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/v1/dictionary": {
+      "get": {
+        "tags": [
+          "study"
+        ],
+        "summary": "Dictionary lookup by term",
+        "description": "Dictionary entries for one term (e.g. Aaron, Faith; case-insensitive). Omit `source` to get entries from every dictionary that has the term. Every entry carries its source's rights metadata.",
+        "operationId": "get_dictionary_v1_dictionary_get",
+        "security": [
+          {
+            "APIKeyHeader": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "term",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "description": "Dictionary term or topic.",
+              "examples": [
+                "Aaron",
+                "Faith"
+              ],
+              "title": "Term"
+            },
+            "description": "Dictionary term or topic."
+          },
+          {
+            "name": "source",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Dictionary source: easton, isbe, naves, torrey. Omit for all sources.",
+              "examples": [
+                "easton"
+              ],
+              "title": "Source"
+            },
+            "description": "Dictionary source: easton, isbe, naves, torrey. Omit for all sources."
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DictionaryResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BookInfo": {
+        "properties": {
+          "book_order": {
+            "type": "integer",
+            "title": "Book Order",
+            "examples": [
+              18
+            ]
+          },
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "Psalms"
+            ]
+          },
+          "chapters": {
+            "type": "integer",
+            "title": "Chapters",
+            "examples": [
+              150
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "book_order",
+          "book",
+          "chapters"
+        ],
+        "title": "BookInfo"
+      },
+      "CheckinRequest": {
+        "properties": {
+          "start_date": {
+            "type": "string",
+            "title": "Start Date",
+            "examples": [
+              "2026-01-01"
+            ]
+          },
+          "day": {
+            "type": "integer",
+            "title": "Day",
+            "examples": [
+              1
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "start_date",
+          "day"
+        ],
+        "title": "CheckinRequest"
+      },
+      "CheckinResponse": {
+        "properties": {
+          "plan_id": {
+            "type": "string",
+            "title": "Plan Id",
+            "examples": [
+              "bible-in-a-year"
+            ]
+          },
+          "start_date": {
+            "type": "string",
+            "title": "Start Date",
+            "examples": [
+              "2026-01-01"
+            ]
+          },
+          "day": {
+            "type": "integer",
+            "title": "Day",
+            "examples": [
+              1
+            ]
+          },
+          "checked_in_at": {
+            "type": "string",
+            "title": "Checked In At",
+            "examples": [
+              "2026-09-20T15:00:00+00:00"
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "plan_id",
+          "start_date",
+          "day",
+          "checked_in_at"
+        ],
+        "title": "CheckinResponse"
+      },
+      "CommentaryItem": {
+        "properties": {
+          "source": {
+            "type": "string",
+            "title": "Source",
+            "examples": [
+              "matthew_henry"
+            ]
+          },
+          "source_title": {
+            "type": "string",
+            "title": "Source Title",
+            "examples": [
+              "Matthew Henry, Complete Commentary on the Whole Bible"
+            ]
+          },
+          "ref_range": {
+            "type": "string",
+            "title": "Ref Range",
+            "examples": [
+              "Psalms 23"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "David's confidence in God's grace ..."
+            ]
+          },
+          "truncated": {
+            "type": "boolean",
+            "title": "Truncated",
+            "examples": [
+              true
+            ]
+          },
+          "full_length": {
+            "type": "integer",
+            "title": "Full Length",
+            "examples": [
+              2148
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "source",
+          "source_title",
+          "ref_range",
+          "text",
+          "truncated",
+          "full_length"
+        ],
+        "title": "CommentaryItem"
+      },
+      "CompareResponse": {
+        "properties": {
+          "ref": {
+            "type": "string",
+            "title": "Ref",
+            "examples": [
+              "Psalms 23:1"
+            ]
+          },
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "Psalms"
+            ]
+          },
+          "translations": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Translations",
+            "examples": [
+              [
+                "BSB",
+                "KJV",
+                "WEB"
+              ]
+            ]
+          },
+          "verses": {
+            "items": {
+              "$ref": "#/components/schemas/CompareVerse"
+            },
+            "type": "array",
+            "title": "Verses"
+          },
+          "note": {
+            "type": "string",
+            "title": "Note",
+            "examples": [
+              "A null text means the verse key is not present in that translation."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "ref",
+          "book",
+          "translations",
+          "verses",
+          "note"
+        ],
+        "title": "CompareResponse"
+      },
+      "CompareVerse": {
+        "properties": {
+          "chapter": {
+            "type": "integer",
+            "title": "Chapter",
+            "examples": [
+              23
+            ]
+          },
+          "verse": {
+            "type": "integer",
+            "title": "Verse",
+            "examples": [
+              1
+            ]
+          },
+          "texts": {
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "type": "object",
+            "title": "Texts",
+            "examples": [
+              {
+                "BSB": "The LORD is my shepherd ...",
+                "KJV": "The LORD is my shepherd ..."
+              }
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "chapter",
+          "verse",
+          "texts"
+        ],
+        "title": "CompareVerse"
+      },
+      "CrossRefVerse": {
+        "properties": {
+          "chapter": {
+            "type": "integer",
+            "title": "Chapter",
+            "examples": [
+              23
+            ]
+          },
+          "verse": {
+            "type": "integer",
+            "title": "Verse",
+            "examples": [
+              1
+            ]
+          },
+          "total": {
+            "type": "integer",
+            "title": "Total",
+            "examples": [
+              42
+            ]
+          },
+          "refs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Refs",
+            "examples": [
+              [
+                "Ezekiel 34:11",
+                "Hebrews 13:5"
+              ]
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "chapter",
+          "verse",
+          "total",
+          "refs"
+        ],
+        "title": "CrossRefVerse"
+      },
+      "DevotionalEntry": {
+        "properties": {
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Title",
+            "examples": [
+              "They did eat of the fruit ..."
+            ]
+          },
+          "anchor_ref": {
+            "type": "string",
+            "title": "Anchor Ref",
+            "examples": [
+              "Joshua 5:12"
+            ]
+          },
+          "anchor_verses": {
+            "items": {
+              "$ref": "#/components/schemas/VerseItem"
+            },
+            "type": "array",
+            "title": "Anchor Verses"
+          },
+          "body": {
+            "type": "string",
+            "title": "Body",
+            "examples": [
+              "..."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "title",
+          "anchor_ref",
+          "anchor_verses",
+          "body"
+        ],
+        "title": "DevotionalEntry"
+      },
+      "DevotionalResponse": {
+        "properties": {
+          "source": {
+            "type": "string",
+            "title": "Source",
+            "examples": [
+              "spurgeon"
+            ]
+          },
+          "source_title": {
+            "type": "string",
+            "title": "Source Title",
+            "examples": [
+              "C. H. Spurgeon, Morning and Evening (1866)"
+            ]
+          },
+          "date": {
+            "type": "string",
+            "title": "Date",
+            "examples": [
+              "2026-09-20"
+            ]
+          },
+          "day": {
+            "type": "integer",
+            "title": "Day",
+            "description": "Leap-year day-of-year number used to look up the entry.",
+            "examples": [
+              264
+            ]
+          },
+          "morning": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/DevotionalEntry"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evening": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/DevotionalEntry"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "source",
+          "source_title",
+          "date",
+          "day",
+          "morning",
+          "evening"
+        ],
+        "title": "DevotionalResponse"
+      },
+      "DictionaryEntry": {
+        "properties": {
+          "term": {
+            "type": "string",
+            "title": "Term",
+            "examples": [
+              "Aaron"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "The eldest son of Amram and Jochebed, a daughter of Levi..."
+            ]
+          },
+          "source": {
+            "$ref": "#/components/schemas/DictionarySourceRef"
+          }
+        },
+        "type": "object",
+        "required": [
+          "term",
+          "text",
+          "source"
+        ],
+        "title": "DictionaryEntry"
+      },
+      "DictionaryResponse": {
+        "properties": {
+          "term": {
+            "type": "string",
+            "title": "Term",
+            "examples": [
+              "Aaron"
+            ]
+          },
+          "entries": {
+            "items": {
+              "$ref": "#/components/schemas/DictionaryEntry"
+            },
+            "type": "array",
+            "title": "Entries"
+          }
+        },
+        "type": "object",
+        "required": [
+          "term",
+          "entries"
+        ],
+        "title": "DictionaryResponse"
+      },
+      "DictionarySourceInfo": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "isbe"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "examples": [
+              "International Standard Bible Encyclopaedia (1915), ed. James Orr"
+            ]
+          },
+          "rights": {
+            "type": "string",
+            "title": "Rights",
+            "examples": [
+              "Public Domain"
+            ]
+          },
+          "rights_basis": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rights Basis"
+          },
+          "attribution": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Attribution"
+          },
+          "entries": {
+            "type": "integer",
+            "title": "Entries",
+            "examples": [
+              9349
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "rights",
+          "entries"
+        ],
+        "title": "DictionarySourceInfo"
+      },
+      "DictionarySourceRef": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "easton"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "examples": [
+              "M. G. Easton, Illustrated Bible Dictionary (1897)"
+            ]
+          },
+          "rights": {
+            "type": "string",
+            "title": "Rights",
+            "examples": [
+              "Public Domain"
+            ]
+          },
+          "attribution": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Attribution"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "rights"
+        ],
+        "title": "DictionarySourceRef"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HealthResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "examples": [
+              "ok"
+            ]
+          },
+          "translations": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Translations",
+            "examples": [
+              [
+                "BSB",
+                "KJV",
+                "WEB",
+                "ASV",
+                "YLT",
+                "DARBY",
+                "DRB",
+                "BBE",
+                "GENEVA",
+                "AKJV",
+                "OEB",
+                "WEBSTER",
+                "WEYMOUTH",
+                "LXX2012",
+                "LSG1910",
+                "LUTHER1912",
+                "ALMEIDA",
+                "RVA1909"
+              ]
+            ]
+          },
+          "verse_count": {
+            "type": "integer",
+            "title": "Verse Count",
+            "examples": [
+              124369
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "translations",
+          "verse_count"
+        ],
+        "title": "HealthResponse"
+      },
+      "InterlinearResponse": {
+        "properties": {
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "John"
+            ]
+          },
+          "chapter": {
+            "type": "integer",
+            "title": "Chapter",
+            "examples": [
+              1
+            ]
+          },
+          "verse": {
+            "type": "integer",
+            "title": "Verse",
+            "examples": [
+              1
+            ]
+          },
+          "testament": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Testament",
+            "examples": [
+              "NT"
+            ]
+          },
+          "reading": {
+            "type": "string",
+            "title": "Reading",
+            "description": "'main' = the selected critical-text reading; 'variant' = the verse is absent from the critical text, so only Byzantine/Majority-tradition variant readings are returned.",
+            "examples": [
+              "main"
+            ]
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          },
+          "words": {
+            "items": {
+              "$ref": "#/components/schemas/InterlinearWord"
+            },
+            "type": "array",
+            "title": "Words"
+          },
+          "variants": {
+            "items": {
+              "$ref": "#/components/schemas/InterlinearVariantGroup"
+            },
+            "type": "array",
+            "title": "Variants"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/InterlinearSourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          }
+        },
+        "type": "object",
+        "required": [
+          "book",
+          "chapter",
+          "verse",
+          "reading",
+          "words",
+          "variants",
+          "sources"
+        ],
+        "title": "InterlinearResponse"
+      },
+      "InterlinearSourceRef": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "step_tagnt"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "examples": [
+              "STEPBible TAGNT (Translators Amalgamated Greek NT)"
+            ]
+          },
+          "rights": {
+            "type": "string",
+            "title": "Rights",
+            "examples": [
+              "CC BY 4.0"
+            ]
+          },
+          "rights_basis": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rights Basis"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "rights"
+        ],
+        "title": "InterlinearSourceRef"
+      },
+      "InterlinearVariantGroup": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "title": "Kind",
+            "description": "STEPBible edition sigla for this variant reading (N=Nestle-Aland/SBL, K=KJV/Textus Receptus, O=other manuscripts).",
+            "examples": [
+              "KO"
+            ]
+          },
+          "words": {
+            "items": {
+              "$ref": "#/components/schemas/InterlinearWord"
+            },
+            "type": "array",
+            "title": "Words"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind",
+          "words"
+        ],
+        "title": "InterlinearVariantGroup"
+      },
+      "InterlinearWord": {
+        "properties": {
+          "position": {
+            "type": "integer",
+            "title": "Position",
+            "examples": [
+              1
+            ]
+          },
+          "word": {
+            "type": "string",
+            "title": "Word",
+            "examples": [
+              "\u1f18\u03bd"
+            ]
+          },
+          "transliteration": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Transliteration",
+            "examples": [
+              "En"
+            ]
+          },
+          "gloss": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gloss",
+            "examples": [
+              "in/on/among"
+            ]
+          },
+          "strongs": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Strongs",
+            "examples": [
+              "G1722"
+            ]
+          },
+          "morphology": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Morphology",
+            "examples": [
+              "PREP"
+            ]
+          },
+          "lemma": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lemma",
+            "examples": [
+              "\u1f10\u03bd"
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "position",
+          "word"
+        ],
+        "title": "InterlinearWord"
+      },
+      "LexiconSourceInfo": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "bdb"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "examples": [
+              "OpenScriptures HebrewLexicon"
+            ]
+          },
+          "rights": {
+            "type": "string",
+            "title": "Rights",
+            "examples": [
+              "CC BY 4.0"
+            ]
+          },
+          "rights_basis": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rights Basis"
+          },
+          "attribution": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Attribution"
+          },
+          "entries": {
+            "type": "integer",
+            "title": "Entries",
+            "examples": [
+              8674
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "rights",
+          "entries"
+        ],
+        "title": "LexiconSourceInfo"
+      },
+      "MemoryPackResponse": {
+        "properties": {
+          "topic": {
+            "type": "string",
+            "title": "Topic",
+            "examples": [
+              "peace"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Peace"
+            ]
+          },
+          "translation": {
+            "type": "string",
+            "title": "Translation",
+            "examples": [
+              "BSB"
+            ]
+          },
+          "count": {
+            "type": "integer",
+            "title": "Count",
+            "examples": [
+              8
+            ]
+          },
+          "verses": {
+            "items": {
+              "$ref": "#/components/schemas/MemoryVerse"
+            },
+            "type": "array",
+            "title": "Verses"
+          }
+        },
+        "type": "object",
+        "required": [
+          "topic",
+          "label",
+          "translation",
+          "count",
+          "verses"
+        ],
+        "title": "MemoryPackResponse"
+      },
+      "MemoryVerse": {
+        "properties": {
+          "n": {
+            "type": "integer",
+            "title": "N",
+            "examples": [
+              1
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "title": "Ref",
+            "examples": [
+              "Psalms 23:1"
+            ]
+          },
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "Psalms"
+            ]
+          },
+          "chapter": {
+            "type": "integer",
+            "title": "Chapter",
+            "examples": [
+              23
+            ]
+          },
+          "verse": {
+            "type": "integer",
+            "title": "Verse",
+            "examples": [
+              1
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "The LORD is my shepherd; I shall not want."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "n",
+          "ref",
+          "book",
+          "chapter",
+          "verse",
+          "text"
+        ],
+        "title": "MemoryVerse"
+      },
+      "MoodDetail": {
+        "properties": {
+          "mood": {
+            "type": "string",
+            "title": "Mood",
+            "examples": [
+              "anxious"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Anxious"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "examples": [
+              "Worried, on edge, mind racing."
+            ]
+          },
+          "translation": {
+            "type": "string",
+            "title": "Translation",
+            "examples": [
+              "BSB"
+            ]
+          },
+          "topics": {
+            "items": {
+              "$ref": "#/components/schemas/MoodTopicVerses"
+            },
+            "type": "array",
+            "title": "Topics"
+          }
+        },
+        "type": "object",
+        "required": [
+          "mood",
+          "label",
+          "description",
+          "translation",
+          "topics"
+        ],
+        "title": "MoodDetail"
+      },
+      "MoodSummary": {
+        "properties": {
+          "mood": {
+            "type": "string",
+            "title": "Mood",
+            "examples": [
+              "anxious"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Anxious"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "examples": [
+              "Worried, on edge, mind racing."
+            ]
+          },
+          "topics": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Topics",
+            "examples": [
+              [
+                "peace",
+                "anxiety",
+                "trust"
+              ]
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "mood",
+          "label",
+          "description",
+          "topics"
+        ],
+        "title": "MoodSummary"
+      },
+      "MoodTopicVerses": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "peace"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Peace"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "examples": [
+              "The deep calm God gives ..."
+            ]
+          },
+          "verses": {
+            "items": {
+              "$ref": "#/components/schemas/VerseItem"
+            },
+            "type": "array",
+            "title": "Verses"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "description",
+          "verses"
+        ],
+        "title": "MoodTopicVerses"
+      },
+      "PassageResponse": {
+        "properties": {
+          "ref": {
+            "type": "string",
+            "title": "Ref",
+            "examples": [
+              "Psalms 23:1-3"
+            ]
+          },
+          "translation": {
+            "type": "string",
+            "title": "Translation",
+            "examples": [
+              "BSB"
+            ]
+          },
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "Psalms"
+            ]
+          },
+          "verses": {
+            "items": {
+              "$ref": "#/components/schemas/VerseItem"
+            },
+            "type": "array",
+            "title": "Verses"
+          }
+        },
+        "type": "object",
+        "required": [
+          "ref",
+          "translation",
+          "book",
+          "verses"
+        ],
+        "title": "PassageResponse"
+      },
+      "PlanDay": {
+        "properties": {
+          "day": {
+            "type": "integer",
+            "title": "Day",
+            "examples": [
+              1
+            ]
+          },
+          "refs": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Refs",
+            "examples": [
+              [
+                "Genesis 1-4"
+              ]
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "day",
+          "refs"
+        ],
+        "title": "PlanDay"
+      },
+      "PlanDetail": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "bible-in-a-year"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "examples": [
+              "Bible in a Year"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "examples": [
+              "The whole Bible in one year ..."
+            ]
+          },
+          "days": {
+            "type": "integer",
+            "title": "Days",
+            "examples": [
+              365
+            ]
+          },
+          "total_chapters": {
+            "type": "integer",
+            "title": "Total Chapters",
+            "exexamples": [
+              1189
+            ]
+          },
+          "schedule": {
+            "items": {
+              "$ref": "#/components/schemas/PlanDay"
+            },
+            "type": "array",
+            "title": "Schedule"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "days",
+          "total_chapters",
+          "schedule"
+        ],
+        "title": "PlanDetail"
+      },
+      "PlanPassage": {
+        "properties": {
+          "ref": {
+            "type": "string",
+            "title": "Ref",
+            "examples": [
+              "Genesis 1-4"
+            ]
+          },
+          "verses": {
+            "items": {
+              "$ref": "#/components/schemas/VerseItem"
+            },
+            "type": "array",
+            "title": "Verses"
+          }
+        },
+        "type": "object",
+        "required": [
+          "ref",
+          "verses"
+        ],
+        "title": "PlanPassage"
+      },
+      "PlanProgressResponse": {
+        "properties": {
+          "plan_id": {
+            "type": "string",
+            "title": "Plan Id",
+            "examples": [
+              "bible-in-a-year"
+            ]
+          },
+          "start_date": {
+            "type": "string",
+            "title": "Start Date",
+            "examples": [
+              "2026-01-01"
+            ]
+          },
+          "total_days": {
+            "type": "integer",
+            "title": "Total Days",
+            "examples": [
+              365
+            ]
+          },
+          "completed_days": {
+            "items": {
+              "type": "integer"
+            },
+            "type": "array",
+            "title": "Completed Days",
+            "examples": [
+              [
+                1,
+                2,
+                3
+              ]
+            ]
+          },
+          "completed_count": {
+            "type": "integer",
+            "title": "Completed Count",
+            "examples": [
+              3
+            ]
+          },
+          "percent": {
+            "type": "number",
+            "title": "Percent",
+            "examples": [
+              0.8
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "plan_id",
+          "start_date",
+          "total_days",
+          "completed_days",
+          "completed_count",
+          "percent"
+        ],
+        "title": "PlanProgressResponse"
+      },
+      "PlanSummary": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "bible-in-a-year"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "examples": [
+              "Bible in a Year"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "examples": [
+              "The whole Bible in one year ..."
+            ]
+          },
+          "days": {
+            "type": "integer",
+            "title": "Days",
+            "examples": [
+              365
+            ]
+          },
+          "total_chapters": {
+            "type": "integer",
+            "title": "Total Chapters",
+            "examples": [
+              1189
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "days",
+          "total_chapters"
+        ],
+        "title": "PlanSummary"
+      },
+      "PlanTodayResponse": {
+        "properties": {
+          "plan_id": {
+            "type": "string",
+            "title": "Plan Id",
+            "examples": [
+              "bible-in-a-year"
+            ]
+          },
+          "plan_name": {
+            "type": "string",
+            "title": "Plan Name",
+            "examples": [
+              "Bible in a Year"
+            ]
+          },
+          "start_date": {
+            "type": "string",
+            "title": "Start Date",
+            "examples": [
+              "2026-01-01"
+            ]
+          },
+          "date": {
+            "type": "string",
+            "title": "Date",
+            "examples": [
+              "2026-09-20"
+            ]
+          },
+          "day": {
+            "type": "integer",
+            "title": "Day",
+            "examples": [
+              263
+            ]
+          },
+          "total_days": {
+            "type": "integer",
+            "title": "Total Days",
+            "examples": [
+              365
+            ]
+          },
+          "passages": {
+            "items": {
+              "$ref": "#/components/schemas/PlanPassage"
+            },
+            "type": "array",
+            "title": "Passages"
+          }
+        },
+        "type": "object",
+        "required": [
+          "plan_id",
+          "plan_name",
+          "start_date",
+          "date",
+          "day",
+          "total_days",
+          "passages"
+        ],
+        "title": "PlanTodayResponse"
+      },
+      "PrayerBlock": {
+        "properties": {
+          "section": {
+            "type": "string",
+            "title": "Section",
+            "examples": [
+              "sentence"
+            ]
+          },
+          "label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Label",
+            "examples": [
+              "The Order for Morning Prayer"
+            ]
+          },
+          "speaker": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Speaker",
+            "examples": [
+              "Minister"
+            ]
+          },
+          "kind": {
+            "type": "string",
+            "title": "Kind",
+            "examples": [
+              "text"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "When the wicked man turneth away ..."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "section",
+          "label",
+          "speaker",
+          "kind",
+          "text"
+        ],
+        "title": "PrayerBlock"
+      },
+      "PrayerResponse": {
+        "properties": {
+          "edition": {
+            "type": "string",
+            "title": "Edition",
+            "examples": [
+              "1662"
+            ]
+          },
+          "edition_title": {
+            "type": "string",
+            "title": "Edition Title",
+            "examples": [
+              "Book of Common Prayer (1662)"
+            ]
+          },
+          "office": {
+            "type": "string",
+            "title": "Office",
+            "examples": [
+              "morning"
+            ]
+          },
+          "blocks": {
+            "items": {
+              "$ref": "#/components/schemas/PrayerBlock"
+            },
+            "type": "array",
+            "title": "Blocks"
+          }
+        },
+        "type": "object",
+        "required": [
+          "edition",
+          "edition_title",
+          "office",
+          "blocks"
+        ],
+        "title": "PrayerResponse"
+      },
+      "RightsInfo": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status",
+            "examples": [
+              "public_domain"
+            ]
+          },
+          "copyright": {
+            "type": "string",
+            "title": "Copyright",
+            "examples": [
+              "Public domain ..."
+            ]
+          },
+          "attribution": {
+            "type": "string",
+            "title": "Attribution",
+            "examples": [
+              "No attribution required ..."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "copyright",
+          "attribution"
+        ],
+        "title": "RightsInfo"
+      },
+      "SearchHit": {
+        "properties": {
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "Psalms"
+            ]
+          },
+          "chapter": {
+            "type": "integer",
+            "title": "Chapter",
+            "examples": [
+              63
+            ]
+          },
+          "verse": {
+            "type": "integer",
+            "title": "Verse",
+            "examples": [
+              3
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "Because thy lovingkindness is better than life ..."
+            ]
+          },
+          "snippet": {
+            "type": "string",
+            "title": "Snippet",
+            "examples": [
+              "Because thy <em>lovingkindness</em> is better than life ..."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "book",
+          "chapter",
+          "verse",
+          "text",
+          "snippet"
+        ],
+        "title": "SearchHit"
+      },
+      "SearchResponse": {
+        "properties": {
+          "q": {
+            "type": "string",
+            "title": "Q",
+            "examples": [
+              "lovingkindness"
+            ]
+          },
+          "translation": {
+            "type": "string",
+            "title": "Translation",
+            "examples": [
+              "KJV"
+            ]
+          },
+          "count": {
+            "type": "integer",
+            "title": "Count",
+            "examples": [
+              3
+            ]
+          },
+          "hits": {
+            "items": {
+              "$ref": "#/components/schemas/SearchHit"
+            },
+            "type": "array",
+            "title": "Hits"
+          }
+        },
+        "type": "object",
+        "required": [
+          "q",
+          "translation",
+          "count",
+          "hits"
+        ],
+        "title": "SearchResponse"
+      },
+      "StudyResponse": {
+        "properties": {
+          "ref": {
+            "type": "string",
+            "title": "Ref",
+            "examples": [
+              "Psalms 23:1"
+            ]
+          },
+          "translation": {
+            "type": "string",
+            "title": "Translation",
+            "examples": [
+              "BSB"
+            ]
+          },
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "Psalms"
+            ]
+          },
+          "verses": {
+            "items": {
+              "$ref": "#/components/schemas/VerseItem"
+            },
+            "type": "array",
+            "title": "Verses"
+          },
+          "cross_refs": {
+            "items": {
+              "$ref": "#/components/schemas/CrossRefVerse"
+            },
+            "type": "array",
+            "title": "Cross Refs"
+          },
+          "commentaries": {
+            "items": {
+              "$ref": "#/components/schemas/CommentaryItem"
+            },
+            "type": "array",
+            "title": "Commentaries"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/StudySourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "rights_note": {
+            "type": "string",
+            "title": "Rights Note",
+            "examples": [
+              "All commentary, cross-reference, devotional, and liturgy texts served here are public domain."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "ref",
+          "translation",
+          "book",
+          "verses",
+          "cross_refs",
+          "commentaries",
+          "sources",
+          "rights_note"
+        ],
+        "title": "StudyResponse"
+      },
+      "StudySourceRef": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "tsk"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "examples": [
+              "Treasury of Scripture Knowledge"
+            ]
+          },
+          "rights": {
+            "type": "string",
+            "title": "Rights",
+            "examples": [
+              "Public Domain"
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "rights"
+        ],
+        "title": "StudySourceRef"
+      },
+      "TopicDetail": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "peace"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Peace"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "examples": [
+              "The deep calm God gives ..."
+            ]
+          },
+          "moods": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Moods",
+            "examples": [
+              [
+                "anxious",
+                "afraid"
+              ]
+            ]
+          },
+          "translation": {
+            "type": "string",
+            "title": "Translation",
+            "examples": [
+              "BSB"
+            ]
+          },
+          "verses": {
+            "items": {
+              "$ref": "#/components/schemas/VerseItem"
+            },
+            "type": "array",
+            "title": "Verses"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "description",
+          "moods",
+          "translation",
+          "verses"
+        ],
+        "title": "TopicDetail"
+      },
+      "TopicSummary": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "peace"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "examples": [
+              "Peace"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "title": "Description",
+            "examples": [
+              "The deep calm God gives ..."
+            ]
+          },
+          "moods": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Moods",
+            "examples": [
+              [
+                "anxious",
+                "afraid"
+              ]
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "description",
+          "moods"
+        ],
+        "title": "TopicSummary"
+      },
+      "TranslationInfo": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "Code",
+            "examples": [
+              "BSB"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "examples": [
+              "Berean Standard Bible"
+            ]
+          },
+          "edition": {
+            "type": "string",
+            "title": "Edition",
+            "examples": [
+              "v5.2 (publisher USFM release)"
+            ]
+          },
+          "source": {
+            "type": "string",
+            "title": "Source",
+            "examples": [
+              "BSB-publishing/bsb2usfm v5.2"
+            ]
+          },
+          "retrieved": {
+            "type": "string",
+            "title": "Retrieved",
+            "examples": [
+              "2026-09-20"
+            ]
+          },
+          "default": {
+            "type": "boolean",
+            "title": "Default",
+            "examples": [
+              true
+            ]
+          },
+          "verse_count": {
+            "type": "integer",
+            "title": "Verse Count",
+            "examples": [
+              31086
+            ]
+          },
+          "rights": {
+            "$ref": "#/components/schemas/RightsInfo"
+          },
+          "notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Notes",
+            "examples": [
+              "Includes the deuterocanonical books."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "code",
+          "name",
+          "edition",
+          "source",
+          "retrieved",
+          "default",
+          "verse_count",
+          "rights"
+        ],
+        "title": "TranslationInfo"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "VerseItem": {
+        "properties": {
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "Psalms"
+            ]
+          },
+          "chapter": {
+            "type": "integer",
+            "title": "Chapter",
+            "examples": [
+              23
+            ]
+          },
+          "verse": {
+            "type": "integer",
+            "title": "Verse",
+            "examples": [
+              1
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "The LORD is my shepherd; I shall not want."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "book",
+          "chapter",
+          "verse",
+          "text"
+        ],
+        "title": "VerseItem"
+      },
+      "VerseOfDayResponse": {
+        "properties": {
+          "date": {
+            "type": "string",
+            "title": "Date",
+            "examples": [
+              "2026-09-20"
+            ]
+          },
+          "translation": {
+            "type": "string",
+            "title": "Translation",
+            "examples": [
+              "BSB"
+            ]
+          },
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "Jeremiah"
+            ]
+          },
+          "chapter": {
+            "type": "integer",
+            "title": "Chapter",
+            "examples": [
+              29
+            ]
+          },
+          "verse": {
+            "type": "integer",
+            "title": "Verse",
+            "examples": [
+              11
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "For I know the plans I have for you ..."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "date",
+          "translation",
+          "book",
+          "chapter",
+          "verse",
+          "text"
+        ],
+        "title": "VerseOfDayResponse"
+      },
+      "VerseStudyCrossRefItem": {
+        "properties": {
+          "ref": {
+            "type": "string",
+            "title": "Ref",
+            "examples": [
+              "Romans 5:8"
+            ]
+          },
+          "text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Text",
+            "examples": [
+              "But God demonstrates ..."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "ref",
+          "text"
+        ],
+        "title": "VerseStudyCrossRefItem"
+      },
+      "VerseStudyCrossRefs": {
+        "properties": {
+          "total": {
+            "type": "integer",
+            "title": "Total",
+            "examples": [
+              19
+            ]
+          },
+          "refs": {
+            "items": {
+              "$ref": "#/components/schemas/VerseStudyCrossRefItem"
+            },
+            "type": "array",
+            "title": "Refs"
+          }
+        },
+        "type": "object",
+        "required": [
+          "total",
+          "refs"
+        ],
+        "title": "VerseStudyCrossRefs"
+      },
+      "VerseStudyDevotional": {
+        "properties": {
+          "source": {
+            "type": "string",
+            "title": "Source",
+            "examples": [
+              "daily_light"
+            ]
+          },
+          "source_title": {
+            "type": "string",
+            "title": "Source Title",
+            "examples": [
+              "Daily Light on the Daily Path"
+            ]
+          },
+          "part": {
+            "type": "string",
+            "title": "Part",
+            "examples": [
+              "morning"
+            ]
+          },
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Title",
+            "examples": [
+              "God so loved the world ..."
+            ]
+          },
+          "anchor_ref": {
+            "type": "string",
+            "title": "Anchor Ref",
+            "examples": [
+              "John 3:16"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "..."
+            ]
+          },
+          "truncated": {
+            "type": "boolean",
+            "title": "Truncated",
+            "examples": [
+              true
+            ]
+          },
+          "full_length": {
+            "type": "integer",
+            "title": "Full Length",
+            "examples": [
+              1876
+            ]
+          },
+          "match_kind": {
+            "type": "string",
+            "title": "Match Kind",
+            "examples": [
+              "exact"
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "source",
+          "source_title",
+          "part",
+          "title",
+          "anchor_ref",
+          "text",
+          "truncated",
+          "full_length",
+          "match_kind"
+        ],
+        "title": "VerseStudyDevotional"
+      },
+      "VerseStudyKeyWord": {
+        "properties": {
+          "position": {
+            "type": "integer",
+            "title": "Position",
+            "examples": [
+              3
+            ]
+          },
+          "word": {
+            "type": "string",
+            "title": "Word",
+            "examples": [
+              "\u1f20\u03b3\u1f71\u03c0\u03b7\u03c3\u03b5\u03bd"
+            ]
+          },
+          "transliteration": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Transliteration",
+            "examples": [
+              "\u0113gap\u0113sen"
+            ]
+          },
+          "strongs": {
+            "type": "string",
+            "title": "Strongs",
+            "examples": [
+              "G25"
+            ]
+          },
+          "gloss": {
+            "type": "string",
+            "title": "Gloss",
+            "examples": [
+              "to love"
+            ]
+          },
+          "morphology": {
+            "type": "string",
+            "title": "Morphology",
+            "examples": [
+              "V-AAI-3S"
+            ]
+          },
+          "lemma": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lemma",
+            "examples": [
+              "\u1f00\u03b3\u03b1\u03c0\u1f71\u03c9"
+            ]
+          },
+          "definition": {
+            "type": "string",
+            "title": "Definition",
+            "examples": [
+              "to love (in a social or moral sense)"
+            ]
+          },
+          "definition_source": {
+            "type": "string",
+            "title": "Definition Source",
+            "examples": [
+              "step_tbesg"
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "position",
+          "word",
+          "transliteration",
+          "strongs",
+          "gloss",
+          "morphology",
+          "lemma",
+          "definition",
+          "definition_source"
+        ],
+        "title": "VerseStudyKeyWord"
+      },
+      "VerseStudyPrayer": {
+        "properties": {
+          "office": {
+            "type": "string",
+            "title": "Office",
+            "examples": [
+              "morning_prayer"
+            ]
+          },
+          "edition": {
+            "type": "string",
+            "title": "Edition",
+            "examples": [
+              "bcp1662"
+            ]
+          },
+          "label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Label",
+            "examples": [
+              "The second Collect for Peace"
+            ]
+          },
+          "speaker": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Speaker",
+            "examples": [
+              null
+            ]
+          },
+          "text": {
+            "type": "string",
+            "title": "Text",
+            "examples": [
+              "O God who art the Author of peace ..."
+            ]
+          },
+          "match_kind": {
+            "type": "string",
+            "title": "Match Kind",
+            "examples": [
+              "keyword"
+            ]
+          },
+          "matched_keywords": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Matched Keywords",
+            "examples": [
+              [
+                "love",
+                "god",
+                "life"
+              ]
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "office",
+          "edition",
+          "label",
+          "speaker",
+          "text",
+          "match_kind",
+          "matched_keywords"
+        ],
+        "title": "VerseStudyPrayer"
+      },
+      "VerseStudyResponse": {
+        "properties": {
+          "ref": {
+            "type": "string",
+            "title": "Ref",
+            "examples": [
+              "John 3:16"
+            ]
+          },
+          "book": {
+            "type": "string",
+            "title": "Book",
+            "examples": [
+              "John"
+            ]
+          },
+          "chapter": {
+            "type": "integer",
+            "title": "Chapter",
+            "examples": [
+              3
+            ]
+          },
+          "verse": {
+            "type": "integer",
+            "title": "Verse",
+            "examples": [
+              16
+            ]
+          },
+          "testament": {
+            "type": "string",
+            "title": "Testament",
+            "examples": [
+              "NT"
+            ]
+          },
+          "translations": {
+            "items": {
+              "$ref": "#/components/schemas/VerseStudyTranslation"
+            },
+            "type": "array",
+            "title": "Translations"
+          },
+          "key_words": {
+            "items": {
+              "$ref": "#/components/schemas/VerseStudyKeyWord"
+            },
+            "type": "array",
+            "title": "Key Words"
+          },
+          "key_words_note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Key Words Note",
+            "examples": [
+              null
+            ]
+          },
+          "cross_refs": {
+            "$ref": "#/components/schemas/VerseStudyCrossRefs"
+          },
+          "commentaries": {
+            "items": {
+              "$ref": "#/components/schemas/CommentaryItem"
+            },
+            "type": "array",
+            "title": "Commentaries"
+          },
+          "devotionals": {
+            "items": {
+              "$ref": "#/components/schemas/VerseStudyDevotional"
+            },
+            "type": "array",
+            "title": "Devotionals"
+          },
+          "prayer": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/VerseStudyPrayer"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/StudySourceRef"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "rights_note": {
+            "type": "string",
+            "title": "Rights Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "ref",
+          "book",
+          "chapter",
+          "verse",
+          "testament",
+          "translations",
+          "key_words",
+          "key_words_note",
+          "cross_refs",
+          "commentaries",
+          "devotionals",
+          "prayer",
+          "sources",
+          "rights_note"
+        ],
+        "title": "VerseStudyResponse"
+      },
+      "VerseStudyTranslation": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "Code",
+            "examples": [
+              "BSB"
+            ]
+          },
+          "present": {
+            "type": "boolean",
+            "title": "Present",
+            "examples": [
+              true
+            ]
+          },
+          "text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Text",
+            "examples": [
+              "For God so loved the world ..."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "code",
+          "present",
+          "text"
+        ],
+        "title": "VerseStudyTranslation"
+      },
+      "WordEntry": {
+        "properties": {
+          "number": {
+            "type": "string",
+            "title": "Number",
+            "examples": [
+              "G3056"
+            ]
+          },
+          "language": {
+            "type": "string",
+            "title": "Language",
+            "examples": [
+              "greek"
+            ]
+          },
+          "lemma": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Lemma",
+            "examples": [
+              "\u03bb\u03cc\u03b3\u03bf\u03c2"
+            ]
+          },
+          "transliteration": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Transliteration",
+            "examples": [
+              "logos"
+            ]
+          },
+          "definition": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Definition",
+            "examples": [
+              "something said (including the thought); by implication..."
+            ]
+          },
+          "gloss": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gloss"
+          },
+          "source": {
+            "$ref": "#/components/schemas/WordSourceRef"
+          }
+        },
+        "type": "object",
+        "required": [
+          "number",
+          "language",
+          "source"
+        ],
+        "title": "WordEntry"
+      },
+      "WordResponse": {
+        "properties": {
+          "number": {
+            "type": "string",
+            "title": "Number",
+            "examples": [
+              "G3056"
+            ]
+          },
+          "language": {
+            "type": "string",
+            "title": "Language",
+            "examples": [
+              "greek"
+            ]
+          },
+          "entries": {
+            "items": {
+              "$ref": "#/components/schemas/WordEntry"
+            },
+            "type": "array",
+            "title": "Entries"
+          }
+        },
+        "type": "object",
+        "required": [
+          "number",
+          "language",
+          "entries"
+        ],
+        "title": "WordResponse"
+      },
+      "WordSourceRef": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id",
+            "examples": [
+              "strongs"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "title": "Title",
+            "examples": [
+              "Strong's Greek and Hebrew Dictionaries (1890)"
+            ]
+          },
+          "rights": {
+            "type": "string",
+            "title": "Rights",
+            "examples": [
+              "Public domain"
+            ]
+          },
+          "attribution": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Attribution",
+            "examples": [
+              "STEPBible lexicon data (TBESH, TBESG, TFLSJ), Tyndale House, Cambridge, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "rights"
+        ],
+        "title": "WordSourceRef"
+      }
+    },
+    "securitySchemes": {
+      "APIKeyHeader": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "meta",
+      "description": "Service status and translation metadata."
+    },
+    {
+      "name": "scripture",
+      "description": "Passage lookup, comparison, and search."
+    },
+    {
+      "name": "daily",
+      "description": "Deterministic verse of the day."
+    },
+    {
+      "name": "topics",
+      "description": "Topic and mood discovery: curated verses for life topics."
+    },
+    {
+      "name": "plans",
+      "description": "Guided reading plans with stateless daily readings and progress."
+    },
+    {
+      "name": "study",
+      "description": "Public-domain study resources: commentaries, cross-references, devotionals, prayer offices, memory packs."
+    }
+  ]
+}

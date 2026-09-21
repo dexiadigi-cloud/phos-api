@@ -1,0 +1,12 @@
+integrity_check: [('ok',)]
+BSB books: 66 rows, canonical-order match=True
+KJV books: 66 rows, canonical-order match=True
+WEB books: 66 rows, canonical-order match=True
+ASV books: 66 rows, canonical-order match=True
+counts: {'ASV': 31086, 'BSB': 31086, 'KJV': 31102, 'WEB': 31095}
+duplicate verse keys: 0 (NONE)
+empty/null/whitespace-only texts: 0
+markup leakage: USFM backslash-marker=0, HTML/XML tag=0, curly-brace markup=0
+chapter_counts written
+FTS5 checks written
+BSB ranged verse keys: 0

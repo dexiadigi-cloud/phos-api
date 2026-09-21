@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+# Local-only database files: the image rebuilds these from data/dist/ chunks.
+data/study.db
+data/scripture.db
+data/*.bak-*
+data/raw/
+data/raw_v2/
+data/staging/
+data/progress.db
+# Not needed at runtime.
+api/tests/
+api/__pycache__/
+docs/
+verification/

@@ -1,0 +1,1 @@
+88723a44bb3e3f229a34f9cf11ce1b7acf971eee 2026-07-30 15:15:57 -0400 feat: align KJV corpus and add rendering metadata

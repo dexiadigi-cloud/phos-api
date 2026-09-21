@@ -1,0 +1,14 @@
+# Local-only: full databases, backups, raw sources, caches.
+# Release chunks under data/dist/ ARE committed (GitHub 100MB file limit).
+data/study.db
+data/scripture.db
+data/*.bak-*
+data/raw/
+data/raw_v2/
+data/staging/
+data/progress.db
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+staging/

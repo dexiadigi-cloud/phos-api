@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: phos-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /v1/health
+    envVars:
+      - key: PHOS_API_KEY
+        sync: false

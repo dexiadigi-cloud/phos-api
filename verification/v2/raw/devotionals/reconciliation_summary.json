@@ -1,0 +1,201 @@
+{
+ "items_total": 5656,
+ "decisions": {
+  "keep": 5127,
+  "derive": 529
+ },
+ "manual_resolutions": [
+  {
+   "date": "january-9",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "Exodus 17:15",
+   "final_ref": "Exodus 17:15",
+   "note": "label 'Jehovah Nissi (The Lord my banner)' names the altar of v15; text too short to locate; source ref correct"
+  },
+  {
+   "date": "march-1",
+   "period": "evening",
+   "kind": "theme",
+   "source_ref": "Exodus 17:15",
+   "final_ref": "Exodus 17:15",
+   "note": "label 'Jehovah-nissi: The Lord my banner' names the altar of v15; source ref correct"
+  },
+  {
+   "date": "march-3",
+   "period": "evening",
+   "kind": "verse",
+   "source_ref": "2 Timothy 4:8",
+   "final_ref": "1 Corinthians 9:25",
+   "note": "refs shifted by one across 5 consecutive items (each text matches the next item's ref); 'incorruptible crown' is the theme of 1 Cor 9:25"
+  },
+  {
+   "date": "march-10",
+   "period": "morning",
+   "kind": "theme",
+   "source_ref": "Genesis 22:14",
+   "final_ref": "Genesis 22:14",
+   "note": "'The Lord will provide' is the marginal gloss of Jehovah-jireh in Gen 22:14"
+  },
+  {
+   "date": "march-11",
+   "period": "evening",
+   "kind": "theme",
+   "source_ref": "John 11:35",
+   "final_ref": "John 11:35",
+   "note": "label 'Jesus wept.'"
+  },
+  {
+   "date": "april-1",
+   "period": "evening",
+   "kind": "theme",
+   "source_ref": "Judges 6:24",
+   "final_ref": "Judges 6:24",
+   "note": "label 'Jehovah-shalom: (The Lord send peace.)' names the altar of v24"
+  },
+  {
+   "date": "april-18",
+   "period": "evening",
+   "kind": "theme",
+   "source_ref": "2 Thessalonians 2:16",
+   "final_ref": "2 Thessalonians 2:16",
+   "note": "label 'Everlasting consolation.' quotes the verse's phrase"
+  },
+  {
+   "date": "may-3",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "Genesis 17:1",
+   "final_ref": "Genesis 17:1",
+   "note": "empty text '.'; ref parses; neighboring item shows a text-shift in the source transcription"
+  },
+  {
+   "date": "june-1",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "Exodus 34:6",
+   "final_ref": "Exodus 34:6",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "june-15",
+   "period": "evening",
+   "kind": "verse",
+   "source_ref": "John 16:23,24",
+   "final_ref": "John 16:23,24",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "july-24",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "John 11:35",
+   "final_ref": "John 11:35",
+   "note": "label 'Jesus wept.'"
+  },
+  {
+   "date": "july-25",
+   "period": "evening",
+   "kind": "verse",
+   "source_ref": "Matthew 14:19",
+   "final_ref": "Matthew 14:19",
+   "note": "label 'Follow me.'; suspected typo for Matthew 4:19, but source ref kept verbatim (it validates)"
+  },
+  {
+   "date": "july-31",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "Isaiah 55:4",
+   "final_ref": "Isaiah 55:4",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "august-28",
+   "period": "evening",
+   "kind": "verse",
+   "source_ref": "1 John 5:11",
+   "final_ref": "1 John 5:11",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "august-30",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "Exodus 22:27",
+   "final_ref": "Exodus 22:27",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "september-8",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "1 Samuel 2:3",
+   "final_ref": "1 Samuel 2:3",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "september-13",
+   "period": "evening",
+   "kind": "verse",
+   "source_ref": "1 Peter 3:4",
+   "final_ref": "1 Peter 3:4",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "september-14",
+   "period": "evening",
+   "kind": "verse",
+   "source_ref": "2 Peter 1:17",
+   "final_ref": "2 Peter 1:17",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "september-18",
+   "period": "evening",
+   "kind": "theme",
+   "source_ref": "Judges 15:19",
+   "final_ref": "Judges 15:19",
+   "note": "label 'En hakkore. (Or, The well of him that cried.)' names the place in v19"
+  },
+  {
+   "date": "september-23",
+   "period": "evening",
+   "kind": "verse",
+   "source_ref": "1 Corinthians 15:19",
+   "final_ref": "1 Corinthians 15:19",
+   "note": "empty text '.'; ref parses"
+  },
+  {
+   "date": "october-18",
+   "period": "evening",
+   "kind": "theme",
+   "source_ref": "Matthew 6:13",
+   "final_ref": "Matthew 6:13",
+   "note": "label 'Amen.' closes the Lord's Prayer"
+  },
+  {
+   "date": "october-28",
+   "period": "evening",
+   "kind": "theme",
+   "source_ref": "Luke 10:19",
+   "final_ref": "Luke 10:19",
+   "note": "label 'The Enemy.' refers to 'the power of the enemy' in v19"
+  },
+  {
+   "date": "november-5",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "Ephesians 4:4",
+   "final_ref": "Ephesians 4:4",
+   "note": "label 'One Spirit.' quotes the verse's phrase"
+  },
+  {
+   "date": "december-15",
+   "period": "morning",
+   "kind": "verse",
+   "source_ref": "John 11:35",
+   "final_ref": "John 11:35",
+   "note": "label 'Jesus wept.'"
+  }
+ ]
+}

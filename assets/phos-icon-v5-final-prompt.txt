@@ -1,0 +1,15 @@
+Phos icon v5 - final candidate prompt (exact prompt used to render phos-icon-v5-final-1024.png)
+
+flat vector-style silhouette app icon, ancient clay oil lamp in side profile: low flattened disc-shaped oil reservoir, one tapered pouring spout nozzle pointing to the LEFT, a small flame burning at the very tip of the left-pointing spout where the wick sits, a simple curved handle loop at the right rear with no flame anywhere near the handle, lamp body and flame as one solid radiant gold silhouette, crisp clean edges, no internal details, no gradients, no shading, no lid, no knob on top, no text, no letters, centered on a flat deep indigo blue background
+
+Render settings:
+- Model: Flux.2 Klein (flux_2_klein_4b_q8p.ckpt)
+- Size: 1024x1024
+- Steps: 8
+- CFG: 1.0
+- Sampler: DPM++ 2M AYS
+- Method: txt2img
+- Seed: random
+- Source file: /Users/jeremiahlee_macbookpro/dexia/tmp/phos-icon-v5/phos-icon-v5.png (Mac)
+- sha256: 27c50f94116c7dc0a3de5efd61ad36614efb205a2145bc51ca729d437311105f
+- Status: accepted 2026-09-20 ("Let's go with that for now") - final candidate unless a later pass supersedes it.

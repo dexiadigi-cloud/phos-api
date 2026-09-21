@@ -1,0 +1,221 @@
+{
+ "seed": 20260920,
+ "spot_checks": [
+  {
+   "source": "spurgeon",
+   "day": 301,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1950
+  },
+  {
+   "source": "spurgeon",
+   "day": 324,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1881
+  },
+  {
+   "source": "spurgeon",
+   "day": 364,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1727
+  },
+  {
+   "source": "spurgeon",
+   "day": 144,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1851
+  },
+  {
+   "source": "spurgeon",
+   "day": 66,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1848
+  },
+  {
+   "source": "spurgeon",
+   "day": 232,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1784
+  },
+  {
+   "source": "spurgeon",
+   "day": 210,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1886
+  },
+  {
+   "source": "spurgeon",
+   "day": 178,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1843
+  },
+  {
+   "source": "spurgeon",
+   "day": 124,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1812
+  },
+  {
+   "source": "spurgeon",
+   "day": 225,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1633
+  },
+  {
+   "source": "spurgeon",
+   "day": 178,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1830
+  },
+  {
+   "source": "spurgeon",
+   "day": 11,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1695
+  },
+  {
+   "source": "daily_light",
+   "day": 347,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1028
+  },
+  {
+   "source": "daily_light",
+   "day": 7,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 963
+  },
+  {
+   "source": "daily_light",
+   "day": 146,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1001
+  },
+  {
+   "source": "daily_light",
+   "day": 66,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1020
+  },
+  {
+   "source": "daily_light",
+   "day": 178,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 874
+  },
+  {
+   "source": "daily_light",
+   "day": 346,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 997
+  },
+  {
+   "source": "daily_light",
+   "day": 227,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 958
+  },
+  {
+   "source": "daily_light",
+   "day": 44,
+   "part": "evening",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 989
+  },
+  {
+   "source": "daily_light",
+   "day": 16,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 998
+  },
+  {
+   "source": "daily_light",
+   "day": 75,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 961
+  },
+  {
+   "source": "daily_light",
+   "day": 42,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 971
+  },
+  {
+   "source": "daily_light",
+   "day": 171,
+   "part": "morning",
+   "title_match": true,
+   "anchor_match": true,
+   "body_match": true,
+   "body_chars": 1001
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+WEB rows=31095 KJV rows=31102
+KJV keys missing in WEB: 7
+  MISSING Acts 8:37
+  MISSING Acts 15:34
+  MISSING Acts 24:7
+  MISSING Luke 17:36
+  MISSING Romans 16:25
+  MISSING Romans 16:26
+  MISSING Romans 16:27
+WEB keys not in KJV: 0
