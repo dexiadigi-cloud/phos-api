@@ -1,6 +1,6 @@
 # Phos - Dexia Bible API (Phos Intensive Verse Study)
 
-[!Ko-fi](https://ko-fi.com/dexiadigi)
+☕ [Support on Ko-fi](https://ko-fi.com/dexiadigi)
 
 Public-domain Scripture API: 17 translations, a verse-study endpoint
 (text, cross-references, interlinear hooks, prayer matching), reading
