@@ -24,6 +24,7 @@ from pathlib import Path
 from typing import Annotated
 
 from fastapi import Depends, FastAPI, HTTPException, Query
+from fastapi.responses import HTMLResponse
 from fastapi.security import APIKeyHeader
 from pydantic import BaseModel, Field
 
@@ -416,6 +417,124 @@ app = FastAPI(
         },
     ],
 )
+
+
+_LANDING_HTML = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phos - A Free Bible API</title>
+<meta name="description" content="Phos is a free Bible API: public-domain translations, verse study, interlinear original-language data, commentaries, cross-references, lexicons, and devotionals.">
+<style>
+:root { color-scheme: light; --navy:#2b2e6f; --ink:#1a1a2e; --muted:#5b5b70; --paper:#faf8f2; --gold:#c2a878; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+       line-height: 1.65; color: var(--ink); background: var(--paper); margin: 0; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 72px 24px 48px; }
+.eyebrow { font-size: 13px; letter-spacing: 4px; text-transform: uppercase; color: var(--navy); font-weight: 700; }
+h1 { font-size: 52px; margin: 10px 0 6px; color: var(--navy); letter-spacing: -1px; }
+.tagline { font-size: 22px; color: var(--ink); margin: 0 0 16px; font-weight: 500; }
+.lede { font-size: 17px; color: var(--muted); max-width: 640px; }
+.stats { display: flex; gap: 32px; flex-wrap: wrap; margin: 36px 0; padding: 24px 0;
+         border-top: 1px solid #e4ddcb; border-bottom: 1px solid #e4ddcb; }
+.stat b { display: block; font-size: 28px; color: var(--navy); }
+.stat span { font-size: 14px; color: var(--muted); }
+h2 { font-size: 24px; color: var(--navy); margin: 48px 0 8px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+.card { background: #fff; border: 1px solid #e9e2d0; border-radius: 12px; padding: 20px; }
+.card h3 { margin: 0 0 6px; font-size: 16px; color: var(--navy); }
+.card p { margin: 0; font-size: 14px; color: var(--muted); }
+.card code { font-size: 12px; background: #f1ecdd; padding: 1px 6px; border-radius: 4px; color: var(--navy); }
+pre { background: #1e1f3d; color: #e8e4d5; padding: 20px; border-radius: 12px; overflow-x: auto; font-size: 13.5px; line-height: 1.5; }
+pre .c { color: #8a8fa8; }
+.btns { display: flex; gap: 12px; flex-wrap: wrap; margin: 40px 0 8px; }
+.btn { display: inline-block; background: var(--navy); color: #fff; text-decoration: none;
+       padding: 12px 28px; border-radius: 999px; font-size: 16px; font-weight: 600; }
+.btn.ghost { background: transparent; color: var(--navy); border: 2px solid var(--navy); }
+.auth { font-size: 14px; color: var(--muted); }
+.auth code { background: #f1ecdd; padding: 1px 6px; border-radius: 4px; color: var(--navy); }
+.footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid #e4ddcb;
+          font-size: 13px; color: #9a9aa8; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+.footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="eyebrow">Phos</div>
+<h1>A free Bible API</h1>
+<p class="tagline">Scripture text and study tools, through one simple API.</p>
+<p class="lede">Phos serves public-domain Bible translations and study resources over a clean REST
+interface. Look up any passage, compare translations, dig into the original Greek and Hebrew,
+and explore commentaries, cross-references, and devotionals - all with a single API key.</p>
+
+<div class="stats">
+<div class="stat"><b>17</b><span>translations</span></div>
+<div class="stat"><b>490,335</b><span>verses</span></div>
+<div class="stat"><b>8</b><span>commentary sources</span></div>
+<div class="stat"><b>Free</b><span>forever, no fees</span></div>
+</div>
+
+<h2>What you can build with it</h2>
+<div class="grid">
+<div class="card">
+<h3>Verse lookup</h3>
+<p>Fetch any verse, range, chapter, or multi-chapter passage in canonical order, in any of 17 translations.</p>
+<p><code>GET /v1/passage</code></p>
+</div>
+<div class="card">
+<h3>Intensive verse study</h3>
+<p>One call returns a verse in up to four translations, the key original-language words with meanings, top cross-references, commentary excerpts, related devotionals, and a prayer.</p>
+<p><code>GET /v1/verse-study/{book}/{chapter}/{verse}</code></p>
+</div>
+<div class="card">
+<h3>Original languages</h3>
+<p>Word-by-word interlinear Greek and Hebrew data with lexicon definitions (STEPBible, CC BY 4.0, fully attributed).</p>
+<p><code>GET /v1/interlinear/{book}/{chapter}/{verse}</code></p>
+</div>
+<div class="card">
+<h3>Study tools</h3>
+<p>Full-text search, commentaries, cross-references, Greek/Hebrew lexicons, dictionaries, topics, reading plans, verse of the day, and daily devotionals.</p>
+<p><code>GET /v1/search</code> <code>GET /v1/study</code> <code>GET /v1/word</code></p>
+</div>
+</div>
+
+<h2>Quick start</h2>
+<pre><span class="c"># Every request authenticates with your API key in the X-API-Key header.</span>
+curl -H "X-API-Key: YOUR_API_KEY" \
+  "/v1/passage?ref=John%203:16&amp;translation=BSB"</pre>
+<p class="auth">No accounts to create, no tracking, no fees. Free for personal and commercial use.</p>
+
+<div class="btns">
+<a class="btn" href="/docs">API reference</a>
+<a class="btn ghost" href="/privacy">Privacy policy</a>
+<a class="btn ghost" href="/terms">Terms of service</a>
+</div>
+
+<h2>Support Phos</h2>
+<p class="lede">Phos is free and always will be. If it deepens your study, a tip helps keep the servers running.</p>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+<script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'G7L427ZGGR');kofiwidget2.draw();</script>
+
+<div class="footer">
+<span>&copy; 2026 Dexia Digi. Scripture text is in the public domain; study data is licensed as noted.</span>
+<span>Contact: <a href="mailto:dexiadigi@gmail.com">dexiadigi@gmail.com</a></span>
+</div>
+
+</div>
+</body>
+</html>
+"""
+
+
+@app.get(
+    "/",
+    include_in_schema=False,
+    summary="Landing page (no auth)",
+)
+def landing():
+    return HTMLResponse(_LANDING_HTML)
 
 
 @app.get(
