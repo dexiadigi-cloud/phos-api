@@ -1,3 +1,5 @@
+# Phos (Scripture Desk)
+
 > Phos (Scripture Desk) is a public-domain Scripture API serving BSB, KJV, WEB, and ASV, plus study tools: commentaries, cross-references, lexicons, devotionals.
 
 **Texts:** BSB (public domain), KJV, WEB, ASV - all free of copyright restrictions.
