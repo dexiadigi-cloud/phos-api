@@ -1,4 +1,9 @@
-# Phos - Dexia Bible API (Phos Intensive Verse Study)
+> Phos (Scripture Desk) is a public-domain Scripture API serving BSB, KJV, WEB, and ASV, plus study tools: commentaries, cross-references, lexicons, devotionals.
+
+**Texts:** BSB (public domain), KJV, WEB, ASV - all free of copyright restrictions.
+**Docs:** interactive OpenAPI docs at https://phos-373637331608.us-west1.run.app/docs - every endpoint documented for humans and AI assistants alike.
+**Auth:** single `X-API-Key` header.
+
 
 ☕ [Support on Ko-fi](https://ko-fi.com/dexiadigi)
 
